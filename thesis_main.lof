@@ -1,0 +1,112 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The electromagnetic spectrum}}{3}{figure.caption.5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Infrared countermeasure flares deployed from an AC-130U gunship}}{4}{figure.caption.6}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces IRCM module}}{4}{figure.caption.7}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Atmospheric absorption versus wavelength}}{5}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{5}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{5}{subfigure.4.2}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Spectral absorption signatures for several atmospheric gasses}}{7}{figure.caption.9}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Basic QC laser band diagram}}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces ErwinJr QC laser design software}}{9}{figure.caption.11}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces QC laser fabrication methods}}{12}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{12}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{12}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{12}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{12}{subfigure.8.4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example use of the shooting method}}{17}{figure.caption.13}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Bandgap temperature dependence}}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Bandgap strain dependence}}{24}{figure.caption.17}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Sketch of waveguide geometry}}{35}{figure.caption.19}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Absorption spectra and laser capabilities near the first atmospheric window.}}{47}{figure.caption.20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Energy gap vs.\ lattice constant for III--V and II--VI materials.}}{49}{figure.caption.21}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Bulk energy band diagrams for InAs, ZnSe, and CdSe}}{52}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{52}{subfigure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Intersubband absorption of a single quantum structure}}{55}{figure.caption.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}{subfigure.4.2}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces First generation Zn$_{0.43}$Cd$_{0.57}$Se/Zn$_{0.20}$Cd$_{0.19}$Mg$_{0.61}$Se QC design.}}{57}{figure.caption.25}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces TM absorption spectrum from multi-pass transmission}}{60}{figure.caption.26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{60}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{60}{subfigure.6.2}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Polarization-resolved EL spectra}}{61}{figure.caption.27}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces EL spectra at $T=78\nobreakspace {}\textnormal {K}$}}{62}{figure.caption.28}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Temperature-dependence of EL spectra}}{63}{figure.caption.29}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces EL structure LIV}}{64}{figure.caption.30}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Second generation Zn$_{0.43}$Cd$_{0.57}$Se/Zn$_{0.20}$Cd$_{0.19}$Mg$_{0.61}$Se QC design.}}{65}{figure.caption.31}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Superlattice ZnCdSe/ZnCdMgSE QC structure}}{68}{figure.caption.33}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces ZnCdSe/ZnCdMgSE QC structure with fewer layers}}{69}{figure.caption.35}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Short wavelength ZnCdSe/ZnCdMgSE QC structure}}{70}{figure.caption.37}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces II--VI QC waveguide}}{72}{figure.caption.38}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Absorption spectra for BTEX molecules}}{74}{figure.caption.39}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Optical absorption of bulk InGaAs}}{76}{figure.caption.40}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces LO phonon lifetime vs.\ transition wavelength}}{77}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{77}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{77}{subfigure.3.2}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Optical dipole matrix elements for a single quantum well.}}{79}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{79}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{79}{subfigure.4.2}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Energy state mixing in coupled quantum wells.}}{80}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{80}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{80}{subfigure.5.2}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Excited state QC laser band diagram}}{82}{figure.caption.44}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces SEM of excited state QC stack and waveguide}}{83}{figure.caption.45}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Excited state structure electroluminescence spectra}}{85}{figure.caption.46}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Excited state transition identification}}{86}{figure.caption.47}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces EL at high pumping current}}{87}{figure.caption.48}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Excited state laser spectra}}{89}{figure.caption.49}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Light output characteristics of a representative laser device}}{90}{figure.caption.50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{90}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{90}{subfigure.12.2}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Light--temperature cross-sections}}{91}{figure.caption.51}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Light--current cross-sections}}{92}{figure.caption.52}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Threshold temperature-dependence of the transitions}}{93}{figure.caption.53}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The \emph {k}-space electron paths}}{94}{figure.caption.54}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Spectral signature of \emph {k}-space emission}}{97}{figure.caption.55}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Model results for transition thresholds}}{101}{figure.caption.58}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Model results for transition thresholds}}{104}{figure.caption.60}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Cavity length dependence of transition threshold crossover temperature}}{105}{figure.caption.61}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Conventional QC laser structure}}{113}{figure.caption.62}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Energy band diagrams for the three injector well QC structure}}{117}{figure.caption.63}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{117}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{117}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{117}{subfigure.2.3}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Three injector well EL LIV data}}{119}{figure.caption.64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{119}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{119}{subfigure.3.2}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Comparison of EL spectra at pre- and post-NDR operating points}}{120}{figure.caption.65}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Three injector well LIV}}{121}{figure.caption.66}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{121}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{121}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{121}{subfigure.5.3}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Three injector well LIV near $T_{sink}=130\nobreakspace {}\textnormal {K}$}}{122}{figure.caption.67}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Spectra for the 3 injector well laser at $T_{sink}=79\nobreakspace {}\textnormal {K}$}}{124}{figure.caption.68}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Spectra for the 3 injector well laser at $T_{sink}=146\nobreakspace {}\textnormal {K}$}}{125}{figure.caption.69}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Spectra for the 3 injector well laser at $T_{sink}=302\nobreakspace {}\textnormal {K}$}}{126}{figure.caption.70}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Performance data for the three injector well structure}}{127}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{127}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{127}{subfigure.10.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{127}{subfigure.10.3}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Energy band diagrams for the two injector well QC structure}}{129}{figure.caption.72}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{129}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{129}{subfigure.11.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{129}{subfigure.11.3}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces LIV for a two injector well EL sample}}{130}{figure.caption.73}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Pulsed LIV data for the two injector well structure (I)}}{132}{figure.caption.74}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{132}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{132}{subfigure.13.2}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Pulsed LIV data for the two injector well structure (II)}}{133}{figure.caption.75}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{133}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{133}{subfigure.14.2}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Spectra for the 2 injector well laser at $T_{sink}=79\nobreakspace {}\textnormal {K}$}}{135}{figure.caption.76}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Spectra for the 2 injector well laser at $T_{sink}=301\nobreakspace {}\textnormal {K}$}}{136}{figure.caption.77}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Performance data for the two injector well structure}}{137}{figure.caption.78}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{137}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{137}{subfigure.17.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{137}{subfigure.17.3}
+\addvspace {10\p@ }

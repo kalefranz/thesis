@@ -1,0 +1,68 @@
+\thispagestyle{empty}
+\vspace*{0in}
+\begin{center}
+  \includegraphics[width=0.5in]{PrincetonShield}\\
+  \vspace{0.2in}
+  \LARGE \textsc{\textbf{New Quantum Cascade Laser\\Architectures}\\Performance and Discovery}
+\end{center}
+\vspace{.6in}
+\begin{center}
+  \large Kale J. Franz
+\end{center}
+\vspace{.6in}
+\begin{center}
+    A Dissertation \\
+    Presented to the Faculty \\
+    of Princeton University \\
+    in Candidacy for the Degree \\
+    of Doctor of Philosophy
+\end{center}
+\vspace{.3in}
+\begin{center}
+    Recommended for Acceptance \\
+    by the\\
+    Department of Electrical Engineering\\
+    \vspace*{0.1in}
+    Adviser: Claire Gmachl
+\end{center}
+\vspace{.3in}
+\begin{center}
+    June 2009
+\end{center}
+\clearpage
+
+
+\thispagestyle{empty}
+\vspace*{7.25in}
+\begin{center}
+    \copyright \ Copyright by Kale J. Franz, June 2009. \\
+    All Rights Reserved
+\end{center}
+\clearpage
+
+\thispagestyle{empty}
+\signaturepage
+\clearpage
+
+
+\newpage
+\addcontentsline{toc}{section}{Abstract}
+\begin{center}
+  \Large \textbf{Abstract}
+\end{center}
+  We report our study on the effects of shortened quantum cascade (QC) laser injector regions.  While conventional QC lasers typically have around seven injector region quantum wells, we investigate QC structures with three and two injector wells.  Improvements in threshold currents, output powers, and wall-plug efficiencies are expected for fundamental reasons.  Among the two designs, we observe performance comparable to today's best laser sources.  At heat sink temperatures near 80~K, we observe threshold current densities less than 0.5~kA/cm$^2$, nearly 4~W peak output power, and wall-plug efficiencies in excess of 20\%.  At room temperature, we see threshold current densities around 2.3~kA/cm$^2$, output powers in excess of 1~W, and wall-plug efficiencies around 5\%.  We also observe new effects in mid-infrared QC lasers, such as negative differential resistance, pulse instabilities, and a unique turn-off mechanism.  These effects result from the greatly abbreviated injector regions with highly discreet states.
+\clearpage
+
+
+\addcontentsline{toc}{section}{Acknowledgements}
+\begin{center}
+    \Large \textbf{Acknowledgements}
+\end{center}
+    acknowledgements.
+\clearpage
+
+\thispagestyle{empty}
+\begin{flushright}
+      dedication
+\end{flushright}
+\clearpage 

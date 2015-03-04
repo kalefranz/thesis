@@ -1,0 +1,102 @@
+\BOOKMARK [1][-]{section*.1}{Abstract}{}
+\BOOKMARK [1][-]{section*.1}{Acknowledgements}{}
+\BOOKMARK [1][-]{section*.1}{Table of Contents}{}
+\BOOKMARK [1][-]{chapter*.2}{List of Tables}{}
+\BOOKMARK [1][-]{chapter*.3}{List of Figures}{}
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}
+\BOOKMARK [1][-]{section.1.1}{Engineered Mid-infrared Light Sources: Present and Future}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.1.1}{Defense countermeasures}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.2}{Open atmosphere data transmission}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.3}{Molecular species detection}{section.1.1}
+\BOOKMARK [1][-]{section.1.2}{Quantum Cascade Lasers}{chapter.1}
+\BOOKMARK [1][-]{section.1.3}{The QC Development Process}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.3.1}{Design}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.2}{Growth}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.3}{Fabrication}{section.1.3}
+\BOOKMARK [1][-]{section.1.4}{Thesis Overview}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{Quantum Cascade Laser Design and Operation Theory}{}
+\BOOKMARK [1][-]{section.2.1}{The Schr\366dinger Equation}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Interface Energy Offsets and Bandgaps}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.2.1}{Materials parameters for ternary alloys}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.2}{Temperature effects on bandgap}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.3}{Strain effects on bandgap and band offset}{section.2.2}
+\BOOKMARK [1][-]{section.2.3}{Effective Mass}{chapter.2}
+\BOOKMARK [1][-]{section.2.4}{Self-consistent Solutions of the Schr\366dinger and Poisson Equations}{chapter.2}
+\BOOKMARK [1][-]{section.2.5}{Spontaneous Emission Rate and the Optical Dipole Matrix Element}{chapter.2}
+\BOOKMARK [1][-]{section.2.6}{Stimulated Emission Probability and the Transition Cross Section}{chapter.2}
+\BOOKMARK [1][-]{section.2.7}{LO-phonon Scattering Time}{chapter.2}
+\BOOKMARK [1][-]{section.2.8}{Rate Equations for QC Lasers}{chapter.2}
+\BOOKMARK [1][-]{section.2.9}{Threshold Current \046 Modal Gain}{chapter.2}
+\BOOKMARK [1][-]{section.2.10}{Slope Efficiency}{chapter.2}
+\BOOKMARK [1][-]{section.2.11}{Output Power and Wall-plug Efficiency}{chapter.2}
+\BOOKMARK [1][-]{section.2.12}{Maximum Current \046 Differential Resistance}{chapter.2}
+\BOOKMARK [1][-]{section.2.13}{Summary}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{ZnCdSe/ZnCdMgSe Quantum Cascade Emitters}{}
+\BOOKMARK [1][-]{section.3.1}{Short Wavelength Quantum Cascade Emitters}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{The ZnCdSe/ZnMgSe Materials System}{chapter.3}
+\BOOKMARK [1][-]{section.3.3}{Epitaxial Growth of ZnCdSe/ZnMgSe Materials}{chapter.3}
+\BOOKMARK [1][-]{section.3.4}{Intersubband Absorption in ZnCdSe/ZnCdMgSe Quantum Wells}{chapter.3}
+\BOOKMARK [1][-]{section.3.5}{A ZnCdSe/ZnCdMgSe Quantum Cascade Structure}{chapter.3}
+\BOOKMARK [1][-]{section.3.6}{Device Fabrication \046 Processing}{chapter.3}
+\BOOKMARK [1][-]{section.3.7}{Measurements and Data}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.7.1}{Quantum Cascade Intersubband Absorption}{section.3.7}
+\BOOKMARK [2][-]{subsection.3.7.2}{Electroluminescence Spectra}{section.3.7}
+\BOOKMARK [2][-]{subsection.3.7.3}{Light--Current--Voltage Data}{section.3.7}
+\BOOKMARK [1][-]{section.3.8}{Second-Generation Design}{chapter.3}
+\BOOKMARK [1][-]{section.3.9}{Conclusions \046 Future Directions}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.9.1}{Summary}{section.3.9}
+\BOOKMARK [2][-]{subsection.3.9.2}{Future Direction: New II--VI design strategies}{section.3.9}
+\BOOKMARK [2][-]{subsection.3.9.3}{Future Direction: Strain-compensated growth}{section.3.9}
+\BOOKMARK [2][-]{subsection.3.9.4}{Future Direction: Fabrication of II--VI QC laser waveguides}{section.3.9}
+\BOOKMARK [0][-]{chapter.4}{Excited State Quantum Cascade Lasers and High k-Space Lasing}{}
+\BOOKMARK [1][-]{section.4.1}{The Long-wavelength Challenge}{chapter.4}
+\BOOKMARK [1][-]{section.4.2}{Excited State Transitions}{chapter.4}
+\BOOKMARK [1][-]{section.4.3}{Excited State QC Laser Design}{chapter.4}
+\BOOKMARK [1][-]{section.4.4}{Device Emission Characteristics}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.4.1}{Electroluminescence and Identification of the Optical Transitions}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.2}{Laser Emission}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.3}{Stacked Transitions}{section.4.4}
+\BOOKMARK [1][-]{section.4.5}{Anti-correlated Light Output Behavior}{chapter.4}
+\BOOKMARK [1][-]{section.4.6}{Lasing High in k-Space}{chapter.4}
+\BOOKMARK [1][-]{section.4.7}{Effects of Non-parabolicity}{chapter.4}
+\BOOKMARK [1][-]{section.4.8}{Rate Equation Modeling}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.8.1}{A System of Two Coupled Optical Transitions}{section.4.8}
+\BOOKMARK [2][-]{subsection.4.8.2}{Comparing Threshold Data with Simulation}{section.4.8}
+\BOOKMARK [2][-]{subsection.4.8.3}{Cavity-length--dependence of Threshold Crossover}{section.4.8}
+\BOOKMARK [1][-]{section.4.9}{Conclusions \046 Future Directions}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.9.1}{Summary}{section.4.9}
+\BOOKMARK [2][-]{subsection.4.9.2}{Future Direction: Intentionally created k-space lasers}{section.4.9}
+\BOOKMARK [2][-]{subsection.4.9.3}{Future Direction: Further develop the excited state concept}{section.4.9}
+\BOOKMARK [2][-]{subsection.4.9.4}{Future Direction: Correlated photons}{section.4.9}
+\BOOKMARK [0][-]{chapter.5}{Short Injector Quantum Cascade Lasers}{}
+\BOOKMARK [1][-]{section.5.1}{The Role of the QC Injector}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{Theoretical Framework}{chapter.5}
+\BOOKMARK [1][-]{section.5.3}{QC Laser with Three Injector Wells}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.3.1}{Design and Fabrication}{section.5.3}
+\BOOKMARK [2][-]{subsection.5.3.2}{Results and Discussion}{section.5.3}
+\BOOKMARK [2][-]{subsection.5.3.3}{Device Performance}{section.5.3}
+\BOOKMARK [1][-]{section.5.4}{QC Laser with Two Injector Wells}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.4.1}{Design and Fabrication}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.2}{Results and Discussion}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.3}{Device Performance}{section.5.4}
+\BOOKMARK [1][-]{section.5.5}{Conclusions and Future Directions}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.5.1}{Summary}{section.5.5}
+\BOOKMARK [2][-]{subsection.5.5.2}{Future Direction: Higher performance QC lasers}{section.5.5}
+\BOOKMARK [2][-]{subsection.5.5.3}{Future Direction: Improving temperature performance}{section.5.5}
+\BOOKMARK [0][-]{chapter.6}{Conclusions}{}
+\BOOKMARK [1][-]{section.6.1}{Thesis Summary}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.1.1}{II--VI QC Structures}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.2}{Excited State Quantum Cascade Lasers and High k-Space Lasing}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.3}{Short Injector Quantum Cascade Lasers}{section.6.1}
+\BOOKMARK [1][-]{section.6.2}{Challenges for the Next Decade of Research}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.2.1}{Tunability}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.2}{Single Mode Emission}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.3}{Wall-plug Efficiency}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.4}{Low Input Power Devices}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.5}{Short Wavelength QC Lasers}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.6}{Long Wavelength QC Lasers}{section.6.2}
+\BOOKMARK [1][-]{section.6.3}{The Feasibility of a Sustainable QC Laser-based Industry}{chapter.6}
+\BOOKMARK [0][-]{chapter*.79}{Publications}{}
+\BOOKMARK [0][-]{chapter*.80}{Conference Presentations}{}
+\BOOKMARK [0][-]{chapter*.81}{Intellectual Property}{}
+\BOOKMARK [0][-]{section*.83}{References}{}

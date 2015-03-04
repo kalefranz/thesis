@@ -1,0 +1,17 @@
+Description:Structure Description
+Efield:25
+xres:0.1
+Eres:0.1
+InGaAsx:0.53
+AlInAsx:0.52
+InGaAsx2:0
+AlInAsx2:0
+Solver:SolverH
+Temp:300
+TempFoM:220
+PlotPeriods:1
+DiffLeng:0
+regionNum	wellWdiths	barrierSwitch	arSwitch	material	doping	divider
+1	60	1	0	4	0	0
+2	120	0	0	4	0	0
+3	60	1	0	4	0	0

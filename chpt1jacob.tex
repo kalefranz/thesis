@@ -1,0 +1,331 @@
+\documentclass[12pt]{report}
+\usepackage{kjfsty}
+
+\begin{document}
+
+%\renewcommand{\sfdefault}{phv}
+%\renewcommand{\rmdefault}{ptm}
+%\renewcommand{\ttdefault}{pcr}
+%\onehalfspacing
+%
+%%\glossary{name={entry name}, description={entry description}, sort=h, format=textbf, number=section}
+%
+%\glossary{name={$\hslash$}, description={Planck's constant}, sort=h}
+%\glossary{name={$m^*$}, description={electron effective mass}, sort=m}
+%\glossary{name={$x$}, description={dimension of quantum confinement}, sort=x}
+%\glossary{name={$V$}, description={quantum well potential energy}, sort=v}
+%\glossary{name={$\EE$}, description={quantum state eigen energy}, sort=e}
+%\glossary{name={$\psi$}, description={one-dimensional electron wave function}}
+%
+%\chapter[Quantum Cascade Laser Design and Operation Theory]{Quantum Cascade Laser \\ Design and Operation Theory}
+%%\chaptermark{Design and Operation Theory}
+%%\markboth{Quantum Cascade Laser Design and Operation Theory}{Quantum Cascade Laser Design and Operation Theory}
+%
+%
+%\tableofcontents
+%
+%To innovate in QC laser structures and designs, a solid understanding of their operation is absolutely essential.  In this chapter, I lay out the basic tools and derive the fundamental relations important to QC laser design and operation.  This theory becomes the foundation for ideas for and understanding derived from new designs presented in later chapters.
+%Rarely does one find a thorough survey of QC laser theory collected in one place. I hope to accomplish this in this chapter.
+%
+%\section{The Schr\"{o}dinger Equation}
+%
+%Fundamental to QC laser design is the the ability to accurately calculate the positions of energy states in the quantum-confined dimension.  In the elementary abstraction, we simply solve the time-independent Schr\"{o}dinger equation
+%\begin{equation}
+%-\frac{\hslash^2}{2m^*} \frac{\partial^2}{\partial x^2}\psi(x) + V(x) \psi(x) = \EE \psi(x)
+%\end{equation}
+%where $\hslash$ is Planck's constant, $m^*$ is the electron effective mass, $x$ is the dimension of quantum confinement, $\psi$ is the electron wavefunction, $V$ is the quantum well potential energy, and \EE is the eigen energy of the quantum state.
+%
+%Right away, we run into a problem.  The effective mass in semiconductors is energy-dependent: as the electron acquires more energy---gets higher up in the band and closer to the vacuum level---the electron gets heavier.  Also, our QC structure is a system of layered materials, each with a different effective mass from adjacent layers.  So, the effective mass is both energy- and position-dependent: $m^*(x,\EE)$.  This results in a small change to the standard Schr\"{o}dinger equation.  When solving the Schr\"{o}dinger equation, we are taught to match $\psi(x)$ and $\frac{\partial}{\partial_x} \psi(x)$ at the boundaries.  Now, with variable effective masses, the solutions of envelope functions [cite: Harrison p. 36] are continuous across material interfaces in both $\psi(x)$ and $\frac{1}{m^*} \frac{\partial}{\partial x} \psi(x)$.
+%
+%Because of variable effective mass, the classical portrayal of the Schrodinger equation is somewhat different.  Given the momentum operator $\mathcal{P}_x = -\rm{i} \hslash \partial_x$, the kinetic energy operator becomes
+%\begin{equation}
+%\mathcal{T} = \mathcal{P}_x \frac{1}{m^*(x,\EE)} \mathcal{P}_x =
+%-\frac{\hslash^2}{2} \frac{\partial}{\partial x} \frac{1}{m^*(x,\EE)} \frac{\partial}{\partial x}
+%\end{equation}
+%and the Schrodinger equation now becomes
+%\begin{equation}
+%-\frac{\hslash^2}{2} \frac{\partial}{\partial x} \frac{1}{m^*(x,\EE)} \frac{\partial}{\partial x} \psi(x) + V(x) \psi(x) = \EE \psi(x)
+%\end{equation}
+%Now, to make this a discreet equation, we approximate the derivative.
+%\begin{equation}
+%\frac{\textrm{d} f}{\textrm{d} x} \approx \frac{\Delta f}{\Delta x} = \frac{f(x+\delta x) -f(x-\delta x)}{2 \delta x}
+%\end{equation}
+%%and
+%%\begin{equation}
+%%\begin{split}
+%%\frac{\textrm{d}^2 f}{\textrm{d} x^2} \approx \frac{\frac{\textrm{d} f}{\textrm{d} x}\right \big |_{x+\delta x} - \frac{\textrm{d} f}{\textrm{d} x}\right \big |_{x-\delta x}}{2 \delta x} &= \frac{f(x+2 \delta x) -2 f(x) + f(x-2 \delta x)}{(2 \delta x)^2}\\
+%%&\Rightarrow \frac{f(x+\delta x) -2 f(x) + f(x-\delta x)}{(\delta x)^2}
+%%\end{split}
+%%\end{equation}
+%The Schrodinger equation above can be discretized by expanding $\mathcal{T} \psi(x)$.
+%\begin{equation}
+%\frac{\frac{1}{m^{*}(x+\delta x,\EE)} \frac{\partial \psi(x)}{\partial x} \big |_{x+\delta x} - \frac{1}{m^{*}(x-\delta x,\EE)} \frac{\partial \psi(x)}{\partial x} \big |_{x-\delta x}}{2 \delta x} = \frac{2}{\hslash^2}[V(x)-\EE]\psi(x)
+%\end{equation}
+%Applying 3.49 to the above equation, gathering terms in $\psi(x)$, and making the transformation $2 \delta x \rightarrow \delta x$ gives
+%\begin{equation}
+%\label{chpt1eqn:SEq}
+%\begin{split}
+%\psi(x+\delta x) &= \Biggl\{ \left[ \frac{2(\delta x)^2}{\hslash^2} [V(x)-\EE]+\frac{1}{m^{*}(x+\delta x/2)}+\frac{1}{m^{*}(x-\delta x/2)} \right] \psi(x) \qquad \qquad\\
+%& \qquad \qquad \qquad \qquad \qquad \qquad - \frac{1}{m^{*}(x-\delta x/2)} \psi(x-\delta x) \Biggr\} m^{*}(x+\delta x/2)
+%\end{split}
+%\end{equation}
+%The effective mass at the intermediate points $x\pm \delta x/2$ is found by taking the average of the effective mass for the two adjacent points $x$ and $x+\delta x$.
+%
+%
+%
+%
+%
+%
+%We'll use the shooting method to solve this numerically.
+%
+%The two key parameters are $V(x)$ and $m^*(x,\EE)$.
+%
+%\section{Semiconductor Interface Offsets and Band Gaps}
+%
+%The potential profile $V(x)$ is one of the two parameters needed to solve the time-independent Schr\"{o}dinger equation in Eq.~\eqref{chpt1eqn:SEq}.
+%
+%\section{Effective Mass}
+%
+%
+%\section{Self-consistent Solutions of the Schr\"{o}dinger and Poisson Equations}
+%
+%
+%\section{Optical Dipole Matrix Element}
+%
+%\section{Optical Gain}
+%
+%\section{LO-phonon Scattering Time}
+%
+%\section{Figure of Merit and Modal Gain}
+%
+%\section{Forms of Optical Loss}
+%
+\section{Threshold Current}
+
+Material gain $\gamma~[\frac{1}{\tn{length}}]$ is defined such that mode intensity $\mathcal{I}$ after some distance $L$ is given by
+\begin{equation}
+\mathcal{I}(L) = \mathcal{I}(0) e^{\gamma L}
+\end{equation}
+and
+\begin{equation}
+\gamma = \begin{subarray}{c}\tn{gain region}\\\tn{overlap with}\\\tn{optical mode}\end{subarray} \times \begin{subarray}{c}\tn{``strength'' of the}\\\tn{gain material}\end{subarray}
+\times \begin{subarray}{c}\tn{population}\\\tn{inversion}\end{subarray} = \Gamma \sigma_0 (N_u-N_\ell)
+\end{equation}
+where $(N_u-N_\ell)~[\frac{1}{\tn{volume}}]$ represents the population inversion density between the upper $u$ and lower $\ell$ states of the optical transition. The transition (gain) cross-section at peak gain $\sigma_0 \left[\tn{area}\right]$ for the mode photon energy $\EE_{ph}$ is
+\begin{equation}
+\sigma_0 = \frac{4 \pi q^2}{h c \epsilon_0 n_\textit{eff}} \frac{\EE_{ph}}{\delta\!\EE_{u\ell}} z_{u\ell}^2
+\end{equation}
+and the one-dimensional confinement factor $\Gamma$ is defined as
+\begin{equation}
+\label{chpt1eqn:Gamma}
+\Gamma = \frac{\int_{x_0}^{x_0+d_{ac}} \! n(x) f^2(x) \, dx}{\int_{-\infty}^{\infty} \! n(x) f^2(x) \, dx}
+\end{equation}
+where $x_0$ marks the beginning of the active core, $d_{ac}$ is the thickness of the active core, $n(x)$ is the refractive index profile, and $f(x)$ is the electric field profile of the mode normalized such that $\max(f(x))=1$.  The confinement factor can be further simplified by defining $d_m=\int_{-\infty}^{\infty} \! n(x) f^2(x) \, dx$ as the effective thickness of the optical mode.
+
+A QC laser adds the complication of multiple periods of the active--injector region structure cascaded together into a single active core.  In a general sense, each individual QC period $i$ may have its own unique properties.  Aggregate properties for the whole of the QC structure are given by summing over the individual QC periods.
+\begin{equation}
+\gamma = \sum_{i=1}^{N_p} \Gamma_i \sigma_{0,i} (N_{u,i}-N_{\ell,i})
+\end{equation}
+where $\Gamma_i$ is now defined for an individual QC period as
+\begin{equation}
+\Gamma_i = \frac{\int_{x_i}^{x_i+d_{ap}} \! n(x) f^2(x) \, dx}{d_m}
+\end{equation}
+with $d_{ap}$ being the thickness of the QC active--injector period, so that summing over all $d_{ap}$ yields $d_{ac}$ and summing over all $\Gamma_i$ yields the composite active core $\Gamma$.
+
+Laser threshold is most easily derived assuming the gain clamping condition
+\begin{equation}
+\gamma = \alpha_\textit{total}
+\end{equation}
+with total optical loss $\alpha_\textit{total}~[\frac{1}{\tn{length}}]$ being the sum of mirror loss $\alpha_m$ and waveguide loss $\alpha_w$.  Assuming each active period has the same transition cross-section and lifetime profile, applying Eq. 5 to Eq. 7 yields
+\begin{equation}
+\alpha_m + \alpha_w = N_p \Gamma \sigma_0 (N_{u}-N_{\ell})_{th}
+\end{equation}
+where $N_p$ results from summing over all active periods and the population density $(N_{u}-N_{\ell})$ is at threshold.  For a single QC period,
+\begin{equation}
+(N_{u,i}-N_{\ell,i})_{th} = \begin{subarray}{c}\tn{pumping}\\\tn{rate}\end{subarray} \times \begin{subarray}{c}\tn{effective upper}\\\tn{state lifetime}\end{subarray}
+= \frac{J_{th}}{q d_\textit{ap,i}} \tau_\textit{eff,i}
+\end{equation}
+where $\tau_\textit{eff}$ is the effective upper state lifetime.  For the case of a two level system, $\tau_\textit{eff}=\tau_u \left(1-\frac{\tau_\ell}{\tau_{u\ell}}\right)$.
+
+Now,
+\begin{equation}
+J_{th} = q \frac{\alpha_\textit{total}}{ \Gamma \frac{N_p}{d_{ac}} \sigma_0 \tau_\textit{eff}} = \frac{h c \epsilon_0 n_\textit{eff}}{4 \pi q} \frac{\alpha_\textit{total}}{ \Gamma \frac{N_p}{d_{ac}} \frac{\EE_{u\ell}}{\delta\!\EE_{u\ell}} z_{u\ell}^2 \tau_\textit{eff} }
+\end{equation}
+
+\section{Rate Equations for QC Lasers}
+Rate equations are a phenomenological method for describing laser devices from which important performance parameters (\emph{e.g.}\ output power, wall-plug efficiency, threshold, etc.) can be derived.  Describing the change with respect to time in the total upper state population $\mathcal{N}_u$, total lower state population $\mathcal{N}_\ell$, and total photon population $\mathcal{N}_{ph}$ of the system gives the system of equations,
+\begin{subequations}
+%\setstretch{1.5}
+\begin{align}
+\begin{subarray}\mathcal{N}_u~\tn{change}\\\tn{w.r.t. time}\end{subarray} &= \begin{subarray}{c}\tn{non-radiative}\\\tn{rate in}\end{subarray} - \begin{subarray}{c}\tn{non-radiative}\\\tn{rate out}\end{subarray} - \begin{subarray}{c}\tn{radiative}\\\tn{transition rate}\end{subarray}\\
+\begin{subarray}\mathcal{N}_\ell~\tn{change}\\\tn{w.r.t. time}\end{subarray} &= \begin{subarray}{c}\tn{non-radiative}\\\tn{rate in}\end{subarray} - \begin{subarray}{c}\tn{non-radiative}\\\tn{rate out}\end{subarray} + \begin{subarray}{c}\tn{radiative}\\\tn{transition rate}\end{subarray}\\
+\begin{subarray}\mathcal{N}_{ph}~\tn{change}\\\tn{w.r.t. time}\end{subarray} &= \begin{subarray}{c}\tn{radiative}\\\tn{transition rate}\end{subarray} - \begin{subarray}{c}\tn{photon}\\\tn{loss rate}\end{subarray}
+\end{align}
+\end{subequations}
+where non-radiative transition rates are given by the population of the state $\mathcal{N}_i$ divided by the non-radiative lifetime $\tau_i$ for the state $i$.  Radiative transition rates are given by
+\begin{gather*}
+\begin{subarray}{c}\tn{rate of}\\\tn{radiative}\\\tn{transition}\end{subarray} = \left( \begin{subarray}{c}\tn{population available}\\\tn{for stimulated}\\\tn{emission}\end{subarray} - \begin{subarray}{c}\tn{population available}\\\tn{for absorption}\end{subarray}\right) \times \begin{subarray}{c}\tn{probability of}\\\tn{stimulated}\\\tn{emission}\end{subarray}\\
+\intertext{and}
+\begin{subarray}{c}\tn{probability of}\\\tn{stimulated}\\\tn{emission}\end{subarray} = \begin{subarray}{c}\tn{photon}\\\tn{density}\end{subarray} \times \begin{subarray}{c}\tn{photon}\\\tn{speed}\end{subarray} \times \begin{subarray}{c}\tn{transition}\\\tn{cross-section}\end{subarray}
+\end{gather*}
+\\
+\texttt{Jacob: Shouldn't the probability of stimulated emission also somehow be multiplied by the strength of the electric field?  I feel like it should be $\Gamma$, or something similar? As I said in my email, I'd like the rate equations not to assume that the gain region and the optical mode are symmetrically distributed around the same axis.}
+\\
+
+\noindent
+In a semiconductor injection laser, the rate equations are expressed as
+\begin{subequations}
+\begin{align}
+\frac{d \mathcal{N}_u}{dt} &= \eta_{inj}\frac{I}{q} - \frac{\mathcal{N}_u}{\tau_u} - (\mathcal{N}_u - \mathcal{N}_\ell) \frac{\mathcal{N}_{ph}}{V_m} v_g \sigma_0\\
+\frac{d \mathcal{N}_\ell}{dt} &= \frac{\mathcal{N}_u}{\tau_{u\ell}} - \frac{\mathcal{N}_\ell}{\tau_\ell} + (\mathcal{N}_u - \mathcal{N}_\ell) \frac{\mathcal{N}_{ph}}{V_m} v_g \sigma_0\\
+\frac{d \mathcal{N}_{ph}}{dt} &= (\mathcal{N}_u - \mathcal{N}_\ell) \frac{\mathcal{N}_{ph}}{V_m} v_g \sigma_0 - \frac{\mathcal{N}_{ph}}{\tau_{ph}}
+\end{align}
+\end{subequations}
+where $\eta_{inj}\frac{I}{q}$ is the pumping rate for the upper laser state, $V_m$ is the effective volume of the optical mode, and $\tau_{ph}$ is the photon lifetime in the cavity.  The group velocity $v_g$ is approximated by the phase velocity $c_0/n_{eff}$, which is accurate when dispersion low.
+
+\bigskip
+\noindent
+\texttt{Jacob: The equations above come directly from my phenomenological argument above.  There is no $\Gamma$ right now.}
+
+\bigskip
+\noindent
+\texttt{The equations below are now from Coldren and Corzine, Chuang, etc., and include $\Gamma$ in the photon rate equation only.  I understand that, if $\Gamma\equiv\frac{d_{ac}}{d_m}$, then you arrive at this result with $\Gamma$ in the photon density equation, just by symmetry arguments when converting to densities.  However, if you use your definition for $\Gamma$, as given in Eq.~\eqref{chpt1eqn:Gamma} above, then we now have a problem.  Correct? }
+
+\bigskip
+\noindent
+The traditional representation for rate equations with $N \left[\frac{1}{\tn{volume}}\right]$ being the population density of the level is
+
+\begin{subequations}
+\begin{align}
+\frac{d N_u}{dt}&=\eta_\textit{inj} \frac{I}{q V}-\frac{N_u}{\tau_u}-v_g \sigma_0 (N_u-N_\ell) N_{ph}\\
+\frac{d N_\ell}{dt}&=\frac{N_u}{\tau_{u\ell}}-\frac{N_\ell}{\tau_\ell}+v_g \sigma_0 (N_u-N_\ell) N_{ph}\\
+\frac{d N_{ph}}{dt}&=\Gamma v_g \sigma_0 (N_u-N_\ell) N_{ph} - \frac{N_{ph}}{\tau_{ph}}
+\end{align}
+\end{subequations}
+
+Our strategy for applying these rate equations to QC lasers will again be to treat each active period individually.  Thus, the rate equations will represent the populations associated with a single active period, and the final resultant parameters will be summed over all active periods.  For QC lasers, it is convenient to work with energy level populations in terms of sheet density $n \left[\frac{1}{\tn{area}}\right]$, which is the result when multiplying all equations by the gain region thickness $d_{ap}$; that is, since $N$ is an electron density for a single QC period, $n=N\times d_{ap}$.
+\begin{subequations}
+\begin{align}
+\frac{d n_u}{dt}&=\eta_\textit{inj} \frac{I}{q V} d_{ap}-\frac{n_u}{\tau_u}-v_g \sigma_0 (n_u-n_\ell) N_{ph}\\
+\frac{d n_\ell}{dt}&=\frac{n_u}{\tau_{u\ell}}-\frac{n_\ell}{\tau_\ell}+v_g \sigma_0 (n_u-n_\ell) N_{ph}\\
+d_{ap} \frac{d N_{ph}}{dt}&=\Gamma v_g \sigma_0 (n_u-n_\ell) N_{ph} - \frac{N_{ph}}{\tau_{ph}} d_{ap}
+\end{align}
+\end{subequations}
+It is also convenient to work in terms of photon flux photon flux $\phi_{ph} \left[\frac{1}{\tn{area}\times\tn{time}}\right]$ instead of photon density $N_{ph} \left[\frac{1}{\tn{volume}}\right]$.  To convert the system of equation to terms of photon flux, divide by group velocity $v_g$, often approximated as $\frac{c_0}{n_\textit{eff}}$, so $N_{ph}=\frac{\phi_{ph}}{v_g}$.
+\begin{subequations}
+\begin{align}
+\frac{1}{v_g} \frac{d n_u}{dt}&=\frac{1}{v_g} \eta_\textit{inj} \frac{I}{q V} d_{ap}-\frac{1}{v_g} \frac{n_u}{\tau_u}-v_g \sigma_0 (n_u-n_\ell) \phi_{ph}\\
+\frac{1}{v_g} \frac{d n_\ell}{dt}&=\frac{1}{v_g} \frac{n_u}{\tau_{u\ell}}-\frac{1}{v_g} \frac{n_\ell}{\tau_\ell}+v_g \sigma_0 (n_u-n_\ell) \phi_{ph}\\
+d_{ap} \frac{d \phi_{ph}}{dt}&=\Gamma v_g \sigma_0 (n_u-n_\ell) \phi_{ph} - \frac{\phi_{ph}}{\tau_{ph}} d_{ap}
+\end{align}
+\end{subequations}
+Now simplifying, multiplying through by $v_g$ and $d_{ap}$, yields our desired set of rate equations.
+\begin{subequations}
+\label{chpt1eqn:req}
+\begin{align}
+\label{chpt1eqn:reqA}
+\frac{d n_u}{dt}&=\eta_\textit{inj} \frac{J}{q}- \frac{n_u}{\tau_u}-\sigma_0 (n_u-n_\ell) \phi_{ph}\\
+\label{chpt1eqn:reqB}
+\frac{d n_\ell}{dt}&=\frac{n_u}{\tau_{u\ell}}- \frac{n_\ell}{\tau_\ell}+\sigma_0 (n_u-n_\ell) \phi_{ph}\\
+\label{chpt1eqn:reqC}
+\frac{d \phi_{ph}}{dt}&=\Gamma v_g \sigma_0 \frac{(n_u-n_\ell)}{d_{ap}} \phi_{ph} - \frac{\phi_{ph}}{\tau_{ph}}
+\end{align}
+\end{subequations}
+
+
+%Now, if the system is assumed to be per period of the QC stack,
+%
+%For a QC structure, $d_a=N_p L_p$.
+%
+%\begin{equation}
+%\gamma = \alpha_{total} = g \Gamma J_{th} = \Gamma \sigma N_{th}
+%\end{equation}
+%
+%\begin{equation}
+%\sigma = \frac{g J_th}{N_u-N_\ell} = \frac{g J_{th}}{N_{th}}
+%\end{equation}
+%
+%\begin{equation}
+%N_{th} = \frac{J_{th}}{q d_a} \tau_u \left(1-\frac{\tau_\ell}{\tau_{u\ell}}\right)
+%\end{equation}
+%
+%\begin{equation}
+%g = \frac{4 \pi q}{\lambda_0 \epsilon_0 n_\textit{eff}} \frac{1}{\delta\!\EE_{u\ell}} \frac{\tau_u \left(1-\tau_\ell/\tau_{u\ell}\right)z_{u\ell}^2}{L_p}
+%\end{equation}
+
+\section{Slope Efficiency}
+
+Slope efficiency is the change in output power with current, $\frac{d P}{dI}$.  From our rate equations, we have something close to power and current; we have terms of photon flux $\phi_{ph}$ and current density $J$.  We can therefore solve for $\frac{d \phi_{ph}}{dJ}$ and convert to slope efficiency
+\begin{equation}
+\begin{subarray}{c}\tn{slope}\\\tn{efficiency}\end{subarray} = \begin{subarray}{c}change\\in\end{subarray} \frac{\begin{subarray}{c}\tn{cavity photon}\\\tn{density}\end{subarray}}{\begin{subarray}{c}\tn{pump}\\\tn{current}\end{subarray}} \times \frac{\begin{subarray}{c}\tn{photon energy}\end{subarray}} {\begin{subarray}{c}\tn{photon}\\\tn{escape time}\end{subarray}} \times \begin{subarray}{c}\tn{mode}\\\tn{volume}\end{subarray}
+\end{equation}
+so
+\begin{equation}
+\frac{d P}{d\!I} = \frac{d \phi_{ph}}{d\!J} \frac{1}{v_g} \frac{1}{A} \times \frac{\EE_{ph}}{\tau_m} \times V_m \text{~.}
+\end{equation}
+To solve for $\phi_{ph}(J)$, we can start by solving for the steady state condition of Eq.~\eqref{chpt1eqn:reqC}, $\frac{d \phi_{ph}}{d\!t}=0$:
+\begin{equation}
+\label{chpt1eqn:n_uminusn_l_easy}
+n_u-n_\ell=\frac{d_{ap}}{\Gamma v_g \sigma_0 \tau_{ph}} \text{~.}
+\end{equation}
+To find a relation for $n_u-n_\ell$, we solve the steady state conditions for Eqs.~\eqref{chpt1eqn:reqA} and \eqref{chpt1eqn:reqB}, and recover for $n_u$ and $n_\ell$, respectively,
+%Solve Eq.~\eqref{chpt1eqn:req} for $n_u$ (apply Eq.~\eqref{chpt1eqn:reqB} to Eq.~\eqref{chpt1eqn:reqA}) and $n_\ell$ (apply Eq.~\eqref{chpt1eqn:reqA} to Eq.~\eqref{chpt1eqn:reqB}).
+\begin{subequations}
+\begin{align}
+\label{chpt1eqn:n_u}
+n_u &= \eta_\textit{inj}\frac{J}{q} \frac{\frac{1}{\tau_\ell}+\sigma_0 \phi_{ph}}{\frac{1}{\tau_u} \frac{1}{\tau_\ell}+\sigma_0 \phi_{ph} \left(\frac{1}{\tau_u} + \frac{1}{\tau_\ell} - \frac{1}{\tau_{u\ell}} \right)} \\
+\label{chpt1eqn:n_ell}
+n_\ell &= \eta_\textit{inj}\frac{J}{q} \frac{\frac{1}{\tau_{u\ell}}+\sigma_0 \phi_{ph}}{\frac{1}{\tau_u} \frac{1}{\tau_\ell}+\sigma_0 \phi_{ph} \left(\frac{1}{\tau_u} + \frac{1}{\tau_\ell} - \frac{1}{\tau_{u\ell}} \right)}
+\end{align}
+\end{subequations}
+so that combining Eq.~\eqref{chpt1eqn:n_u} and Eq.~\eqref{chpt1eqn:n_ell} yields
+\begin{equation}
+\label{chpt1eqn:n_uminusn_l_hard}
+n_u-n_\ell = \eta_\textit{inj}\frac{J}{q}  \frac{\tau_u \left(1-\frac{\tau_\ell}{\tau_{u\ell}}\right)}{1+\sigma_0 \phi_{ph} \left(\tau_u \left(1-\frac{\tau_\ell}{\tau_{u\ell}}\right) + \tau_\ell\right)} = \eta_\textit{inj}\frac{J}{q}  \frac{\tau_\textit{eff}}{1+\sigma_0 \phi_{ph} \left(\tau_\textit{eff} + \tau_\ell\right)}
+\end{equation}
+using $\tau_\textit{eff}=\tau_u\left(1-\frac{\tau_\ell}{\tau_{u\ell}}\right)$.
+Combining the results of Eqs.~\eqref{chpt1eqn:n_uminusn_l_easy} and \eqref{chpt1eqn:n_uminusn_l_hard} gives
+\begin{equation}
+\phi_{ph} = \eta_\textit{inj} \frac{J}{q} \frac{v_g \Gamma \tau_{ph}}{d_a} \frac{\tau_\textit{eff}}{\left(\tau_\textit{eff}+\tau_\ell\right)} - \frac{1}{\sigma_0 \left(\tau_\textit{eff}+\tau_\ell\right)}
+\end{equation}
+and
+\begin{equation}
+\frac{d \phi_{ph}}{d\!J} = \eta_\textit{inj} \frac{v_g \Gamma \tau_{ph}}{q d_a} \frac{\tau_\textit{eff}}{\left(\tau_\textit{eff}+\tau_\ell\right)} \text{~.}
+\end{equation}
+
+\bigskip
+\noindent
+\texttt{Jacob: As you can see, this is when the definition of $\Gamma$ becomes important.  Below, I'm going to assume $\Gamma$ is your definition, from Eq.~\eqref{chpt1eqn:Gamma}.  Otherwise, what I have defined below as ``modal confinement'' disappears.}
+
+\bigskip
+\noindent
+Again, we have assumed so far only a single QC period, so the slope efficiency for one period is
+\begin{equation}
+\frac{d P}{d\!I} = \eta_\textit{inj}  \frac{\EE_{ph}}{q} \frac{\alpha_m}{\alpha_m+\alpha_w}  \frac{\tau_\textit{eff}}{\left(\tau_\textit{eff}+\tau_{\ell}\right)} \frac{\int_{x_0}^{x_0+d_{ap}} \! f^2(x) \, dx}{d_{ap}}
+\end{equation}
+where the cavity escape and photon lifetimes have been converted to the more common mirror and waveguide loss terms, $\alpha_m$ and $\alpha_w$ $[\frac{1}{\tn{length}}]$, such that
+\begin{equation}
+\frac{1}{\tau_m}=v_g \alpha_m \qquad \text{and} \qquad \frac{1}{\tau_{ph}}=v_g (\alpha_m + \alpha_w) \text{~.}
+\end{equation}
+We can also introduce here ``modal efficiency'' $\Gamma_m$ for period $i$
+\begin{equation}
+\Gamma_{m,i} = \frac{\int_{x_i}^{x_i+d_{ap,i}} \! f^2(x) \, dx}{d_{ap,i}} \text{~.}
+\end{equation}
+Summing over all periods, the slope efficiency for the QC laser as a whole is 
+\begin{equation}
+\frac{d P}{d\!I} = \frac{\EE_{ph}}{q} \frac{\tau_{ph}}{\tau_m} \sum_{i=1}^{N_p} \eta_\textit{inj,i} \frac{\tau_\textit{eff,i}}{\left(\tau_\textit{eff,i}+\tau_{\ell,i}\right)} \Gamma_{m,i} \text{~.}
+\end{equation}
+If all QC periods are the same,
+\begin{equation}
+\frac{d P}{d\!I} = N_p \frac{\EE_{ph}}{q} \frac{\tau_{ph}}{\tau_m} \frac{\tau_\textit{eff}}{\left(\tau_\textit{eff}+\tau_{\ell}\right)} \Gamma_{m} \text{~.}
+\end{equation}
+
+
+
+%
+%\section{Output Power}
+%
+%\section{Wall-plug Efficiency}
+
+
+\end{document} 

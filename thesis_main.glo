@@ -1,0 +1,41 @@
+\glossaryentry{h@{\glosslabel{glo:h}{$\hslash $}}Planck's constant\relax|glsnumformat}{14}
+\glossaryentry{m@{\glosslabel{glo:m}{$m^*$}}electron effective mass, usually energy- and position-dependent \slunit {mass}\relax|glsnumformat}{14}
+\glossaryentry{z@{\glosslabel{glo:z}{$z$}}dimension of quantum confinement\relax|glsnumformat}{14}
+\glossaryentry{v@{\glosslabel{glo:v}{$V$}}quantum well potential, normally conduction band \slunit {volts}\relax|glsnumformat}{14}
+\glossaryentry{e@{\glosslabel{glo:e}{$\EE $}}quantum state eigen energy\relax|glsnumformat}{14}
+\glossaryentry{2@{\glosslabel{glo:2}{$\psi $}}one-dimensional electron wave function\relax|glsnumformat}{14}
+\glossaryentry{22b@{\glosslabel{glo:22b}{$\rho $}}rho\relax|glsnumformat}{14}
+\glossaryentry{22a@{\glosslabel{glo:22a}{$\theta $}}theta\relax|glsnumformat}{14}
+\glossaryentry{22@{\glosslabel{glo:22}{$\gamma $}}gamma\relax|glsnumformat}{14}
+\glossaryentry{123@{\glosslabel{glo:123}{$\psi _\tn {\tiny {C}}$}}conduction band wavefunction\relax|glsnumformat}{15}
+\glossaryentry{h@{\glosslabel{glo:h}{$\hslash $}}Planck's constant\relax|glsnumformat}{15}
+\glossaryentry{m@{\glosslabel{glo:m}{$m^*$}}conduction band effective mass \slunit {mass}\relax|glsnumformat}{15}
+\glossaryentry{z@{\glosslabel{glo:z}{$z$}}dimension of quantum confinement\relax|glsnumformat}{15}
+\glossaryentry{q@{\glosslabel{glo:q}{$q$}}fundamental charge unit\relax|glsnumformat}{15}
+\glossaryentry{v@{\glosslabel{glo:v}{$V_\tn {\tiny {C}}$}}conduction band potential \slunit {Volts}\relax|glsnumformat}{15}
+\glossaryentry{e@{\glosslabel{glo:e}{$\EE _q$}}eigen energy of the quantum state, usually positive if above the conduction band and negative if below\relax|glsnumformat}{15}
+\glossaryentry{m@{\glosslabel{glo:m}{$m^*(z,\EE )$}}energy- and position-dependent effective mass\relax|glsnumformat}{15}
+\glossaryentry{p@{\glosslabel{glo:p}{$\mathcal {P}_z$}}momentum operator\relax|glsnumformat}{15}
+\glossaryentry{k@{\glosslabel{glo:k}{$\mathcal {T}$}}kinetic energy operator\relax|glsnumformat}{15}
+\glossaryentry{e@{\glosslabel{glo:e}{$E_\tn {\textit {field}}$}}applied electric field\relax|glsnumformat}{16}
+\glossaryentry{104@{\glosslabel{glo:104}{$\delta z$}}discrete step size in $z$\relax|glsnumformat}{16}
+\glossaryentry{z@{\glosslabel{glo:z}{$z_\tnit {second}$}}second discrete solve point after $z=0$\relax|glsnumformat}{16}
+\glossaryentry{z@{\glosslabel{glo:z}{$z_{end}$}}final discrete point in a confined system\relax|glsnumformat}{16}
+\glossaryentry{v@{\glosslabel{glo:v}{$VBO$}}valence band offset\relax|glsnumformat}{18}
+\glossaryentry{e@{\glosslabel{glo:e}{$\EE _c^\Gamma $}}the conduction band edge at the $\Gamma $ point\relax|glsnumformat}{18}
+\glossaryentry{e@{\glosslabel{glo:e}{$\EE _g^\Gamma $}}energy gap at the $\Gamma $ point at $T=0$~K without strain\relax|glsnumformat}{18}
+\glossaryentry{104@{\glosslabel{glo:104}{$\delta \EE _\tn {\textit {Varsh}}$}}Varshney correction to the bandgap energy for $T\neq 0$~K\relax|glsnumformat}{18}
+\glossaryentry{104@{\glosslabel{glo:104}{$\Delta \EE _c^\Gamma $}}conduction band offset at the $\Gamma $ point\relax|glsnumformat}{18}
+\glossaryentry{p@{\glosslabel{glo:p}{$P$}}generic material parameter\relax|glsnumformat}{19}
+\glossaryentry{c@{\glosslabel{glo:c}{$C_B$}}bowing parameter\relax|glsnumformat}{19}
+\glossaryentry{x@{\glosslabel{glo:x}{$x$}}mole fraction\relax|glsnumformat}{19}
+\glossaryentry{q@{\glosslabel{glo:q}{QC}}quantum cascade\relax|glsnumformat}{46}
+\glossaryentry{q@{\glosslabel{glo:q}{QCL}}quantum cascade laser\relax|glsnumformat}{46}
+\glossaryentry{c@{\glosslabel{glo:c}{CW}}continuous wave\relax|glsnumformat}{46}
+\glossaryentry{r@{\glosslabel{glo:r}{RT}}room temperature\relax|glsnumformat}{46}
+\glossaryentry{i@{\glosslabel{glo:i}{ICL}}interband cascade laser\relax|glsnumformat}{46}
+\glossaryentry{DFB@{\glosslabel{glo:DFB}{DFB}}distributed feedback\relax|glsnumformat}{46}
+\glossaryentry{FTIR@{\glosslabel{glo:FTIR}{FTIR}}Fourier transform infrared spectrometer\relax|glsnumformat}{46}
+\glossaryentry{MBE@{\glosslabel{glo:MBE}{MBE}}molecular beam epitaxy\relax|glsnumformat}{46}
+\glossaryentry{LO@{\glosslabel{glo:LO}{LO}}longitudinal optical\relax|glsnumformat}{46}
+\glossaryentry{SEM@{\glosslabel{glo:SEM}{SEM}}scanning electron microscope\relax|glsnumformat}{46}

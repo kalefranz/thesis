@@ -1,0 +1,11 @@
+There is a new version of this package, called "fancyhdr" in
+tex-archive/macros/latex/contrib/supported/fancyhdr. 
+It has an easier user interface for complicated cases, but it is 99%
+compatible with fancyheadings. It works with both LaTeX2e (the real LaTeX)
+and LaTeX 2.09 (the obsolete version). I advise you to use fancyhdr,
+unless this would give you serious problems (in which case I would like to
+know what the problems are).
+
+Piet van Oostrum
+mailto:piet@cs.ruu.nl
+http://www.cs.ruu.nl/~piet

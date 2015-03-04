@@ -1,0 +1,173 @@
+%\documentclass[12pt]{report}
+%\usepackage{kjfsty}
+%
+%\begin{document}
+%
+%%\tableofcontents
+%\onehalfspacing
+
+\setcounter{chapter}{5}
+\chapter[Conclusions]{Conclusions}
+%\addcontentsline{toc}{chapter}{Conclusions}
+%\chaptermark{Conclusions}
+
+In this thesis, we have demonstrated how QC lasers can be remarkably amenable to new laser design strategies. It's true: QC lasers have a level of engineerability unlike any other laser system known.  The gain media for gas and solid state lasers, for example, have properties that are almost exclusively determined by nature.  And even in semiconductor diode lasers, but for the inclusion of strained wells in 1988 \cite{Yablonovitch:JLT:1988}, the same basic quantum confined double heterostructure first envisioned in 1974 \cite{Dingle:PRL:1974} and demonstrated in 1975 \cite{vanderZiel:APL:1975} is still today's state-of-the-art gain medium.  The tremendous improvement in diode laser performance since that time is substantially a result of better growth and fabrication techniques.
+
+Seeking to exploit the inherent flexibility in QC structures, we have in this dissertation presented our work with new QC design strategies.  Specifically, we looked at excited state QC lasers for the application of long wavelength emission and at shortened injector regions for improving laser performance.  While work progressed toward our initial application goals, we also discovered several new phenomena that may one day be further exploited for better performance and innovative applications.
+
+We discussed the generality of the QC concept; that is, QC structures are not limited to any single material system.  While all QC lasers to date have been implemented in III--V materials, this need not, and someday will not, be the case.  Here, we discussed our work towards implementing QC structures in II--VI materials.  In the future, intersubband devices such as QC lasers may be made from even more exotic structures, such as from alternating layers of semiconductor and oxide materials \cite{Choquette:JSTQE:1997}.
+
+%The pace of diode laser development and performance improvements slowed down after the quantum well double heterostructure design concept was fully realized. The quantum cascade has the flexibility to avoid this stall.
+
+%We will see incremental improvement even with today's conventional ideas.  We will see leaps in improvement from unconventional ideas.  And those unconventional ideas are only possible because of the tremendous amount of creative freedom afforded by the quantum cascade.
+
+
+In the following sections, we summarize the key results of this thesis; we also discuss my perspective on the future of the mid-infrared QC laser field.
+
+
+\section{Thesis Summary}
+
+In Chapter 1, we outlined several applications for mid-infrared light.  These included both currently in-use applications, such as a variety of trace gas sensing applications, and also promising applications for the future, such as defense countermeasures.  After a basic introduction to QC laser operating principles, we discussed some of the current capabilities and limitations facing state-of-the-art QC lasers.  Finally, we gave an overview of the QC laser development process, discussing the basic inputs to design, growth, and processing.
+
+Chapter 2 of this thesis was used to present a ``toolbox'' for designing QC lasers.  Included were details necessary for solving QC band structures.  Then, parameters that are of interest for QC laser quantum design, such as the optical dipole matrix element and LO phonon scattering time, were discussed. Finally, the fundamental relations that govern performance metrics, threshold current, output power, and slope efficiency were derived from first principles.
+
+
+\subsection{II--VI QC Structures}
+
+As mentioned in Chapter 1, a current challenge faced by QC lasers is performance that cuts off sharply at wavelengths below 4~\um\ for high performance InGaAs/AlInAs structures.  Yet, with highly important molecular resonances in the 3--4~\um\ range---such as the C--H stretch---along with the presence of a key infrared countermeasure band, high performance light sources at wavelengths below 4~\um\ would be of commercial interest.  Chapter 3 thus discusses our work with II--VI QC structures, a materials system that is not plagued by the limitations of conduction band offset and intervalley scattering present in III--V materials.
+After reviewing the state-of-the-art in alternative QC materials systems such as those incorporating Sb, we discuss the materials properties and epitaxial growth of ZnCdSe / ZnCdMgSe structures grown on InP.  We also gave an in-depth discussion of fabrication and processing techniques related ZnCdSe / ZnCdMgSe on InP, which in some areas we found to be different than the standard processing steps used for III-V InGaAs/AlInAs structures.  Our preliminary work looked to confirm the presence of intersubband transitions in ZnCdSe / ZnCdMgSe quantum well structures, which we observed as resonant TM absorption at the ground state energy transition of the as-grown single quantum well.  With this result, we were able to proceed in the design of a ZnCdSe / ZnCdMgSe QC structure.  A first generation design took the conventional, well-understood strategy of a two-well active region QC structure.  We confirmed intersubband absorption in the fabricated structure that was a good match to calculated absorption energies.  With electrical pumping, we saw TM-polarized EL at 80~K that was centered near 4.8~\um, in good agreement with the design wavelength of 4.4~\um.  This 4.8~\um\ emission was observed to persist through room temperature.  Along with the 4.8~\um\ light, we observed longer wavelength light that grew in intensity with temperature.  The IV characteristics of the first generation structure confirmed electron transport behavior as expected from a QC device.
+
+Second generation devices with a theoretically improved design and a slightly different design wavelength (4.8~\um) were also grown and tested.  These devices showed extraordinarily similar emission energies as the first generation devices, despite the nominally different design wavelengths.  While contributing doubt to the origin of the initial EL observation, the majority of the data is nevertheless largely consistent the EL originating from an intersubband optical transition.
+
+Concluding remarks in the chapter shared a number of ideas for future directions for II--VI QC research.  These included multiple new design strategies to compensate for the high degree of MBE growth difficulty, the inclusion of strain compensation to increase the material band offset, and a method for overcoming challenges associated with laser waveguides in ZnCdSe/ZnCdMgSe on InP structures.
+
+
+\subsection{Excited State Quantum Cascade Lasers and High \textit{k}-Space Lasing}
+
+Achieving high performance at longer wavelengths---beyond about 12~\um---is perhaps even more difficult than lasing below 4~\um.  In Chapter 4, we proposed a new QC design strategy that can increase the optical dipole matrix element: excited state transitions.  By increasing the optical dipole matrix element, we can reduce the extremely high thresholds that pose such a challenge to long wavelength devices.  After the design and fabrication of an excited state QC laser design, we observed unexpected dual wavelength emission from the devices.  We determined that the emission originated from energetically stacked transitions within the QC active region.
+
+Further study of the temperature dependence of the individual LI curves for the two transitions showed remarkably unusual behavior. Rather than output power for the two transitions being positively correlated---as would intuitively be expected for stacked transitions---we observed just the opposite.  This anti-correlation in output power suggested carrier populations that were strongly linked.  We rationalized that the second, lower optical transition in the active region was positioned high in \linebreak \emph{k}-space.  A new discovery in QC lasers to be sure, our excited state structure made this observation possible because of the method by which we populated a highly excited state in the active region, resulting in multiple transitions with large oscillator strength in each active region.  Since non-radiative LO phonon scattering populates an energy subband high in \emph{k}-space, our excited state structure was able to make use of these high \emph{k}-space electrons in a lasing transition.  We confirmed the feasibility of our explanation through a rate equation model that included stimulated emission terms for two optical transitions (one at high \emph{k}-space) and all applicable temperature-dependencies.  Our model was accurately fit to observed threshold data.  We moreover confirmed \emph{k}-space lasing through the observation of a spectral red-shift in the \emph{k}-space emission that is due to energy state non-parabolicity.
+
+Concluding remarks in the chapter discussed a number of applications for high \linebreak[3.9] \emph{k}-space lasing.  These included making use of \emph{k}-space transitions for lowering threshold currents and for improving QC laser tunability.  Also, we discussed the possibility of excited state structures that produce stacked optical transitions being used for correlated photon pair generation, so long as both transitions are made able to lase at the $\Gamma$ point.
+
+\subsection{Short Injector Quantum Cascade Lasers}
+
+In Chapter 5, we explored in-depth the role of the QC injector region.  While injectors are not the source of photon generation, they perform many other functions vital to healthy QC laser performance.  So while we cannot eliminate injector regions altogether, we examine the possibility of minimizing the space they take up.  In theory, optimizing (that is, minimizing) injector length should lead to lower threshold currents, higher slope efficiencies, higher wall-plug efficiencies, lower differential resistance, and ultimately higher output power.
+
+We designed and analyzed two short injector structures containing three active region quantum wells and either two or three injector region quantum wells.  In these structures, the total QC period length was reduced by nearly a factor of two over a conventional QC structure of a similar emission wavelength.  We observed many unique properties in the LI and IV data for each device that we attribute (i) to the enhanced coupling between adjacent active regions due to the shortened injector length and (ii) to the highly discrete nature of the injector energy states resulting from so few quantum wells per QC period.  The first of these observed behaviors was pronounced negative differential resistance in the three injector well structure; the NDR showed a complex and rich interaction with the presence of stimulated emission.  Here, we concluded that two primary current transport paths (field alignments) are naturally supported by the structure, and that the laser dynamically chooses which to operate in based on the per period transit time.  Furthermore, we found this transit time to be highly dynamic, and dependent upon the cavity photon density in the presence of stimulated emission.
+
+While the two injector well structure showed some of these same NDR features, the NDR was not nearly as pronounced here.  The two injector well structure featured its own unique behavior, with a distinctive turn-off feature that happened at a constant applied voltage with temperature.  This was in addition to the customary turn-off feature that happens at a constant current with temperature---that is, the standard $J_{max}$.  We attributed the presence of this constant voltage turn-off to the highly discrete nature of the injector region states.
+
+To conclude the chapter, we discussed a present limitation of short injector structures: consistently low $T_0$ leading to substantially degraded performance near room temperature.  We proposed an alternative way to interpret threshold---a threshold voltage rather than threshold current---which may provide insight into how to ultimately improve laser performance at elevated temperatures.
+
+
+\section{Challenges for the Next Decade of Research}
+
+The future development of mid-infrared QC lasers holds only the utmost of promise.  Performance and capabilities have seen rapid improvement and expansion in just the last few years alone.  Continued development and progress seems at this point to be unbounded: with an understanding of the root cause of present challenges, the remarkably flexible QC concept will undoubtedly allow for the engineering of new QC architectures that mitigate or eliminate the problem's root cause.
+
+There are several challenges that at present dominate the QC landscape.  These challenges present rich opportunities for impactful research.  Here, I name these challenges explicitly, and I give forward-looking predictions and personal opinions regarding the field's prospects.
+
+\subsection{Tunability}
+
+The ability to tune the emission wavelength over a substantially broad range will be useful for versatile trace gas sensing systems.  Currently, the internal tuning mechanisms available to a QC laser are limited to changing the device temperature.  This of course can be complemented with the external tuning mechanism of an external cavity \cite{Wysocki:APB:2008}.  Both have limitations: temperature tuning is slow, and external cavities are still limited by the internal width of the QC gain spectrum.  This thesis has suggested one new mechanism for internally augmenting the tunability---high \emph{k}-space transitions---and research into the ability to voltage-tune a QC structure also appears promising \cite{Yao:JQE:2009}.
+
+\medskip
+
+\noindent
+\tb{The Challenge} \quad  Can we make a single structure that can tune across the second atmospheric window?  The first?  Both?
+
+\subsection{Single Mode Emission}
+
+While tunability is important, gas-phase laser spectroscopy relies on laser emission at a single spectral mode.  Traditionally, this has been accomplished through distributed feedback \cite{Gmachl:APL:1998:DFB} or distributed Bragg reflector \cite{Hvozdara:APL:2000:DBR} structures.  Yet these methods for single mode emission impose structures that are mechanically hard-written into the laser itself.  Certainly, these methods are prohibitive to the possibility of internal, dynamic tunability mechanisms.  Coupling \emph{both} tunability and single mode emission is a tall order indeed.
+
+\medskip
+
+\noindent
+\tb{The Challenge} \quad  Can we develop methods for single mode emission internal to the QC laser that also accommodate internal tunability?
+
+
+\subsection{Wall-plug Efficiency}
+
+QC laser wall-plug efficiency has made extraordinary progress over the last few years.  However, research here has focused only on a narrow wavelength band.  And the DARPA-imposed ``top of the mountain,'' 50\% at RT CW, has yet to be reached.  Furthermore, the record numbers reported in the literature are commonly thought of as ``hero'' results, where a single device may possess such high performance, but the median capability of all similarly produced devices is considerably lower.
+
+Improving the efficiency of QC lasers would significantly expand the number of problems for which QC lasers are a solution.  Efficiency goals will not be reached with today's conventional thinking.  Unconventional ideas---those that capitalize upon and exploit the innate engineerability of the quantum cascade---will be required.  To be sure, unconventional thinking is risky, and ideas most often fail to yield the intended result.  But sometimes they succeed.
+
+\medskip
+
+\noindent
+\tb{The Challenge} \quad  Can RT CW lasers operating with 50\% WPE be made over a large swath of wavelengths? And can they be manufactured reproducibly?
+
+
+%50\% CW RT.  I think it can be done.  And in a commercial setting; not just from ``hero'' devices.  There's so much we don't yet understand about current results.   But it's not going to be done with today's conventional designs.  Unconventional thinking is risky, ideas usually don't work out, but sometimes they do.
+
+
+
+\subsection{Low Input Power Devices}
+One almost completely unexplored area in the QC landscape is low input power devices \cite{Blaser:ElecLett:2007} \cite{Liu:CLEO:2008}.  Most spectroscopy systems---representing the vast majority of present-day uses for QC lasers in terms of number of applications---do not need a lot of optical power.  Usually, 10--100~mW is plenty.  There is great opportunity for optimizing laser design and performance to \emph{minimize input power}.
+
+Using the typical 5~mW green laser pointer as a basis for comparison, a 10~W QC laser is exceedingly bright, and it would be overkill for many applications.  Furthermore, high output power necessitates high input power: a system surrounding a 5\% efficient laser operating with 20~W of input power must dissipate 19~W of heat!  A 5~mW QC laser with the same 5\% efficiency, by comparison, would need only 0.1~W of input power and thus would be accompanied by substantially reduced thermal dissipation requirements.
+
+\medskip
+
+\noindent
+\tb{The Challenge} \quad  Can we meet the 50\% WPE challenge with devices geared toward low input power rather than high output power?
+
+
+
+\subsection{Short Wavelength QC Lasers}
+The 3--4~\um\ gap in semiconductor laser capability remains a challenge.  With further research, strained InGaAs / AlInAs QC lasers will easily reach 3.7~\um\ CW RT emission; innovative design concepts may put 3.5~\um\ within reach.  Emission down to 3.3~\um\ for this material system poses a considerable challenge.
+
+Because of issues of intervalley transfer in the QC well material, Sb will never be of practical use for QC lasers grown on InP substrates.  However, InAs / AlSb should be able cover the 3--3.5~\um\ span nicely---with RT CW performance---given further research.  The challenges with InAs substrates are of now sizable;  improvement will be needed on all QC frontiers: QC design, waveguide design, growth, fabrication, and heat sinking/mounting technology.  In a practical sense, diode lasers may more effectively cover the 3--3.5~\um\ gap for low power applications. The high power 3--3.5 \um\ applications, however, will necessarily have to be covered by QC lasers.
+
+\medskip
+
+\noindent
+\tb{The Challenge} \quad  Can QC lasers fully cover the 3--4~\um\ gap with RT CW performance?  Can the industry-preferred InGaAs / AlInAs structures reach 3.3~\um?
+
+
+\subsection{Long Wavelength QC Lasers}
+
+RT CW emission at long wavelengths is among the most daunting challenges faced by QC lasers today.  Indeed, achieving a 20~\um\ CW RT laser (that is, lasing at all, at any efficiency) is probably a bigger challenge than a 4.5~\um\ laser at 50\% CW RT.  Despite the challenge, expanding capabilities to longer wavelengths is important.  The potential applications, especially out to about 20~\um, could be highly rewarding.  Progress on this front will be realized only through further innovation in design strategy.
+
+\medskip
+
+\noindent
+\tb{The Challenge} \quad  Can QC lasers be made to operate RT CW at a wavelength of 20~\um?
+
+
+\section{The Feasibility of a Sustainable QC Laser-based Industry}
+
+I wish to close by sharing some thoughts about the potential degree to which QC lasers will have a real-world impact.
+\begin{center}
+Without question, I am an enthusiastic believer that QC technology is \\
+in store for a brilliant future.
+\end{center}
+Over the last two years, I have had the privilege of founding and working with Primis Technologies LLC, a startup company with the mission of commercializing mid-infrared technologies.  When colleagues and I embarked on this journey, I knew earning a Ph.D. while simultaneously running a company would be a challenge. Yet ambition got the better of me, and doing both was the only option.  Priorities as they are, research took first seat.  To this point, Primis has been much more of a side project than it deserved.  Still, I would not want to give up the experience.  And my position of straddling industry and academia has given me a unique perspective.
+
+I find the mid-infrared industry, at present, to be lacking in its ability to innovate.  Applications drive the ultimate impact of any technology.  Mid-infrared technology is in need of demonstrably successful applications---that is, successful in the private sector.  The industry right now is far too reliant on the ``obvious'' and ``easy'' applications, those of military or homeland security scope where government is the ultimate end user and consumer.  Innovation is needed to develop new ideas and new applications that will be of interest and importance to private---at least, non-government---consumers.  There are problems out there waiting to be solved.  Just one example: in a world of limited raw inputs, especially in a market like the first half of 2008 where the costs of raw inputs were at historic levels, marked improvements in efficient use of inputs will (i) prove profitable and (ii) ultimately enhance the sustainability of the human condition.  Innovative and creative uses of mid-infrared technology can without doubt improve raw input efficiency in commercially-relevant areas.
+
+\pagebreak[3]
+
+That said, perhaps all that's needed is time.  With the relative size of the industry compared to the shear number of potential applications, competition should not be a concern.  As the industry has yet to secure legitimacy, and since mid-infrared technology has yet to broadly prove itself, the industry as a whole will reap substantial benefit from the success of any individual participant.  The more participants there are, the faster this will happen. Truly, problems exist that are uniquely suited to solutions making use of mid-infrared light.  Let's find them; let's solve them.  Those solutions in hand, a healthy mid-infrared industry will inevitably emerge.
+
+%And when this happens, everybody will benefit.
+
+%It's an environment ideally suited to companies working together to
+
+
+
+
+
+%The potential for innovation is too large for there to be any real competition.  At least, that's the way it should be.  Competing over military and homeland security government contracts is a waste of industry resources.
+
+
+%Applications development.  Need innovation.  But it's possible.  There's so much out there.  Obvious applications are military and homeland security.  But the industry will not thrive feeding only from the government trough.  An applications strategy that seeks to introduce mid-ir technologies to penetrate commercial and industrial sectors.  Mid-IR companies need to talk to other companies.  Find out what there problems are, and solve them.  These problems exist.  And the industry shouldn't view each other as competition right now.  There are so many opportunities, too many for the current industrial base to cover.  Any success of a single entity will be good for the mid-ir industry as a whole, provide legitimacy.
+
+%Market penetrability of applications.
+
+%As the technology continues to improve,
+
+%
+%\bibliographystyle{kale3}
+%\bibliography{biblio}
+%\end{document} 

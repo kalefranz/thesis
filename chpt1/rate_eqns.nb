@@ -1,0 +1,2150 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     71241,       2141]
+NotebookOptionsPosition[     66926,       1992]
+NotebookOutlinePosition[     67269,       2007]
+CellTagsIndexPosition[     67226,       2004]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Simple two level", "Subtitle",
+ CellChangeTimes->{{3.444122160609375*^9, 3.444122162625*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", "\[IndentingNewLine]", 
+  RowBox[{"t3", ":", " ", 
+   RowBox[{
+    RowBox[{"\[Eta]inj", " ", 
+     FractionBox["J", "q"]}], "-", 
+    RowBox[{
+     RowBox[{"n3", "/", "\[Tau]3"}], "\[IndentingNewLine]", 
+     RowBox[{"t2", ":", " ", 
+      RowBox[{
+       RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+       RowBox[{"n2", "/", "\[Tau]2"}]}]}]}]}]}], "\[IndentingNewLine]", 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.444122183859375*^9, 3.444122215625*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Eta]inj", " ", 
+         FractionBox["J", "q"]}], "-", 
+        RowBox[{"n3", "/", "\[Tau]3"}]}], "\[Equal]", "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+        RowBox[{"n2", "/", "\[Tau]2"}]}], "\[Equal]", "0"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n3", ",", "n2"}], "}"}]}], "]"}], "//", "Simplify"}]], "Input",
+ CellChangeTimes->{{3.44412223521875*^9, 3.44412224053125*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"n2", "\[Rule]", 
+     FractionBox[
+      RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3"}], 
+      RowBox[{"q", " ", "\[Tau]32"}]]}], ",", 
+    RowBox[{"n3", "\[Rule]", 
+     FractionBox[
+      RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3"}], "q"]}]}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.444122241609375*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3"}], 
+    RowBox[{"q", " ", "\[Tau]32"}]], "-", 
+   FractionBox[
+    RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3"}], "q"]}], "//", 
+  "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.444122252546875*^9, 3.444122258*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}]}], 
+  RowBox[{"q", " ", "\[Tau]32"}]]], "Output",
+ CellChangeTimes->{3.444122258171875*^9}]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["With stimulated emission", "Subtitle",
+ CellChangeTimes->{{3.44412214528125*^9, 3.44412214790625*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", "\[IndentingNewLine]", 
+  RowBox[{"3", ":", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"\[Eta]inj", " ", 
+      FractionBox["J", "q"]}], "-", 
+     RowBox[{"n3", "/", "\[Tau]3"}], "-", 
+     RowBox[{"gc", " ", 
+      RowBox[{"(", 
+       RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]", "\[IndentingNewLine]",
+       "2"}]}], ":", " ", 
+    RowBox[{
+     RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+     RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+     RowBox[{"gc", " ", 
+      RowBox[{"(", 
+       RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]", "\[IndentingNewLine]",
+       
+      RowBox[{"\[Phi]", ":", " ", 
+       RowBox[{
+        RowBox[{"\[CapitalGamma]", " ", "vg", " ", "gc", " ", 
+         FractionBox[
+          RowBox[{"(", 
+           RowBox[{"n3", "-", "n2"}], ")"}], "da"], " ", "\[Phi]"}], " ", "-",
+         " ", 
+        FractionBox["\[Phi]", "\[Tau]ph"]}]}]}]}]}]}], "\[IndentingNewLine]", 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.443881934375*^9, 3.4438820433125*^9}, {
+   3.443884394734375*^9, 3.443884398828125*^9}, {3.44388503265625*^9, 
+   3.44388504153125*^9}, {3.443893990765625*^9, 3.443894004109375*^9}, {
+   3.443894046078125*^9, 3.443894061453125*^9}, 3.444039170921875*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Eta]inj", " ", 
+         FractionBox["J", "q"]}], "-", 
+        RowBox[{"n3", "/", "\[Tau]3"}], "-", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]"}]}], "\[Equal]", 
+       "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+        RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]"}]}], "\[Equal]", 
+       "0"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n3", ",", "n2"}], "}"}]}], "]"}], "//", "Simplify"}]], "Input",
+ CellChangeTimes->{{3.44388192928125*^9, 3.4438819309375*^9}, {
+  3.44388204784375*^9, 3.443882068515625*^9}, {3.44388440265625*^9, 
+  3.443884404984375*^9}, {3.443885062578125*^9, 3.44388506553125*^9}, {
+  3.443894085640625*^9, 3.443894091*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"n3", "\[Rule]", 
+     FractionBox[
+      RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", "\[Tau]32", " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], 
+      RowBox[{"q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+          "\[Phi]"}], "+", 
+         RowBox[{"\[Tau]32", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"gc", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+           ")"}]}]}], ")"}]}]]}], ",", 
+    RowBox[{"n2", "\[Rule]", 
+     FractionBox[
+      RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{"gc", " ", "\[Tau]32", " ", "\[Phi]"}]}], ")"}]}], 
+      RowBox[{"q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+          "\[Phi]"}], "+", 
+         RowBox[{"\[Tau]32", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"gc", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+           ")"}]}]}], ")"}]}]]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.443882081125*^9, {3.443884405546875*^9, 3.443884421625*^9}, 
+   3.443885069484375*^9, 3.44389409196875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"n3", "-", "n2"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", "\[Tau]32", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], 
+     RowBox[{"q", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}],
+         "+", 
+        RowBox[{"\[Tau]32", " ", 
+         RowBox[{"(", 
+          RowBox[{"1", "+", 
+           RowBox[{"gc", " ", 
+            RowBox[{"(", 
+             RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+          ")"}]}]}], ")"}]}]], "-", 
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"gc", " ", "\[Tau]32", " ", "\[Phi]"}]}], ")"}]}], 
+     RowBox[{"q", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}],
+         "+", 
+        RowBox[{"\[Tau]32", " ", 
+         RowBox[{"(", 
+          RowBox[{"1", "+", 
+           RowBox[{"gc", " ", 
+            RowBox[{"(", 
+             RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+          ")"}]}]}], ")"}]}]]}], "//", "FullSimplify"}]}]], "Input",
+ CellChangeTimes->{{3.44388207678125*^9, 3.44388214484375*^9}, {
+  3.443884427265625*^9, 3.443884431*^9}, {3.443884490640625*^9, 
+  3.44388450315625*^9}, {3.443885076515625*^9, 3.443885083015625*^9}, {
+  3.443894096203125*^9, 3.443894099546875*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+  RowBox[{"q", " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Tau]32", "-", 
+     RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+     RowBox[{"gc", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+      "\[Phi]"}]}], ")"}]}]]], "Output",
+ CellChangeTimes->{{3.443882087296875*^9, 3.443882091609375*^9}, 
+   3.44388214559375*^9, 3.44388443546875*^9, {3.443884499703125*^9, 
+   3.44388450346875*^9}, 3.4438850834375*^9, 3.443894100171875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"now", " ", "set", " ", 
+     RowBox[{
+      SubscriptBox["\[PartialD]", "t"], "Sk"}]}], " ", "\[Equal]", " ", "0"}],
+    " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Solve", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[CapitalGamma]", " ", "vg", " ", "gc", " ", 
+        FractionBox[
+         RowBox[{"(", "n3n2", ")"}], "da"], " ", "\[Phi]"}], " ", "-", " ", 
+       FractionBox["\[Phi]", "\[Tau]ph"]}], " ", "\[Equal]", " ", "0"}], ",", 
+     "n3n2"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Solve", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"\[CapitalGamma]", " ", "vg", " ", "gc", " ", 
+          FractionBox[
+           RowBox[{"(", 
+            FractionBox[
+             RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+             RowBox[{"q", " ", 
+              RowBox[{"(", 
+               RowBox[{"\[Tau]32", "-", 
+                RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}],
+                 "+", 
+                RowBox[{"gc", " ", 
+                 RowBox[{"(", 
+                  RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32",
+                  " ", "\[Phi]"}]}], ")"}]}]], ")"}], "da"], " ", "\[Phi]"}], 
+         " ", "-", " ", 
+         FractionBox["\[Phi]", "\[Tau]ph"]}], "\[Equal]", "0"}], ",", 
+       "\[Phi]"}], "]"}], "//", "FullSimplify"}], "//", 
+    "Apart"}]}]}]], "Input",
+ CellChangeTimes->{{3.44388215371875*^9, 3.443882227609375*^9}, {
+   3.44388243503125*^9, 3.4438824369375*^9}, {3.443884445640625*^9, 
+   3.443884452109375*^9}, 3.443884507171875*^9, 3.44388508796875*^9, {
+   3.443894108421875*^9, 3.44389413375*^9}, 3.444039174171875*^9, {
+   3.444055126609375*^9, 3.44405514909375*^9}, {3.4440551800625*^9, 
+   3.4440551811875*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"n3n2", "\[Rule]", 
+    FractionBox["da", 
+     RowBox[{"gc", " ", "vg", " ", "\[CapitalGamma]", " ", "\[Tau]ph"}]]}], 
+   "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.44388217128125*^9, 3.4438821856875*^9}, 
+   3.44388245546875*^9, 3.443884452734375*^9, 3.443884507703125*^9, 
+   3.443885089265625*^9, 3.443894134546875*^9, 3.44403917790625*^9, {
+   3.444055136578125*^9, 3.444055149421875*^9}, 3.444055181421875*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\[Phi]", "\[Rule]", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Phi]", "\[Rule]", 
+     RowBox[{
+      RowBox[{"-", 
+       FractionBox["\[Tau]32", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", "\[Tau]2"}], " ", "\[Tau]3"}], "+", 
+           RowBox[{"\[Tau]2", " ", "\[Tau]32"}], "+", 
+           RowBox[{"\[Tau]3", " ", "\[Tau]32"}]}], ")"}]}]]}], "+", 
+      FractionBox[
+       RowBox[{
+       "J", " ", "vg", " ", "\[CapitalGamma]", " ", "\[Eta]inj", " ", 
+        "\[Tau]3", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}], " ", "\[Tau]ph"}], 
+       RowBox[{"da", " ", "q", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "-", 
+          RowBox[{"\[Tau]2", " ", "\[Tau]32"}], "-", 
+          RowBox[{"\[Tau]3", " ", "\[Tau]32"}]}], ")"}]}]]}]}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.44388217128125*^9, 3.4438821856875*^9}, 
+   3.44388245546875*^9, 3.443884452734375*^9, 3.443884507703125*^9, 
+   3.443885089265625*^9, 3.443894134546875*^9, 3.44403917790625*^9, {
+   3.444055136578125*^9, 3.444055149421875*^9}, 3.4440551814375*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ FractionBox["1", 
+  RowBox[{" ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "\[Tau]32"]}], "+", "\[Tau]2", 
+     "+", "\[Tau]3"}], ")"}]}]]], "Input",
+ CellChangeTimes->{{3.44405531540625*^9, 3.44405533284375*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"now", " ", "find", " ", 
+    RowBox[{"dS", "/", "dK"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[PartialD]", "J"], 
+    RowBox[{"(", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"da", " ", "q", " ", "\[Tau]32"}], "+", 
+       RowBox[{
+       "gc", " ", "J", " ", "vg", " ", "\[CapitalGamma]", " ", "\[Eta]inj", 
+        " ", "\[Tau]3", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}], " ", "\[Tau]ph"}]}], 
+      RowBox[{"da", " ", "gc", " ", "q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "-", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32"}]}], 
+        ")"}]}]], ")"}]}], "//", "FullSimplify"}]}]], "Input",
+ CellChangeTimes->{{3.443882234390625*^9, 3.443882275890625*^9}, 
+   3.4438844569375*^9, 3.443884512796875*^9, 3.4438850944375*^9, 
+   3.44389414271875*^9, 3.44403918390625*^9}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+  "vg", " ", "\[CapitalGamma]", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}], " ", "\[Tau]ph"}], 
+  RowBox[{"da", " ", "q", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32"}]}], 
+    ")"}]}]]], "Output",
+ CellChangeTimes->{{3.443882268625*^9, 3.44388227615625*^9}, 
+   3.443884457390625*^9, 3.44388451325*^9, 3.4438850948125*^9, 
+   3.443894144734375*^9, 3.44403918434375*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{"\[Tau]3", " ", 
+     RowBox[{"(", 
+      RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}]}], 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "-", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32"}]}], 
+     ")"}]], "\[Equal]", 
+   FractionBox[
+    RowBox[{"\[Tau]3", 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"\[Tau]2", "/", "\[Tau]32"}]}], ")"}]}], 
+    RowBox[{
+     RowBox[{"\[Tau]3", 
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        RowBox[{"\[Tau]2", "/", "\[Tau]32"}]}], ")"}]}], "+", "\[Tau]2"}]]}], 
+  "//", "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.443882823703125*^9, 3.443882859703125*^9}, {
+   3.4438844711875*^9, 3.443884480796875*^9}, 3.4438845189375*^9, {
+   3.443894159765625*^9, 3.443894166*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.443882859890625*^9, 3.443884481296875*^9, 
+  3.443884522359375*^9, 3.443894166453125*^9}]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["ninj without stimulated emission", "Subtitle",
+ CellChangeTimes->{{3.444122370625*^9, 3.44412237721875*^9}, {
+  3.44412311803125*^9, 3.44412312515625*^9}, {3.444132174734375*^9, 
+  3.4441321749375*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"3", ":", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"\[Eta]inj", " ", 
+       FractionBox["J", "q"]}], "-", 
+      RowBox[{
+       RowBox[{"n3", "/", "\[Tau]3"}], "\[IndentingNewLine]", "2"}]}], ":", 
+     " ", 
+     RowBox[{
+      RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+      RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+      RowBox[{
+       RowBox[{"ninj", "/", "\[Tau]2"}], "\[IndentingNewLine]", "where", " ", 
+       "ninj"}]}]}]}], " ", "=", " ", 
+   RowBox[{"ninj", " ", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+      RowBox[{"\[CapitalDelta]inj", "/", 
+       RowBox[{"{", "kT"}]}], ")"}]]}]}], "\[IndentingNewLine]", 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.44412240140625*^9, 3.4441224213125*^9}, {
+   3.444122502421875*^9, 3.44412250353125*^9}, {3.444122534421875*^9, 
+   3.444122585765625*^9}, 3.4441226731875*^9, 3.444124795515625*^9, {
+   3.444132181375*^9, 3.44413218321875*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Eta]inj", " ", 
+         FractionBox["J", "q"]}], "-", 
+        RowBox[{"n3", "/", "\[Tau]3"}]}], "\[Equal]", "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+        RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+        RowBox[{"ninj", "/", "\[Tau]2"}]}], "\[Equal]", "0"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n3", ",", "n2"}], "}"}]}], "]"}], "//", "Simplify"}]], "Input",
+ CellChangeTimes->{{3.44412259825*^9, 3.44412260415625*^9}, {
+  3.44412267659375*^9, 3.44412268125*^9}, {3.44413219196875*^9, 
+  3.4441321978125*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"n2", "\[Rule]", 
+     RowBox[{"ninj", "+", 
+      FractionBox[
+       RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3"}], 
+       RowBox[{"q", " ", "\[Tau]32"}]]}]}], ",", 
+    RowBox[{"n3", "\[Rule]", 
+     FractionBox[
+      RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3"}], "q"]}]}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.444122606796875*^9, 3.444122684078125*^9, 
+  3.4441321991875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3"}], "q"], "-", 
+   RowBox[{"(", 
+    RowBox[{"ninj", "+", 
+     FractionBox[
+      RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3"}], 
+      RowBox[{"q", " ", "\[Tau]32"}]]}], ")"}]}], "//", 
+  "FullSimplify"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "ninj"}], " ", "q", " ", "\[Tau]32"}], "+", 
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}]}], 
+    RowBox[{"q", " ", "\[Tau]32"}]], "==", 
+   FractionBox[
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "ninj"}], " ", "q"}], "+", 
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "\[Tau]2"}], "/", "\[Tau]32"}], "+", "1"}], ")"}]}]}], 
+    "q"]}], "//", "FullSimplify"}]}], "Input",
+ CellChangeTimes->{{3.444122612671875*^9, 3.444122622671875*^9}, {
+  3.4441226899375*^9, 3.44412269565625*^9}, {3.444132204609375*^9, 
+  3.44413233640625*^9}, {3.4441323725*^9, 3.444132385015625*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", "ninj"}], " ", "q", " ", "\[Tau]32"}], "+", 
+   RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}]}], 
+  RowBox[{"q", " ", "\[Tau]32"}]]], "Output",
+ CellChangeTimes->{{3.44412261809375*^9, 3.4441226229375*^9}, 
+   3.444122696140625*^9, {3.444132213125*^9, 3.444132293109375*^9}, {
+   3.44413233003125*^9, 3.44413233659375*^9}, {3.44413237515625*^9, 
+   3.44413238534375*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{{3.44412261809375*^9, 3.4441226229375*^9}, 
+   3.444122696140625*^9, {3.444132213125*^9, 3.444132293109375*^9}, {
+   3.44413233003125*^9, 3.44413233659375*^9}, {3.44413237515625*^9, 
+   3.444132385359375*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]eff"}], "q"], "-", "ninj"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.444132223859375*^9, 3.444132224109375*^9}, {
+  3.444132394421875*^9, 3.44413241346875*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  FractionBox[
+   RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+   RowBox[{"q", " ", 
+    RowBox[{"(", 
+     RowBox[{"\[Tau]32", "-", 
+      RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+      RowBox[{"gc", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+       "\[Phi]"}]}], ")"}]}]], "//", 
+  "FullSimplify"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+     RowBox[{"q", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Tau]32", "-", 
+        RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+         "\[Phi]"}]}], ")"}]}]], "\[Equal]", 
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]eff"}], 
+     RowBox[{"q", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"gc", " ", "\[Phi]", " ", 
+         RowBox[{"(", 
+          RowBox[{"\[Tau]eff", "+", "\[Tau]2"}], ")"}]}]}], " ", ")"}]}]]}], "/.",
+    
+   RowBox[{"\[Tau]eff", "->", 
+    RowBox[{"\[Tau]3", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "\[Tau]2"}], "/", "\[Tau]32"}], "+", "1"}], ")"}]}]}]}], 
+  "//", "FullSimplify"}]}], "Input",
+ CellChangeTimes->{{3.444123234421875*^9, 3.44412323759375*^9}, {
+  3.4441232744375*^9, 3.444123523609375*^9}, {3.44412355521875*^9, 
+  3.44412372396875*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+  RowBox[{"q", " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Tau]32", "-", 
+     RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+     RowBox[{"gc", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+      "\[Phi]"}]}], ")"}]}]]], "Output",
+ CellChangeTimes->{
+  3.444123237765625*^9, {3.44412341890625*^9, 3.44412345984375*^9}, {
+   3.44412350765625*^9, 3.444123524234375*^9}, {3.444123589125*^9, 
+   3.4441236359375*^9}, 3.444123666390625*^9, {3.444123697859375*^9, 
+   3.444123724375*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{
+  3.444123237765625*^9, {3.44412341890625*^9, 3.44412345984375*^9}, {
+   3.44412350765625*^9, 3.444123524234375*^9}, {3.444123589125*^9, 
+   3.4441236359375*^9}, 3.444123666390625*^9, {3.444123697859375*^9, 
+   3.444123724390625*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{"conclusion", ":", " ", 
+   RowBox[{"ninj", " ", 
+    RowBox[{"doesn", "'"}], "t", " ", "matter", " ", "for", " ", "slope", " ",
+     "efficiency"}]}], " ", "*)"}]], "Input",
+ CellChangeTimes->{{3.444124280046875*^9, 3.444124293109375*^9}}]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["ninj with stimulated emission", "Subtitle",
+ CellChangeTimes->{{3.444122370625*^9, 3.44412237721875*^9}, {
+  3.44412311803125*^9, 3.44412312515625*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"3", ":", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"\[Eta]inj", " ", 
+       FractionBox["J", "q"]}], "-", 
+      RowBox[{"n3", "/", "\[Tau]3"}], "-", 
+      RowBox[{"gc", " ", 
+       RowBox[{"(", 
+        RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]", 
+       "\[IndentingNewLine]", "2"}]}], ":", " ", 
+     RowBox[{
+      RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+      RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+      RowBox[{"ninj", "/", "\[Tau]2"}], "+", 
+      RowBox[{"gc", " ", 
+       RowBox[{"(", 
+        RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]", 
+       "\[IndentingNewLine]", "where", " ", "ninj"}]}]}]}], " ", "=", " ", 
+   RowBox[{"ninj", " ", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+      RowBox[{"\[CapitalDelta]inj", "/", 
+       RowBox[{"{", "kT"}]}], ")"}]]}]}], "\[IndentingNewLine]", 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.44412240140625*^9, 3.4441224213125*^9}, {
+   3.444122502421875*^9, 3.44412250353125*^9}, {3.444122534421875*^9, 
+   3.444122585765625*^9}, 3.4441226731875*^9, 3.444124795515625*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Eta]inj", " ", 
+         FractionBox["J", "q"]}], "-", 
+        RowBox[{"n3", "/", "\[Tau]3"}], "-", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]"}]}], "\[Equal]", 
+       "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+        RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+        RowBox[{"ninj", "/", "\[Tau]2"}], "+", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]"}]}], "\[Equal]", 
+       "0"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n3", ",", "n2"}], "}"}]}], "]"}], "//", "Simplify"}]], "Input",
+ CellChangeTimes->{{3.44412259825*^9, 3.44412260415625*^9}, {
+  3.44412267659375*^9, 3.44412268125*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"n3", "\[Rule]", 
+     FractionBox[
+      RowBox[{"\[Tau]3", " ", "\[Tau]32", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"gc", " ", "ninj", " ", "q", " ", "\[Phi]"}], "+", 
+         RowBox[{"J", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Eta]inj", "+", 
+            RowBox[{"gc", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Phi]"}]}],
+            ")"}]}]}], ")"}]}], 
+      RowBox[{"q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+          "\[Phi]"}], "+", 
+         RowBox[{"\[Tau]32", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"gc", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+           ")"}]}]}], ")"}]}]]}], ",", 
+    RowBox[{"n2", "\[Rule]", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"ninj", " ", "q", " ", "\[Tau]32", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{"gc", " ", "\[Tau]3", " ", "\[Phi]"}]}], ")"}]}], "+", 
+       RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{"gc", " ", "\[Tau]32", " ", "\[Phi]"}]}], ")"}]}]}], 
+      RowBox[{"q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+          "\[Phi]"}], "+", 
+         RowBox[{"\[Tau]32", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"gc", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+           ")"}]}]}], ")"}]}]]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.444122606796875*^9, 3.444122684078125*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{"\[Tau]3", " ", "\[Tau]32", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"gc", " ", "ninj", " ", "q", " ", "\[Phi]"}], "+", 
+       RowBox[{"J", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Eta]inj", "+", 
+          RowBox[{"gc", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Phi]"}]}], 
+         ")"}]}]}], ")"}]}], 
+    RowBox[{"q", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], 
+       "+", 
+       RowBox[{"\[Tau]32", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{"gc", " ", 
+           RowBox[{"(", 
+            RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+         ")"}]}]}], ")"}]}]], "-", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"ninj", " ", "q", " ", "\[Tau]32", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"gc", " ", "\[Tau]3", " ", "\[Phi]"}]}], ")"}]}], "+", 
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"gc", " ", "\[Tau]32", " ", "\[Phi]"}]}], ")"}]}]}], 
+    RowBox[{"q", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], 
+       "+", 
+       RowBox[{"\[Tau]32", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{"gc", " ", 
+           RowBox[{"(", 
+            RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+         ")"}]}]}], ")"}]}]]}], "//", "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.444122612671875*^9, 3.444122622671875*^9}, {
+  3.4441226899375*^9, 3.44412269565625*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", "ninj"}], " ", "q", " ", "\[Tau]32"}], "+", 
+   RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}]}], 
+  RowBox[{"q", " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Tau]32", "-", 
+     RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+     RowBox[{"gc", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+      "\[Phi]"}]}], ")"}]}]]], "Output",
+ CellChangeTimes->{{3.44412261809375*^9, 3.4441226229375*^9}, 
+   3.444122696140625*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  FractionBox[
+   RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+   RowBox[{"q", " ", 
+    RowBox[{"(", 
+     RowBox[{"\[Tau]32", "-", 
+      RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+      RowBox[{"gc", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+       "\[Phi]"}]}], ")"}]}]], "//", 
+  "FullSimplify"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+     RowBox[{"q", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Tau]32", "-", 
+        RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+         "\[Phi]"}]}], ")"}]}]], "\[Equal]", 
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]eff"}], 
+     RowBox[{"q", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"gc", " ", "\[Phi]", " ", 
+         RowBox[{"(", 
+          RowBox[{"\[Tau]eff", "+", "\[Tau]2"}], ")"}]}]}], " ", ")"}]}]]}], "/.",
+    
+   RowBox[{"\[Tau]eff", "->", 
+    RowBox[{"\[Tau]3", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "\[Tau]2"}], "/", "\[Tau]32"}], "+", "1"}], ")"}]}]}]}], 
+  "//", "FullSimplify"}]}], "Input",
+ CellChangeTimes->{{3.444123234421875*^9, 3.44412323759375*^9}, {
+  3.4441232744375*^9, 3.444123523609375*^9}, {3.44412355521875*^9, 
+  3.44412372396875*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+  RowBox[{"q", " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Tau]32", "-", 
+     RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+     RowBox[{"gc", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+      "\[Phi]"}]}], ")"}]}]]], "Output",
+ CellChangeTimes->{
+  3.444123237765625*^9, {3.44412341890625*^9, 3.44412345984375*^9}, {
+   3.44412350765625*^9, 3.444123524234375*^9}, {3.444123589125*^9, 
+   3.4441236359375*^9}, 3.444123666390625*^9, {3.444123697859375*^9, 
+   3.444123724375*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{
+  3.444123237765625*^9, {3.44412341890625*^9, 3.44412345984375*^9}, {
+   3.44412350765625*^9, 3.444123524234375*^9}, {3.444123589125*^9, 
+   3.4441236359375*^9}, 3.444123666390625*^9, {3.444123697859375*^9, 
+   3.444123724390625*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  FractionBox[
+   RowBox[{
+    RowBox[{"-", "ninj"}], " ", "q", " ", "\[Tau]32"}], 
+   RowBox[{"q", " ", 
+    RowBox[{"(", 
+     RowBox[{"\[Tau]32", "-", 
+      RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+      RowBox[{"gc", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+       "\[Phi]"}]}], ")"}]}]], "//", 
+  "FullSimplify"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{"ninj", " ", "\[Tau]32"}], 
+    RowBox[{
+     RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "-", 
+     RowBox[{"\[Tau]32", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+       ")"}]}]}]], "\[Equal]", 
+   RowBox[{"-", 
+    FractionBox["ninj", 
+     RowBox[{"1", "+", 
+      RowBox[{"gc", "  ", "\[Phi]", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]2", "+", 
+         RowBox[{"\[Tau]3", 
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            RowBox[{"\[Tau]2", "/", "\[Tau]32"}]}], ")"}]}]}], ")"}]}]}]]}]}],
+   "//", "FullSimplify"}]}], "Input",
+ CellChangeTimes->{{3.444122729265625*^9, 3.444122734578125*^9}, {
+  3.444122769953125*^9, 3.44412280021875*^9}, {3.444122831921875*^9, 
+  3.4441228701875*^9}, {3.44412290890625*^9, 3.4441230951875*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"ninj", " ", "\[Tau]32"}], 
+  RowBox[{
+   RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "-", 
+   RowBox[{"\[Tau]32", " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "+", 
+      RowBox[{"gc", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+     ")"}]}]}]]], "Output",
+ CellChangeTimes->{
+  3.444122734828125*^9, {3.444122848796875*^9, 3.444122870359375*^9}, {
+   3.44412291078125*^9, 3.44412295775*^9}, 3.44412299515625*^9, 
+   3.4441230959375*^9}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{
+  3.444122734828125*^9, {3.444122848796875*^9, 3.444122870359375*^9}, {
+   3.44412291078125*^9, 3.44412295775*^9}, 3.44412299515625*^9, 
+   3.444123095953125*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"n3", "-", "n2"}], " ", "\[Equal]", " ", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]eff"}], 
+    RowBox[{"q", " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", 
+       RowBox[{"gc", " ", "\[Phi]", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Tau]eff", "+", "\[Tau]2"}], ")"}]}]}], " ", ")"}]}]], "-",
+    
+   FractionBox["ninj", 
+    RowBox[{"1", "+", 
+     RowBox[{"gc", "  ", "\[Phi]", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Tau]2", "+", "\[Tau]eff"}], ")"}]}]}]]}]}]], "Input",
+ CellChangeTimes->{{3.444123747*^9, 3.444123764796875*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"\[CapitalGamma]", " ", "vg", " ", "gc", " ", 
+       FractionBox[
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox[
+           RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]eff"}], 
+           RowBox[{"q", " ", 
+            RowBox[{"(", 
+             RowBox[{"1", "+", 
+              RowBox[{"gc", " ", "\[Phi]", " ", 
+               RowBox[{"(", 
+                RowBox[{"\[Tau]eff", "+", "\[Tau]2"}], ")"}]}]}], " ", 
+             ")"}]}]], "-", 
+          FractionBox["ninj", 
+           RowBox[{"1", "+", 
+            RowBox[{"gc", "  ", "\[Phi]", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]2", "+", "\[Tau]eff"}], ")"}]}]}]]}], ")"}], 
+        "da"], " ", "\[Phi]"}], " ", "-", " ", 
+      FractionBox["\[Phi]", "\[Tau]ph"]}], " ", "\[Equal]", " ", "0"}], ",", 
+    "\[Phi]"}], "]"}], "//", "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.444123198421875*^9, 3.44412321275*^9}, {
+  3.444123779125*^9, 3.4441237930625*^9}, {3.444123862578125*^9, 
+  3.444123875546875*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\[Phi]", "\[Rule]", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Phi]", "\[Rule]", 
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{
+        RowBox[{"da", " ", "q"}], "+", 
+        RowBox[{
+        "gc", " ", "ninj", " ", "q", " ", "vg", " ", "\[CapitalGamma]", " ", 
+         "\[Tau]ph"}], "-", 
+        RowBox[{
+        "gc", " ", "J", " ", "vg", " ", "\[CapitalGamma]", " ", "\[Eta]inj", 
+         " ", "\[Tau]eff", " ", "\[Tau]ph"}]}], 
+       RowBox[{
+        RowBox[{"da", " ", "gc", " ", "q", " ", "\[Tau]2"}], "+", 
+        RowBox[{"da", " ", "gc", " ", "q", " ", "\[Tau]eff"}]}]]}]}], "}"}]}],
+   "}"}]], "Output",
+ CellChangeTimes->{{3.44412378*^9, 3.444123793390625*^9}, {3.444123870375*^9, 
+  3.444123875828125*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SubscriptBox["\[PartialD]", "J"], 
+   RowBox[{"(", 
+    RowBox[{"-", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"da", " ", "q"}], "+", 
+       RowBox[{
+       "gc", " ", "ninj", " ", "q", " ", "vg", " ", "\[CapitalGamma]", " ", 
+        "\[Tau]ph"}], "-", 
+       RowBox[{
+       "gc", " ", "J", " ", "vg", " ", "\[CapitalGamma]", " ", "\[Eta]inj", 
+        " ", "\[Tau]eff", " ", "\[Tau]ph"}]}], 
+      RowBox[{
+       RowBox[{"da", " ", "gc", " ", "q", " ", "\[Tau]2"}], "+", 
+       RowBox[{"da", " ", "gc", " ", "q", " ", "\[Tau]eff"}]}]]}], ")"}]}], "//",
+   "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.4441238913125*^9, 3.44412390053125*^9}, {
+   3.444123989296875*^9, 3.444124008015625*^9}, 3.444124055421875*^9}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+  "vg", " ", "\[CapitalGamma]", " ", "\[Eta]inj", " ", "\[Tau]eff", " ", 
+   "\[Tau]ph"}], 
+  RowBox[{
+   RowBox[{"da", " ", "q", " ", "\[Tau]2"}], "+", 
+   RowBox[{"da", " ", "q", " ", "\[Tau]eff"}]}]]], "Output",
+ CellChangeTimes->{
+  3.444123901390625*^9, {3.44412399428125*^9, 3.44412400825*^9}, 
+   3.444124057640625*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{"conclusion", ":", " ", 
+   RowBox[{"ninj", " ", 
+    RowBox[{"doesn", "'"}], "t", " ", "matter", " ", "for", " ", "slope", " ",
+     "efficiency"}]}], " ", "*)"}]], "Input",
+ CellChangeTimes->{{3.444124280046875*^9, 3.444124293109375*^9}}]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["exit out of level 3 with stimulated emission", "Subtitle",
+ CellChangeTimes->{{3.444122370625*^9, 3.44412237721875*^9}, {
+  3.44412311803125*^9, 3.44412312515625*^9}, {3.44412512353125*^9, 
+  3.444125125640625*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"3", ":", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"\[Eta]inj", " ", 
+       FractionBox["J", "q"]}], "-", 
+      RowBox[{"n3", "/", "\[Tau]3"}], "-", 
+      RowBox[{"n3", "/", "\[Tau]4x"}], "-", 
+      RowBox[{"gc", " ", 
+       RowBox[{"(", 
+        RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]", 
+       "\[IndentingNewLine]", "2"}]}], ":", " ", 
+     RowBox[{
+      RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+      RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+      RowBox[{"gc", " ", 
+       RowBox[{"(", 
+        RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]", 
+       "\[IndentingNewLine]", "where", " ", "ninj"}]}]}]}], " ", "=", " ", 
+   RowBox[{"ninj", " ", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+      RowBox[{"\[CapitalDelta]inj", "/", 
+       RowBox[{"{", "kT"}]}], ")"}]]}]}], "\[IndentingNewLine]", 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.44412240140625*^9, 3.4441224213125*^9}, {
+   3.444122502421875*^9, 3.44412250353125*^9}, {3.444122534421875*^9, 
+   3.444122585765625*^9}, 3.4441226731875*^9, {3.444124445734375*^9, 
+   3.444124456453125*^9}, {3.444124503*^9, 3.4441245040625*^9}, {
+   3.44412477553125*^9, 3.444124778046875*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Eta]inj", " ", 
+         FractionBox["J", "q"]}], "-", 
+        RowBox[{"n3", "/", "\[Tau]3"}], "-", 
+        RowBox[{"n3", "/", "\[Tau]4x"}], "-", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]"}]}], "\[Equal]", 
+       "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+        RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]"}]}], "\[Equal]", 
+       "0"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n3", ",", "n2"}], "}"}]}], "]"}], "//", "Simplify"}]], "Input",
+ CellChangeTimes->{{3.44412259825*^9, 3.44412260415625*^9}, {
+   3.44412267659375*^9, 3.44412268125*^9}, {3.44412449428125*^9, 
+   3.444124510796875*^9}, 3.44412480078125*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"n3", "\[Rule]", 
+     FractionBox[
+      RowBox[{
+      "J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", "\[Tau]32", " ", "\[Tau]4x",
+        " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], 
+      RowBox[{"q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]32", " ", "\[Tau]4x", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], "+", 
+         RowBox[{"\[Tau]3", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]4x", " ", 
+             "\[Phi]"}], "+", 
+            RowBox[{"\[Tau]32", " ", 
+             RowBox[{"(", 
+              RowBox[{"1", "+", 
+               RowBox[{"gc", " ", 
+                RowBox[{"(", 
+                 RowBox[{"\[Tau]2", "+", "\[Tau]4x"}], ")"}], " ", 
+                "\[Phi]"}]}], ")"}]}]}], ")"}]}]}], ")"}]}]]}], ",", 
+    RowBox[{"n2", "\[Rule]", 
+     FractionBox[
+      RowBox[{
+      "J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Tau]4x", 
+       " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{"gc", " ", "\[Tau]32", " ", "\[Phi]"}]}], ")"}]}], 
+      RowBox[{"q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]32", " ", "\[Tau]4x", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], "+", 
+         RowBox[{"\[Tau]3", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]4x", " ", 
+             "\[Phi]"}], "+", 
+            RowBox[{"\[Tau]32", " ", 
+             RowBox[{"(", 
+              RowBox[{"1", "+", 
+               RowBox[{"gc", " ", 
+                RowBox[{"(", 
+                 RowBox[{"\[Tau]2", "+", "\[Tau]4x"}], ")"}], " ", 
+                "\[Phi]"}]}], ")"}]}]}], ")"}]}]}], ")"}]}]]}]}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.444122606796875*^9, 3.444122684078125*^9, 
+  3.444124511515625*^9, 3.444124801578125*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{
+    "J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", "\[Tau]32", " ", "\[Tau]4x", 
+     " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", 
+       RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], 
+    RowBox[{"q", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"\[Tau]32", " ", "\[Tau]4x", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], "+", 
+       RowBox[{"\[Tau]3", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]4x", " ", 
+           "\[Phi]"}], "+", 
+          RowBox[{"\[Tau]32", " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"gc", " ", 
+              RowBox[{"(", 
+               RowBox[{"\[Tau]2", "+", "\[Tau]4x"}], ")"}], " ", "\[Phi]"}]}],
+             ")"}]}]}], ")"}]}]}], ")"}]}]], "-", 
+   FractionBox[
+    RowBox[{
+    "J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Tau]4x", 
+     " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", 
+       RowBox[{"gc", " ", "\[Tau]32", " ", "\[Phi]"}]}], ")"}]}], 
+    RowBox[{"q", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"\[Tau]32", " ", "\[Tau]4x", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], "+", 
+       RowBox[{"\[Tau]3", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]4x", " ", 
+           "\[Phi]"}], "+", 
+          RowBox[{"\[Tau]32", " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"gc", " ", 
+              RowBox[{"(", 
+               RowBox[{"\[Tau]2", "+", "\[Tau]4x"}], ")"}], " ", "\[Phi]"}]}],
+             ")"}]}]}], ")"}]}]}], ")"}]}]]}], "//", 
+  "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.44412451671875*^9, 3.44412452240625*^9}, {
+  3.444124806140625*^9, 3.44412480996875*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}], " ", "\[Tau]4x"}], 
+  RowBox[{
+   RowBox[{"q", " ", "\[Tau]32", " ", 
+    RowBox[{"(", 
+     RowBox[{"\[Tau]3", "+", "\[Tau]4x"}], ")"}]}], "+", 
+   RowBox[{"gc", " ", "q", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Tau]3", " ", "\[Tau]32", " ", "\[Tau]4x"}], "+", 
+      RowBox[{"\[Tau]2", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]3", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Tau]32", "-", "\[Tau]4x"}], ")"}]}], "+", 
+         RowBox[{"\[Tau]32", " ", "\[Tau]4x"}]}], ")"}]}]}], ")"}], " ", 
+    "\[Phi]"}]}]]], "Output",
+ CellChangeTimes->{3.44412452275*^9, 3.4441248105*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}], " ", "\[Tau]4x"}],
+      
+     RowBox[{
+      RowBox[{"q", " ", "\[Tau]32", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]3", "+", "\[Tau]4x"}], ")"}]}], "+", 
+      RowBox[{"gc", " ", "q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]3", " ", "\[Tau]32", " ", "\[Tau]4x"}], "+", 
+         RowBox[{"\[Tau]2", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"\[Tau]3", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]32", "-", "\[Tau]4x"}], ")"}]}], "+", 
+            RowBox[{"\[Tau]32", " ", "\[Tau]4x"}]}], ")"}]}]}], ")"}], " ", 
+       "\[Phi]"}]}]], 
+    RowBox[{"(", 
+     FractionBox[
+      RowBox[{"\[Tau]eff", "+", "\[Tau]2"}], "\[Tau]eff"], ")"}]}], "/.", 
+   RowBox[{"\[Tau]eff", "->", 
+    RowBox[{"\[Tau]3", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "\[Tau]2"}], "/", "\[Tau]32"}], "+", "1"}], ")"}]}]}]}], 
+  "//", "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.444124546109375*^9, 3.444124580484375*^9}, {
+   3.4441246165625*^9, 3.444124632921875*^9}, 3.444124819453125*^9}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"J", " ", "\[Eta]inj", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "\[Tau]2"}], " ", "\[Tau]3"}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32"}]}], ")"}],
+    " ", "\[Tau]4x"}], 
+  RowBox[{
+   RowBox[{"q", " ", "\[Tau]32", " ", 
+    RowBox[{"(", 
+     RowBox[{"\[Tau]3", "+", "\[Tau]4x"}], ")"}]}], "+", 
+   RowBox[{"gc", " ", "q", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Tau]3", " ", "\[Tau]32", " ", "\[Tau]4x"}], "+", 
+      RowBox[{"\[Tau]2", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]3", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Tau]32", "-", "\[Tau]4x"}], ")"}]}], "+", 
+         RowBox[{"\[Tau]32", " ", "\[Tau]4x"}]}], ")"}]}]}], ")"}], " ", 
+    "\[Phi]"}]}]]], "Output",
+ CellChangeTimes->{
+  3.444124580765625*^9, {3.44412461884375*^9, 3.4441246335*^9}, 
+   3.44412481984375*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}], " ", "\[Tau]4x"}],
+      
+     RowBox[{
+      RowBox[{"q", " ", "\[Tau]32", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]3", "+", "\[Tau]4x"}], ")"}]}], "+", 
+      RowBox[{"gc", " ", "q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]3", " ", "\[Tau]32", " ", "\[Tau]4x"}], "+", 
+         RowBox[{"\[Tau]2", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"\[Tau]3", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]32", "-", "\[Tau]4x"}], ")"}]}], "+", 
+            RowBox[{"\[Tau]32", " ", "\[Tau]4x"}]}], ")"}]}]}], ")"}], " ", 
+       "\[Phi]"}]}]], "==", 
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]eff", " ", "\[Tau]4x"}], 
+     RowBox[{
+      RowBox[{"q", "  ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]3", "+", "\[Tau]4x"}], ")"}]}], "+", 
+      RowBox[{"gc", " ", "q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]3", " ", "\[Tau]4x"}], "+", 
+         RowBox[{
+          RowBox[{"\[Tau]2", "/", "\[Tau]32"}], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"\[Tau]3", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]32", "-", "\[Tau]4x"}], ")"}]}], "+", 
+            "\[Tau]4x"}], ")"}]}]}], ")"}], " ", "\[Phi]"}]}]]}], "/.", 
+   RowBox[{"\[Tau]eff", "->", 
+    RowBox[{"\[Tau]3", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "\[Tau]2"}], "/", "\[Tau]32"}], "+", "1"}], ")"}]}]}]}], 
+  "//", "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.444124645859375*^9, 3.444124718078125*^9}, {
+  3.444124840046875*^9, 3.444124919875*^9}, {3.444124971328125*^9, 
+  3.4441250168125*^9}, {3.4441250588125*^9, 3.444125078359375*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox[
+   RowBox[{
+   "gc", " ", "J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+    RowBox[{"(", 
+     RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "1"}], "+", "\[Tau]32"}], ")"}], " ", "\[Tau]4x", " ", 
+    "\[Phi]"}], 
+   RowBox[{"q", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Tau]32", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]3", "+", "\[Tau]4x"}], ")"}]}], "+", 
+      RowBox[{"gc", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]3", " ", "\[Tau]32", " ", "\[Tau]4x"}], "+", 
+         RowBox[{"\[Tau]2", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"\[Tau]3", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]32", "-", "\[Tau]4x"}], ")"}]}], "+", 
+            "\[Tau]4x"}], ")"}]}]}], ")"}], " ", "\[Phi]"}]}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Tau]32", " ", "\[Tau]4x", " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], "+", 
+      RowBox[{"\[Tau]3", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Tau]32", "-", 
+         RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]4x", " ", "\[Phi]"}], "+", 
+         
+         RowBox[{"gc", " ", "\[Tau]32", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Tau]2", "+", "\[Tau]4x"}], ")"}], " ", "\[Phi]"}]}], 
+        ")"}]}]}], ")"}]}]], "\[Equal]", "0"}]], "Output",
+ CellChangeTimes->{{3.44412468165625*^9, 3.44412471871875*^9}, {
+   3.444124877390625*^9, 3.444124920203125*^9}, 3.44412502475*^9, 
+   3.444125079671875*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{"not", " ", "finished"}], "*)"}]], "Input",
+ CellChangeTimes->{{3.444125106984375*^9, 3.444125109828125*^9}}]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["With stimulated emission and modal efficiency", "Subtitle",
+ CellChangeTimes->{{3.44412214528125*^9, 3.44412214790625*^9}, {
+  3.444138996609375*^9, 3.44413900271875*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", "\[IndentingNewLine]", 
+  RowBox[{"3", ":", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"\[Eta]inj", " ", 
+      FractionBox["J", "q"]}], "-", 
+     RowBox[{"n3", "/", "\[Tau]3"}], "-", 
+     RowBox[{"\[CapitalGamma]m", " ", "gc", " ", 
+      RowBox[{"(", 
+       RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]", "\[IndentingNewLine]",
+       "2"}]}], ":", " ", 
+    RowBox[{
+     RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+     RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+     RowBox[{"\[CapitalGamma]m", " ", "gc", " ", 
+      RowBox[{"(", 
+       RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]", "\[IndentingNewLine]",
+       
+      RowBox[{"\[Phi]", ":", " ", 
+       RowBox[{
+        RowBox[{
+        "\[CapitalGamma]m", " ", "\[CapitalGamma]", " ", "vg", " ", "gc", " ",
+          
+         FractionBox[
+          RowBox[{"(", 
+           RowBox[{"n3", "-", "n2"}], ")"}], "da"], " ", "\[Phi]"}], " ", "-",
+         " ", 
+        FractionBox["\[Phi]", "\[Tau]ph"]}]}]}]}]}]}], "\[IndentingNewLine]", 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.443881934375*^9, 3.4438820433125*^9}, {
+   3.443884394734375*^9, 3.443884398828125*^9}, {3.44388503265625*^9, 
+   3.44388504153125*^9}, {3.443893990765625*^9, 3.443894004109375*^9}, {
+   3.443894046078125*^9, 3.443894061453125*^9}, 3.444039170921875*^9, {
+   3.444139010609375*^9, 3.44413901865625*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Eta]inj", " ", 
+         FractionBox["J", "q"]}], "-", 
+        RowBox[{"n3", "/", "\[Tau]3"}], "-", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]"}]}], "\[Equal]", 
+       "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"n3", "/", "\[Tau]32"}], "-", 
+        RowBox[{"n2", "/", "\[Tau]2"}], "+", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{"n3", "-", "n2"}], ")"}], " ", "\[Phi]"}]}], "\[Equal]", 
+       "0"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n3", ",", "n2"}], "}"}]}], "]"}], "//", "Simplify"}]], "Input",
+ CellChangeTimes->{{3.44388192928125*^9, 3.4438819309375*^9}, {
+  3.44388204784375*^9, 3.443882068515625*^9}, {3.44388440265625*^9, 
+  3.443884404984375*^9}, {3.443885062578125*^9, 3.44388506553125*^9}, {
+  3.443894085640625*^9, 3.443894091*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"n3", "\[Rule]", 
+     FractionBox[
+      RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", "\[Tau]32", " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], 
+      RowBox[{"q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+          "\[Phi]"}], "+", 
+         RowBox[{"\[Tau]32", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"gc", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+           ")"}]}]}], ")"}]}]]}], ",", 
+    RowBox[{"n2", "\[Rule]", 
+     FractionBox[
+      RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{"gc", " ", "\[Tau]32", " ", "\[Phi]"}]}], ")"}]}], 
+      RowBox[{"q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+          "\[Phi]"}], "+", 
+         RowBox[{"\[Tau]32", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"gc", " ", 
+             RowBox[{"(", 
+              RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+           ")"}]}]}], ")"}]}]]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.443882081125*^9, {3.443884405546875*^9, 3.443884421625*^9}, 
+   3.443885069484375*^9, 3.44389409196875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"n3", "-", "n2"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", "\[Tau]32", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"gc", " ", "\[Tau]2", " ", "\[Phi]"}]}], ")"}]}], 
+     RowBox[{"q", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}],
+         "+", 
+        RowBox[{"\[Tau]32", " ", 
+         RowBox[{"(", 
+          RowBox[{"1", "+", 
+           RowBox[{"gc", " ", 
+            RowBox[{"(", 
+             RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+          ")"}]}]}], ")"}]}]], "-", 
+    FractionBox[
+     RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]2", " ", "\[Tau]3", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"gc", " ", "\[Tau]32", " ", "\[Phi]"}]}], ")"}]}], 
+     RowBox[{"q", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "gc"}], " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}],
+         "+", 
+        RowBox[{"\[Tau]32", " ", 
+         RowBox[{"(", 
+          RowBox[{"1", "+", 
+           RowBox[{"gc", " ", 
+            RowBox[{"(", 
+             RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Phi]"}]}], 
+          ")"}]}]}], ")"}]}]]}], "//", "FullSimplify"}]}]], "Input",
+ CellChangeTimes->{{3.44388207678125*^9, 3.44388214484375*^9}, {
+  3.443884427265625*^9, 3.443884431*^9}, {3.443884490640625*^9, 
+  3.44388450315625*^9}, {3.443885076515625*^9, 3.443885083015625*^9}, {
+  3.443894096203125*^9, 3.443894099546875*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+  RowBox[{"q", " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Tau]32", "-", 
+     RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}], "+", 
+     RowBox[{"gc", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32", " ", 
+      "\[Phi]"}]}], ")"}]}]]], "Output",
+ CellChangeTimes->{{3.443882087296875*^9, 3.443882091609375*^9}, 
+   3.44388214559375*^9, 3.44388443546875*^9, {3.443884499703125*^9, 
+   3.44388450346875*^9}, 3.4438850834375*^9, 3.443894100171875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"now", " ", "set", " ", 
+     RowBox[{
+      SubscriptBox["\[PartialD]", "t"], "Sk"}]}], " ", "\[Equal]", " ", "0"}],
+    " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Solve", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[CapitalGamma]", " ", "vg", " ", "gc", " ", 
+        FractionBox[
+         RowBox[{"(", "n3n2", ")"}], "da"], " ", "\[Phi]"}], " ", "-", " ", 
+       FractionBox["\[Phi]", "\[Tau]ph"]}], " ", "\[Equal]", " ", "0"}], ",", 
+     "n3n2"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Solve", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"\[CapitalGamma]", " ", "vg", " ", "gc", " ", 
+          FractionBox[
+           RowBox[{"(", 
+            FractionBox[
+             RowBox[{"J", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", "\[Tau]2"}], "+", "\[Tau]32"}], ")"}]}], 
+             RowBox[{"q", " ", 
+              RowBox[{"(", 
+               RowBox[{"\[Tau]32", "-", 
+                RowBox[{"gc", " ", "\[Tau]2", " ", "\[Tau]3", " ", "\[Phi]"}],
+                 "+", 
+                RowBox[{"gc", " ", 
+                 RowBox[{"(", 
+                  RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32",
+                  " ", "\[Phi]"}]}], ")"}]}]], ")"}], "da"], " ", "\[Phi]"}], 
+         " ", "-", " ", 
+         FractionBox["\[Phi]", "\[Tau]ph"]}], "\[Equal]", "0"}], ",", 
+       "\[Phi]"}], "]"}], "//", "FullSimplify"}], "//", 
+    "Apart"}]}]}]], "Input",
+ CellChangeTimes->{{3.44388215371875*^9, 3.443882227609375*^9}, {
+   3.44388243503125*^9, 3.4438824369375*^9}, {3.443884445640625*^9, 
+   3.443884452109375*^9}, 3.443884507171875*^9, 3.44388508796875*^9, {
+   3.443894108421875*^9, 3.44389413375*^9}, 3.444039174171875*^9, {
+   3.444055126609375*^9, 3.44405514909375*^9}, {3.4440551800625*^9, 
+   3.4440551811875*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"n3n2", "\[Rule]", 
+    FractionBox["da", 
+     RowBox[{"gc", " ", "vg", " ", "\[CapitalGamma]", " ", "\[Tau]ph"}]]}], 
+   "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.44388217128125*^9, 3.4438821856875*^9}, 
+   3.44388245546875*^9, 3.443884452734375*^9, 3.443884507703125*^9, 
+   3.443885089265625*^9, 3.443894134546875*^9, 3.44403917790625*^9, {
+   3.444055136578125*^9, 3.444055149421875*^9}, 3.444055181421875*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\[Phi]", "\[Rule]", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Phi]", "\[Rule]", 
+     RowBox[{
+      RowBox[{"-", 
+       FractionBox["\[Tau]32", 
+        RowBox[{"gc", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", "\[Tau]2"}], " ", "\[Tau]3"}], "+", 
+           RowBox[{"\[Tau]2", " ", "\[Tau]32"}], "+", 
+           RowBox[{"\[Tau]3", " ", "\[Tau]32"}]}], ")"}]}]]}], "+", 
+      FractionBox[
+       RowBox[{
+       "J", " ", "vg", " ", "\[CapitalGamma]", " ", "\[Eta]inj", " ", 
+        "\[Tau]3", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}], " ", "\[Tau]ph"}], 
+       RowBox[{"da", " ", "q", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "-", 
+          RowBox[{"\[Tau]2", " ", "\[Tau]32"}], "-", 
+          RowBox[{"\[Tau]3", " ", "\[Tau]32"}]}], ")"}]}]]}]}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.44388217128125*^9, 3.4438821856875*^9}, 
+   3.44388245546875*^9, 3.443884452734375*^9, 3.443884507703125*^9, 
+   3.443885089265625*^9, 3.443894134546875*^9, 3.44403917790625*^9, {
+   3.444055136578125*^9, 3.444055149421875*^9}, 3.4440551814375*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ FractionBox["1", 
+  RowBox[{" ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "\[Tau]32"]}], "+", "\[Tau]2", 
+     "+", "\[Tau]3"}], ")"}]}]]], "Input",
+ CellChangeTimes->{{3.44405531540625*^9, 3.44405533284375*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"now", " ", "find", " ", 
+    RowBox[{"dS", "/", "dK"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[PartialD]", "J"], 
+    RowBox[{"(", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"da", " ", "q", " ", "\[Tau]32"}], "+", 
+       RowBox[{
+       "gc", " ", "J", " ", "vg", " ", "\[CapitalGamma]", " ", "\[Eta]inj", 
+        " ", "\[Tau]3", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}], " ", "\[Tau]ph"}]}], 
+      RowBox[{"da", " ", "gc", " ", "q", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "-", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32"}]}], 
+        ")"}]}]], ")"}]}], "//", "FullSimplify"}]}]], "Input",
+ CellChangeTimes->{{3.443882234390625*^9, 3.443882275890625*^9}, 
+   3.4438844569375*^9, 3.443884512796875*^9, 3.4438850944375*^9, 
+   3.44389414271875*^9, 3.44403918390625*^9}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+  "vg", " ", "\[CapitalGamma]", " ", "\[Eta]inj", " ", "\[Tau]3", " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}], " ", "\[Tau]ph"}], 
+  RowBox[{"da", " ", "q", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32"}]}], 
+    ")"}]}]]], "Output",
+ CellChangeTimes->{{3.443882268625*^9, 3.44388227615625*^9}, 
+   3.443884457390625*^9, 3.44388451325*^9, 3.4438850948125*^9, 
+   3.443894144734375*^9, 3.44403918434375*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{"\[Tau]3", " ", 
+     RowBox[{"(", 
+      RowBox[{"\[Tau]2", "-", "\[Tau]32"}], ")"}]}], 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Tau]2", " ", "\[Tau]3"}], "-", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"\[Tau]2", "+", "\[Tau]3"}], ")"}], " ", "\[Tau]32"}]}], 
+     ")"}]], "\[Equal]", 
+   FractionBox[
+    RowBox[{"\[Tau]3", 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"\[Tau]2", "/", "\[Tau]32"}]}], ")"}]}], 
+    RowBox[{
+     RowBox[{"\[Tau]3", 
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        RowBox[{"\[Tau]2", "/", "\[Tau]32"}]}], ")"}]}], "+", "\[Tau]2"}]]}], 
+  "//", "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.443882823703125*^9, 3.443882859703125*^9}, {
+   3.4438844711875*^9, 3.443884480796875*^9}, 3.4438845189375*^9, {
+   3.443894159765625*^9, 3.443894166*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.443882859890625*^9, 3.443884481296875*^9, 
+  3.443884522359375*^9, 3.443894166453125*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1032, 845},
+WindowMargins->{{78, Automatic}, {31, Automatic}},
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (April 28, 2007)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 99, 1, 49, "Subtitle"],
+Cell[692, 26, 479, 13, 99, "Input"],
+Cell[CellGroupData[{
+Cell[1196, 43, 579, 17, 47, "Input"],
+Cell[1778, 62, 406, 12, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2221, 79, 337, 9, 47, "Input"],
+Cell[2561, 90, 239, 6, 47, "Output"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2849, 102, 108, 1, 49, "Subtitle"],
+Cell[2960, 105, 1228, 31, 126, "Input"],
+Cell[CellGroupData[{
+Cell[4213, 140, 1014, 28, 47, "Input"],
+Cell[5230, 170, 1577, 44, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6844, 219, 1683, 45, 68, "Input"],
+Cell[8530, 266, 677, 16, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9244, 287, 1997, 50, 118, "Input"],
+Cell[11244, 339, 476, 10, 47, "Output"],
+Cell[11723, 351, 1278, 33, 47, "Output"]
+}, Open  ]],
+Cell[13016, 387, 299, 9, 54, "Input"],
+Cell[CellGroupData[{
+Cell[13340, 400, 1039, 27, 68, "Input"],
+Cell[14382, 429, 611, 16, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15030, 450, 887, 27, 47, "Input"],
+Cell[15920, 479, 142, 2, 30, "Output"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[16111, 487, 208, 3, 49, "Subtitle"],
+Cell[16322, 492, 983, 26, 119, "Input"],
+Cell[CellGroupData[{
+Cell[17330, 522, 714, 20, 47, "Input"],
+Cell[18047, 544, 483, 14, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18567, 563, 1208, 34, 84, "Input"],
+Cell[19778, 599, 537, 13, 47, "Output"],
+Cell[20318, 614, 260, 4, 30, "Output"]
+}, Open  ]],
+Cell[20593, 621, 327, 8, 109, "Input"],
+Cell[CellGroupData[{
+Cell[20945, 633, 1756, 50, 84, "Input"],
+Cell[22704, 685, 726, 18, 47, "Output"],
+Cell[23433, 705, 286, 5, 30, "Output"]
+}, Open  ]],
+Cell[23734, 713, 285, 6, 31, "Input"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[24056, 724, 158, 2, 49, "Subtitle"],
+Cell[24217, 728, 1127, 29, 119, "Input"],
+Cell[CellGroupData[{
+Cell[25369, 761, 920, 27, 47, "Input"],
+Cell[26292, 790, 1875, 52, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28204, 847, 1752, 50, 47, "Input"],
+Cell[29959, 899, 654, 18, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30650, 922, 1756, 50, 84, "Input"],
+Cell[32409, 974, 726, 18, 47, "Output"],
+Cell[33138, 994, 286, 5, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33461, 1004, 1422, 40, 84, "Input"],
+Cell[34886, 1046, 547, 15, 47, "Output"],
+Cell[35436, 1063, 214, 4, 30, "Output"]
+}, Open  ]],
+Cell[35665, 1070, 613, 18, 47, "Input"],
+Cell[CellGroupData[{
+Cell[36303, 1092, 1110, 29, 59, "Input"],
+Cell[37416, 1123, 810, 22, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38263, 1150, 770, 20, 47, "Input"],
+Cell[39036, 1172, 365, 10, 47, "Output"]
+}, Open  ]],
+Cell[39416, 1185, 285, 6, 31, "Input"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[39738, 1196, 221, 3, 49, "Subtitle"],
+Cell[39962, 1201, 1241, 31, 119, "Input"],
+Cell[CellGroupData[{
+Cell[41228, 1236, 990, 28, 47, "Input"],
+Cell[42221, 1266, 2233, 62, 84, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44491, 1333, 2045, 59, 69, "Input"],
+Cell[46539, 1394, 798, 22, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47374, 1421, 1307, 37, 47, "Input"],
+Cell[48684, 1460, 967, 29, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49688, 1494, 1930, 53, 69, "Input"],
+Cell[51621, 1549, 1651, 45, 47, "Output"]
+}, Open  ]],
+Cell[53287, 1597, 149, 3, 31, "Input"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[53473, 1605, 177, 2, 49, "Subtitle"],
+Cell[53653, 1609, 1371, 34, 126, "Input"],
+Cell[CellGroupData[{
+Cell[55049, 1647, 1014, 28, 47, "Input"],
+Cell[56066, 1677, 1577, 44, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[57680, 1726, 1683, 45, 68, "Input"],
+Cell[59366, 1773, 677, 16, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[60080, 1794, 1997, 50, 118, "Input"],
+Cell[62080, 1846, 476, 10, 47, "Output"],
+Cell[62559, 1858, 1278, 33, 47, "Output"]
+}, Open  ]],
+Cell[63852, 1894, 299, 9, 54, "Input"],
+Cell[CellGroupData[{
+Cell[64176, 1907, 1039, 27, 68, "Input"],
+Cell[65218, 1936, 611, 16, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[65866, 1957, 887, 27, 47, "Input"],
+Cell[66756, 1986, 142, 2, 30, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

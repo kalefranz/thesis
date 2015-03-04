@@ -1,0 +1,21 @@
+Description:Zhijun 8.0 µm
+Efield:0
+xres:0.2
+Eres:0.05
+InGaAsx:
+AlInAsx:
+InGaAsx2:
+AlInAsx2:
+Solver:SolverH
+Temp:300
+TempFoM:220
+PlotPeriods:1
+DiffLeng:0
+regionNum	wellWdiths	barrierSwitch	arSwitch	material	doping	divider
+1	100	1	0	2	0	0
+2	12	0	0	2	0	0
+3	23	1	0	2	0	0
+4	84	0	0	2	0	0
+5	13	1	0	2	0	0
+6	84	0	0	2	0	0
+7	100	1	0	2	0	0

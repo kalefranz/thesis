@@ -1,0 +1,9 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}Applications}{2}
+\contentsline {section}{\numberline {2.1}Biomedical applications}{2}
+\contentsline {chapter}{\numberline {3}Alternatives}{3}
+\contentsline {subsection}{\numberline {3.0.1}Level 1 ISA Bus Support}{3}
+\contentsline {subsection}{\numberline {3.0.2}Other Remarks}{5}
+\contentsline {chapter}{\numberline {4}Conclusions}{6}
+\contentsline {chapter}{\numberline {A}\'Elan\xspace Computer Schematics}{8}
+\contentsline {chapter}{\numberline {B}Component Data Sheets}{22}

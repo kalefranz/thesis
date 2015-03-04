@@ -1,0 +1,82 @@
+\documentclass[12pt,twoside]{report}
+\usepackage{kjfsty}
+
+
+\begin{document}
+
+\begin{equation}
+\tau_{therm}(T) = w \sqrt{\frac{2\pi m^*}{k_B T}} e^{\frac{\EE_{3c}}{k_B T}}
+\end{equation}
+
+\begin{equation}
+g_{u\ell} = \frac{c \Gamma_{u\ell}}{N_p n_\textit{eff}} \frac{2 q^2 \EE_{u\ell} z_{u\ell}^2}{h c \epsilon_0 n_\textit{eff} \; \delta\!\EE_{u\ell} L_p}
+\end{equation}
+
+\begin{equation}
+\tau_{ph,u\ell} = \frac{n_\textit{eff}}{c \left(-\frac{1}{L} \ln(R) + \alpha_{w,u\ell} \right)}
+\end{equation}
+
+\begin{equation}
+\frac{1}{\tau_{u\ell}(T)} = \frac{1}{\tau_{u\ell}(T=0 \tn{K})} \left(1+\frac{2}{e^{\frac{\hslash\omega_{LO}}{k_B T}}-1}\right)
+\end{equation}
+
+\begin{equation}
+\eta_{inj}(T) = \eta_{inj} \left(1+\frac{2}{e^{\frac{\hslash\omega_{LO}}{k_B T}}-1}\right)
+\end{equation}
+
+\begin{equation}
+\begin{split}
+\frac{d n_5}{d\!t} &=\left(1-\eta_\textit{inj}\right)\frac{J}{q}-n_5\left(\frac{1}{\tau_{54}}+\frac{1}{\tau_{53}}+\frac{1}{\tau_{52}}+\frac{1}{\tau_{51}}\right) -\frac{n_5}{\tau_{therm}} - S_{54} g_{54} \left(n_5-n_4\right)\\
+\frac{d n_{4k}}{d\!t} &= \eta_\textit{inj} \frac{J}{q} + \frac{n_5}{\tau_5}-\frac{n_4}{\tau_{k4}}-S_{42} g_{42}\left(n_{4k}-n_{2k}\right)\\
+\frac{d n_4}{d\!t} &= \frac{n_{4k}}{\tau_{4k}} - n_4 \left(\frac{1}{\tau_{43}}+\frac{1}{\tau_{42}}+\frac{1}{\tau_{41}}\right) + S_{54} g_{54} \left(n_5-n_4\right)\\
+\frac{d n_3}{d\!t} &= \frac{n_5}{\tau_{53}}+\frac{n_4}{\tau_{43}} -n_3 \left(\frac{1}{\tau_{32}}+\frac{1}{\tau_{31}}\right)\\
+\frac{d n_{2k}}{d\!t} &= \frac{n_5}{\tau_{52}}+\frac{n_4}{\tau_{42}}+\frac{n_3}{\tau_{32}}-\frac{n_{2k}}{\tau_{2k}} +S_{42} g_{42} \left(n_{4k}-n_{2k}\right)\\
+\frac{d n_2}{d\!t}&= \frac{n_{2k}}{\tau_{2k}}-\frac{n_2}{\tau_{21}}+\frac{n_{inj} e^{-\frac{\Delta_{inj}+\EE_{21}}{k T}}}{\tau_{21}}\\
+\frac{d S_{54}}{d\!t} &= \left(N_p g_{54}\left(n_5-n_4\right)-\frac{1}{\tau_{ph1}}\right) S_{54}\\
+\frac{d S_{42}}{d\!t} &= \left(N_p g_{42}\left(n_{4k}-n_{2k}\right)-\frac{1}{\tau_{ph2}}\right) S_{42}
+\end{split}
+\end{equation}
+
+
+\begin{table}[htbp]
+\caption{Parameters used in the \emph{k}-space laser rate equation model.}
+\begin{tabular}{ c c p{0.5in} c c }
+\toprule
+$R$ & 0.27 & & $L_p$ & 512~\AA\\
+width & 12~\um & & $N_p$ & 40\\
+$L$ & 1.5~mm & & $\Delta_\textit{inj}$ & 27.3~meV\\
+$\hslash\omega_{LO}$ & 34~meV & & $n_{inj}$ & $1.6\times10^{11}$~cm\sup{-3}\\
+$\EE_{21}$ & 67.4~meV & & $\EE_{3c}$ & 60~meV\\
+$w$ & 197~\AA & & $m^*$ & $0.04 m_e$\\
+\hline
+$\Gamma_{54}$ & 0.60 & & $\Gamma_{42}$ & 0.67\\
+$\alpha_{w54}$ & 7.4~cm\sup{-1} & & $\alpha_{w42}$ & 5.2~cm\sup{-1}\\
+$\EE_{54}$ & 128~meV & & $\EE_{42}$ & 151~meV\\
+$z_{54}$ & 23~\AA & & $z_{42}$ & 13~\AA\\
+$\delta\!\EE_{54}$ & 24~meV & & $\delta\!\EE_{42}$ & 15~meV\\
+\hline
+\end{tabular}
+\label{chpt3:tab1}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Calculated LO phonon lifetimes used in the rate equation model.}
+\setstretch{1.2}
+\begin{tabular}{c c | c c c c}
+\toprule
+\multicolumn{2}{c}{\multirow{2}{*}{\setstretch{0.9} \centering\parbox{0.2in}{$\tau_{u\ell}$\\(ps)}}} & \multicolumn{4}{c}{upper state $u$} \\
+\multicolumn{2}{c|}{} & 5 & 4 & 3 & 2 \\
+\cline{2-6}
+\multirow{4}{*}{\rotatebox{90}{\mbox{lower state $\ell$}}} & 4 & 4.0 &  & \\
+ & 3 & 4.2 & 1.2 & & \\
+ & 2 & 7.0 & 1.9 & 3.0 & \\
+ & 1 & 9.3 & 10.6 & 3.5 & 7.2\\
+\hline
+\end{tabular}
+\label{chpt3:tab2}
+\end{table}
+
+
+\end{document}
+
+

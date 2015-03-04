@@ -1,0 +1,2233 @@
+This is pdfTeX, Version 3.141592-1.40.4 (MiKTeX 2.7) (preloaded format=pdflatex 2008.2.7)  12 JAN 2010 21:35
+entering extended mode
+**thesis_main.tex
+(thesis_main.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, french, loaded.
+(C:\Programs\MiKTeX\tex\latex\base\report.cls
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+(C:\Programs\MiKTeX\tex\latex\base\size12.clo
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (kjfsty.sty
+(C:\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(C:\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(C:\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(C:\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(C:\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(C:\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+LaTeX Font Info:    Try loading font information for OMX+cmex on input line 76.
+
+
+(C:\Programs\MiKTeX\tex\latex\base\omxcmex.fd
+File: omxcmex.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(C:\Programs\MiKTeX\tex\latex\setspace\setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (C:\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen112
+\lightrulewidth=\dimen113
+\cmidrulewidth=\dimen114
+\belowrulesep=\dimen115
+\belowbottomsep=\dimen116
+\aboverulesep=\dimen117
+\abovetopsep=\dimen118
+\cmidrulesep=\dimen119
+\cmidrulekern=\dimen120
+\defaultaddspace=\dimen121
+\@cmidla=\count100
+\@cmidlb=\count101
+\@aboverulesep=\dimen122
+\@belowrulesep=\dimen123
+\@thisruleclass=\count102
+\@lastruleclass=\count103
+\@thisrulewidth=\dimen124
+)
+(C:\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen125
+)
+(C:\Programs\MiKTeX\tex\latex\base\textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(C:\Programs\MiKTeX\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+(C:\Programs\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2007/09/09 v1.5 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(C:\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(C:\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Programs\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\Programs\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(C:\Programs\MiKTeX\tex\latex\graphics\pdftex.def
+File: pdftex.def 2007/06/12 v0.04h Graphics/color for pdfTeX
+\Gread@gobject=\count104
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(C:\Programs\MiKTeX\tex\latex\oberdiek\epstopdf.sty
+Package: epstopdf 2007/11/11 v1.6 Conversion with epstopdf on the fly (HO)
+
+(C:\Programs\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+(C:\Programs\MiKTeX\tex\latex\oberdiek\grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(C:\Programs\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2007/10/18 v3.0 Keyval support for LaTeX options (HO)
+)
+(C:\Programs\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2007/11/12 v0.2 LuaTeX support for pdfTeX utility functions
+ (HO)
+Package pdftexcmds Info: LuaTeX not detected on input line 136.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 323.
+)
+(C:\Programs\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(C:\Programs\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(C:\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2007/11/17 v6.77f Hypertext links for LaTeX
+
+(C:\Programs\MiKTeX\tex\latex\oberdiek\hycolor.sty
+Package: hycolor 2007/04/11 v1.1 Code for color options of hyperref/bookmark (H
+O)
+)
+\@linkdim=\dimen128
+\Hy@linkcounter=\count105
+\Hy@pagecounter=\count106
+
+(C:\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2007/11/17 v6.77f Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Programs\MiKTeX\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2007/09/09 v1.1 Prefix for e-TeX command names (HO)
+)
+(C:\Programs\MiKTeX\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `linktocpage' set `true' on input line 2663.
+Package hyperref Info: Hyper figures OFF on input line 2699.
+Package hyperref Info: Link nesting OFF on input line 2704.
+Package hyperref Info: Hyper index ON on input line 2707.
+Package hyperref Info: Plain pages OFF on input line 2714.
+Package hyperref Info: Backreferencing OFF on input line 2719.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2875.
+(C:\Programs\MiKTeX\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3045.
+
+(C:\Programs\MiKTeX\tex\generic\oberdiek\bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(C:\Programs\MiKTeX\tex\generic\oberdiek\intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(C:\Programs\MiKTeX\tex\generic\oberdiek\bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+(C:\Programs\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2007/09/29 v1.3 Key value parser with default handler suppor
+t (HO)
+)
+\Fld@menulength=\count107
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
+\Field@toks=\toks20
+Package hyperref Info: Hyper figures OFF on input line 3926.
+Package hyperref Info: Link nesting OFF on input line 3931.
+Package hyperref Info: Hyper index ON on input line 3934.
+Package hyperref Info: backreferencing OFF on input line 3941.
+Package hyperref Info: Link coloring OFF on input line 3946.
+
+(C:\Programs\MiKTeX\tex\generic\oberdiek\atbegshi.sty
+Package: atbegshi 2007/09/09 v1.6 At begin shipout hook (HO)
+)
+\Hy@abspage=\count108
+\c@Item=\count109
+\c@Hfootnote=\count110
+)
+*hyperref using default driver hpdftex*
+(C:\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2007/11/17 v6.77f Hyperref driver for pdfTeX
+\Fld@listcount=\count111
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 17.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 17.
+(C:\Programs\MiKTeX\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \cite on input line 149.
+LaTeX Info: Redefining \nocite on input line 214.
+Package: cite 2003/11/04  v 4.01
+)
+(C:\Programs\MiKTeX\tex\latex\caption\caption.sty
+Package: caption 2008/08/24 v3.1j Customizing captions (AR)
+
+(C:\Programs\MiKTeX\tex\latex\caption\caption3.sty
+Package: caption3 2008/08/24 v3.1j caption3 kernel (AR)
+\captionmargin=\dimen131
+\captionmargin@=\dimen132
+\captionwidth=\dimen133
+\caption@indent=\dimen134
+\caption@parindent=\dimen135
+\caption@hangindent=\dimen136
+)
+\c@ContinuedFloat=\count112
+Package caption Info: hyperref package is loaded.
+)
+(C:\Programs\MiKTeX\tex\latex\subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count113
+\sf@farskip=\skip46
+\sf@captopadj=\dimen137
+\sf@capskip=\skip47
+\sf@nearskip=\skip48
+\c@subfigure=\count114
+\c@subfigure@save=\count115
+\c@lofdepth=\count116
+\c@subtable=\count117
+\c@subtable@save=\count118
+\c@lotdepth=\count119
+\sf@top=\skip49
+\sf@bottom=\skip50
+)
+(C:\Programs\MiKTeX\tex\latex\base\fixltx2e.sty
+Package: fixltx2e 2006/03/24 v1.1n fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+(C:\Programs\MiKTeX\tex\latex\ltxmisc\dblfloatfix.sty
+Package: dblfloatfix 2003/11/18 v1.0 (MH)
+\@dblbotnum=\count120
+\c@dblbotnumber=\count121
+) (PUTHEDS.sty)
+(C:\Programs\MiKTeX\tex\latex\fourier\fourier.sty
+Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
+
+(C:\Programs\MiKTeX\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(C:\Programs\MiKTeX\tex\latex\base\t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(C:\Programs\MiKTeX\tex\latex\fourier\fourier-orns.sty
+Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
+
+
+LaTeX Font Warning: Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 50.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 50.
+
+LaTeX Font Warning: Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 50.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 50.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 59.
+
+LaTeX Font Warning: Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 59.
+
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 59.
+
+LaTeX Font Warning: Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 59.
+
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 59.
+\symotherletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 61.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 68.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 73.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 113.
+
+LaTeX Font Warning: Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 113.
+
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 113.
+
+LaTeX Font Warning: Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 113.
+
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 114.
+
+LaTeX Font Warning: Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+14.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
+
+LaTeX Font Warning: Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 114
+.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 115.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 116.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 117.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 117.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 117.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 119.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 13
+0.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+31.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 135.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 151
+.
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 155.
+
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 187.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 210.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 215.
+LaTeX Font Info:    Redeclaring math delimiter \lvert on input line 217.
+LaTeX Font Info:    Redeclaring math delimiter \rvert on input line 219.
+LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 221.
+LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 223.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 225.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 227.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 229.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 231.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 233.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 235.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 237.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 239.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 241.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 243.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 247.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 248.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 249.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 250.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 251.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 252.
+LaTeX Font Info:    Redeclaring math accent \check on input line 253.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
+\symUfutm=\mathgroup7
+) (C:\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip51
+\f@ncyO@elh=\skip52
+\f@ncyO@erh=\skip53
+\f@ncyO@olh=\skip54
+\f@ncyO@orh=\skip55
+\f@ncyO@elf=\skip56
+\f@ncyO@erf=\skip57
+\f@ncyO@olf=\skip58
+\f@ncyO@orf=\skip59
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 70.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 73.
+
+(C:\Programs\MiKTeX\tex\latex\tocbibind\tocbibind.sty
+Package: tocbibind 2003/03/13 v1.5g extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (C:\Programs\MiKTeX\tex\latex\glossary\glossary.sty
+Package: glossary 2006/07/20 2.4 (NLCT)
+
+(C:\Programs\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\gls@cols=\count122
+
+No configuration file glossary.cfg found
+(C:\Programs\MiKTeX\tex\latex\tools\longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count123
+\LTcapwidth=\dimen138
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count124
+\LT@rows=\count125
+\c@LT@tables=\count126
+\c@LT@chunks=\count127
+\LT@p@ftn=\toks21
+)
+\descriptionwidth=\skip64
+\istfile=\write3
+)
+\@glossaryfile=\write4
+
+Writing glossary file thesis_main.glo 
+
+Package Fancyhdr Warning: \fancyhfoffset's `E' option without twoside option is
+ useless on input line 107.
+
+(C:\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup8
+)
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
+(Font)                  FMS/cmsy/m/n --> OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  FMS/cmsy/m/n --> OMS/cmsy/m/n on input line 113.
+
+(C:\Programs\MiKTeX\tex\latex\footmisc\footmisc.sty
+Package: footmisc 2007/06/12 v5.4a a miscellany of footnote facilities
+\FN@temptoken=\toks22
+\footnotemargin=\dimen139
+
+
+LaTeX Warning: Command \@makecol  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \@footnotetext  has changed.
+               Check if current package is valid.
+
+\FN@tempboxb=\box32
+\FN@tempboxc=\box33
+\footglue=\skip65
+\footnotebaselineskip=\dimen140
+\c@pp@next@reset=\count128
+\c@@fnserial=\count129
+Package footmisc Info: Declaring symbol style bringhurst on input line 910.
+Package footmisc Info: Declaring symbol style chicago on input line 918.
+Package footmisc Info: Declaring symbol style wiley on input line 927.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 938.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 958.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 979
+.
+)) (thesis_main.aux (frontmatter.aux) (introduction.aux) (chpt1.aux
+
+LaTeX Warning: Label `chpt1:shooting_example' multiply defined.
+
+) (chpt2.aux) (chpt3.aux) (chpt4.aux) (conclusions.aux) (publications.aux)
+(presentations.aux) (patents.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
+ (C:\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 5.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 5.
+ (C:\Programs\MiKTeX\tex\latex\fourier\fmlfutm.fd
+File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 5.
+
+(C:\Programs\MiKTeX\tex\latex\fourier\fmsfutm.fd
+File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 5.
+
+(C:\Programs\MiKTeX\tex\latex\fourier\fmxfutm.fd
+File: fmxfutm.fd futm-extension
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 5.
+
+(C:\Programs\MiKTeX\tex\latex\fourier\t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+)
+(C:\Programs\MiKTeX\tex\context\base\supp-pdf.tex
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count130
+\scratchdimen=\dimen141
+\scratchbox=\box34
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen142
+\MPnumerator=\count134
+\everyMPtoPDFconversion=\toks23
+)
+Package hyperref Info: Link coloring ON on input line 5.
+ (C:\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(C:\Programs\MiKTeX\tex\latex\oberdiek\refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count135
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+ (thesis_main.out)
+(thesis_main.out)
+\@outlinefile=\write5
+\AtBeginShipoutBox=\box35
+Package caption Info: Begin \AtBeginDocument code.
+Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
+LaTeX Info: Redefining \subref on input line 5.
+Package caption Info: longtable package is loaded.
+ (C:\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(frontmatter.tex
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/PrincetonShield.pdf, id=413, 24.09pt x 30.1125pt>
+File: ../thesis/chpt4/PrincetonShield.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/PrincetonShield.pdf>
+LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <24.88> not available
+(Font)              Font shape `T1/futs/b/sc' tried instead on input line 11.
+ [1
+
+
+{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.7/pdftex/config/
+pdftex.map} <C:/thesis/chpt4/PrincetonShield.pdf>]
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 94.
+
+ (C:\Programs\MiKTeX\tex\latex\fourier\ts1futs.fd
+File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
+) [2
+
+
+]
+
+Package hyperref Warning: No destination for bookmark of \addcontentsline,
+(hyperref)                destination is added on input line 137.
+
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 139.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3
+
+
+] [4
+
+
+] [5])
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 14.
+ (thesis_main.toc
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 1.
+
+ (C:\Programs\MiKTeX\tex\latex\fourier\fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 1.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 1.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+ (C:\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+(C:\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 1.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 1.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 1.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
+
+(C:\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 6.
+ [6
+
+
+\FN@pp@footnotehinttrue 
+
+\FN@pp@footnotehinttrue 
+
+
+]
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 55.
+ [7]
+Overfull \hbox (1.19994pt too wide) detected at line 68
+ [][][]\T1/futs/m/n/12 102[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 69
+ [][][]\T1/futs/m/n/12 104[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 70
+ [][][]\T1/futs/m/n/12 105[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 71
+ [][][]\T1/futs/m/n/12 105[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 72
+ [][][]\T1/futs/m/n/12 107[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 73
+ [][][]\T1/futs/m/n/12 108[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 74
+ [][][]\T1/futs/m/n/12 108[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 76
+ [][][]\T1/futs/m/n/12 112[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 77
+ [][][]\T1/futs/m/n/12 113[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 78
+ [][][]\T1/futs/m/n/12 116[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 79
+ [][][]\T1/futs/m/n/12 116[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 80
+ [][][]\T1/futs/m/n/12 118[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 81
+ [][][]\T1/futs/m/n/12 123[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 82
+ [][][]\T1/futs/m/n/12 128[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 83
+ [][][]\T1/futs/m/n/12 128[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 84
+ [][][]\T1/futs/m/n/12 128[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 85
+ [][][]\T1/futs/m/n/12 134[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 86
+ [][][]\T1/futs/m/n/12 134[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 87
+ [][][]\T1/futs/m/n/12 134[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 88
+ [][][]\T1/futs/m/n/12 138[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 89
+ [][][]\T1/futs/m/n/12 138[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 91
+ [][][]\T1/futs/m/n/12 141[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 92
+ [][][]\T1/futs/m/n/12 141[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 93
+ [][][]\T1/futs/m/n/12 142[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 94
+ [][][]\T1/futs/m/n/12 143[][]
+ []
+
+[8]
+Overfull \hbox (1.19994pt too wide) detected at line 95
+ [][][]\T1/futs/m/n/12 144[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 96
+ [][][]\T1/futs/m/n/12 145[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 97
+ [][][]\T1/futs/m/n/12 145[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 98
+ [][][]\T1/futs/m/n/12 146[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 99
+ [][][]\T1/futs/m/n/12 146[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 100
+ [][][]\T1/futs/m/n/12 147[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 101
+ [][][]\T1/futs/m/n/12 147[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 102
+ [][][]\T1/futs/m/n/12 147[][]
+ []
+
+)
+\tf@toc=\write6
+ [9] (thesis_main.lot
+Overfull \hbox (1.19994pt too wide) detected at line 8
+ [][][]\T1/futs/m/n/12 100[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 9
+ [][][]\T1/futs/m/n/12 101[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 10
+ [][][]\T1/futs/m/n/12 102[][]
+ []
+
+)
+\tf@lot=\write7
+ [10
+
+
+
+] (thesis_main.lof [11
+
+
+
+]
+Overfull \hbox (1.19994pt too wide) detected at line 70
+ [][][]\T1/futs/m/n/12 101[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 71
+ [][][]\T1/futs/m/n/12 104[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 72
+ [][][]\T1/futs/m/n/12 105[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 74
+ [][][]\T1/futs/m/n/12 113[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 75
+ [][][]\T1/futs/m/n/12 117[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 79
+ [][][]\T1/futs/m/n/12 119[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 82
+ [][][]\T1/futs/m/n/12 120[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 83
+ [][][]\T1/futs/m/n/12 121[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 87
+ [][][]\T1/futs/m/n/12 122[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 88
+ [][][]\T1/futs/m/n/12 124[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 89
+ [][][]\T1/futs/m/n/12 125[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 90
+ [][][]\T1/futs/m/n/12 126[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 91
+ [][][]\T1/futs/m/n/12 127[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 95
+ [][][]\T1/futs/m/n/12 129[][]
+ []
+
+[12]
+Overfull \hbox (1.19994pt too wide) detected at line 99
+ [][][]\T1/futs/m/n/12 130[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 100
+ [][][]\T1/futs/m/n/12 132[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 103
+ [][][]\T1/futs/m/n/12 133[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 106
+ [][][]\T1/futs/m/n/12 135[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 107
+ [][][]\T1/futs/m/n/12 136[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 108
+ [][][]\T1/futs/m/n/12 137[][]
+ []
+
+)
+\tf@lof=\write8
+ [13] (introduction.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 15.
+[1
+
+
+
+
+]
+Underfull \hbox (badness 6808) in paragraph at lines 27--28
+[]\T1/futs/m/n/12 The ge-nius of the het-erostruc-ture concept---and the quan-t
+um cas-cade in
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
+ Make it at least 27.14203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+Package epstopdf Info: Output file is already uptodate.
+ <introduction/rgbir_spectra.pdf, id=759, 520.94624pt x 129.48375pt>
+File: introduction/rgbir_spectra.pdf Graphic file (type pdf)
+
+<use introduction/rgbir_spectra.pdf>
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 61.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 61.
+
+(C:\Programs\MiKTeX\tex\latex\base\t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 61.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 61.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 61.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 61.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 61.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 61.
+LaTeX Font Info:    Try loading font information for TS1+cmss on input line 61.
+
+
+(C:\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
+File: ts1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/flares.pdf, id=760, 650.43pt x 219.82124pt>
+File: introduction/flares.pdf Graphic file (type pdf)
+
+<use introduction/flares.pdf> [3 <introduction/rgbir_spectra.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/atircm.pdf, id=794, 351.3125pt x 374.39874pt>
+File: introduction/atircm.pdf Graphic file (type pdf)
+
+<use introduction/atircm.pdf>
+Underfull \hbox (badness 1354) in paragraph at lines 86--87
+[]\T1/futs/m/n/12 The two mod-ern IRCM pro-grams, Northrup Grumman's NEMESIS Di
+rectional
+ []
+
+[4 <introduction/flares.pdf> <introduction/atircm.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/atmos_a.pdf, id=815, 189.70876pt x 153.57375pt>
+File: introduction/atmos_a.pdf Graphic file (type pdf)
+
+<use introduction/atmos_a.pdf>
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/atmos_b.pdf, id=816, 186.6975pt x 149.55875pt>
+File: introduction/atmos_b.pdf Graphic file (type pdf)
+
+<use introduction/atmos_b.pdf> [5 <introduction/atmos_a.pdf> <introduction/atmo
+s_b.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/benzene_ethane_methane_2.pdf, id=851, 247.92625pt x 156.585pt>
+File: introduction/benzene_ethane_methane_2.pdf Graphic file (type pdf)
+
+<use introduction/benzene_ethane_methane_2.pdf> [6]
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/qcl.pdf, id=859, 222.8325pt x 178.6675pt>
+File: introduction/qcl.pdf Graphic file (type pdf)
+
+<use introduction/qcl.pdf> [7 <introduction/benzene_ethane_methane_2.pdf>]
+[8 <introduction/qcl.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/erwinjr.pdf, id=916, 379.4175pt x 255.95625pt>
+File: introduction/erwinjr.pdf Graphic file (type pdf)
+
+<use introduction/erwinjr.pdf> [9 <introduction/erwinjr.pdf>] [10]
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/proc_ridge_eps.pdf, id=948, 202.7575pt x 137.51375pt>
+File: introduction/proc_ridge_eps.pdf Graphic file (type pdf)
+
+<use introduction/proc_ridge_eps.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/proc_dt_eps.pdf, id=949, 202.7575pt x 137.51375pt>
+File: introduction/proc_dt_eps.pdf Graphic file (type pdf)
+
+<use introduction/proc_dt_eps.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/proc_bh_eps.pdf, id=950, 202.7575pt x 137.51375pt>
+File: introduction/proc_bh_eps.pdf Graphic file (type pdf)
+
+<use introduction/proc_bh_eps.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<introduction/proc_EL_eps.pdf, id=951, 202.7575pt x 137.51375pt>
+File: introduction/proc_EL_eps.pdf Graphic file (type pdf)
+
+<use introduction/proc_EL_eps.pdf> [11] [12 <introduction/proc_ridge_eps.pdf> <
+introduction/proc_dt_eps.pdf> <introduction/proc_bh_eps.pdf> <introduction/proc
+_EL_eps.pdf>]) [13] (chpt1.tex
+Chapter 2.
+[14
+
+
+
+
+
+] [15]
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 119.
+
+[16]
+Package epstopdf Info: Output file is already uptodate.
+ <../thesis/chpt1/shooting_ex.pdf, id=1038, 436.63126pt x 198.7425pt>
+File: ../thesis/chpt1/shooting_ex.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt1/shooting_ex.pdf> [17 <C:/thesis/chpt1/shooting_ex.pdf>]
+[18] [19]
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt1/chpt1_varshcorrec.pdf, id=1084, 235.88126pt x 148.555pt>
+File: ../thesis/chpt1/chpt1_varshcorrec.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt1/chpt1_varshcorrec.pdf>
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 258.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 258.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 258.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 258.
+ [20] [21 <C:/thesis/chpt1/chpt1_varshcorrec.pdf>] [22]
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt1/chpt1_comp_panel.pdf, id=1125, 233.87375pt x 245.91875pt>
+File: ../thesis/chpt1/chpt1_comp_panel.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt1/chpt1_comp_panel.pdf> [23] [24 <C:/thesis/chpt1/chpt1_comp
+_panel.pdf>] [25] [26] [27] [28] [29] [30]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 535.
+ [31] [32]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 587.
+
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8.3> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 587.
+[33] [34]
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt1/waveguide_sketch.pdf, id=1311, 290.08376pt x 172.645pt>
+File: ../thesis/chpt1/waveguide_sketch.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt1/waveguide_sketch.pdf> [35 <C:/thesis/chpt1/waveguide_sketc
+h.pdf>] [36] [37] [38] [39] [40] [41] [42] [43] [44]) [45] (chpt2.tex
+Chapter 3.
+Package epstopdf Info: Output file is already uptodate.
+<chpt2/first_window.pdf, id=1478, 248.93pt x 157.58875pt>
+File: chpt2/first_window.pdf Graphic file (type pdf)
+
+<use chpt2/first_window.pdf> [46
+
+
+
+
+
+] [47 <chpt2/first_window.pdf>] [48]
+Underfull \hbox (badness 1072) in paragraph at lines 72--73
+\T1/futs/m/n/12 ma-te-ri-als sys-tem (lattice-matched to InP), work has pro-gre
+ssed sub-stan-tially with
+ []
+
+Package epstopdf Info: Output file is already uptodate.
+<chpt2/chpt2_gap_v_lattice_iivi.pdf, id=1526, 688.5725pt x 541.02126pt>
+File: chpt2/chpt2_gap_v_lattice_iivi.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_gap_v_lattice_iivi.pdf> [49 <chpt2/chpt2_gap_v_lattice_iivi.pd
+f>] [50]
+Package epstopdf Info: Output file is already uptodate.
+ <chpt2/chpt2_InAs.pdf, id=1570, 93.34875pt x 145.54375pt>
+File: chpt2/chpt2_InAs.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_InAs.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_ZnSe.pdf, id=1571, 93.34875pt x 151.56625pt>
+File: chpt2/chpt2_ZnSe.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_ZnSe.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_CdSe.pdf, id=1572, 93.34875pt x 151.56625pt>
+File: chpt2/chpt2_CdSe.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_CdSe.pdf>
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 117.
+ [51] [52 <chpt2/chpt2_InAs.pdf> <chpt2/chpt2_ZnSe.pdf> <chpt2/chpt2_CdSe.pdf>]
+ [53]
+Underfull \hbox (badness 1466) in paragraph at lines 222--223
+[]\T1/futs/m/n/12 Once a clean InGaAs sur-face is achieved, a sec-ond prob-lem 
+for grow-ing Se-
+ []
+
+Package epstopdf Info: Output file is already uptodate.
+<chpt2/chpt2_bdhong.pdf, id=1695, 171.64125pt x 194.7275pt>
+File: chpt2/chpt2_bdhong.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_bdhong.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_ISB_transmission.pdf, id=1696, 167.62625pt x 156.585pt>
+File: chpt2/chpt2_ISB_transmission.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_ISB_transmission.pdf> [54] [55 <chpt2/chpt2_bdhong.pdf> <chpt2
+/chpt2_ISB_transmission.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_band_diagram.pdf, id=1737, 249.93375pt x 177.66376pt>
+File: chpt2/chpt2_band_diagram.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_band_diagram.pdf> [56]
+Underfull \hbox (badness 5036) in paragraph at lines 269--270
+[]\T1/futs/m/n/12 Our con-ven-tional two-well ac-tive re-gion QC struc-ture was
+ de-vel-oped with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\T1/futs/m/n/12 a Zn$[]$Cd$[]$Se ma-te-rial com-po-si-tion for the quan-tum wel
+l lay-ers and a
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 269--270
+\T1/futs/m/n/12 Zn$[]$Cd$[]$Mg$[]$Se ma-te-rial com-po-si-tion for the bar-rier
+ lay-ers. The Fig. [][]3.5[][]
+ []
+
+[57 <chpt2/chpt2_band_diagram.pdf>] [58]
+Overfull \vbox (2.89204pt too high) has occurred while \output is active []
+
+
+[59]
+Package epstopdf Info: Output file is already uptodate.
+ <chpt2/chpt2_absorption.pdf, id=1775, 225.84375pt x 194.7275pt>
+File: chpt2/chpt2_absorption.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_absorption.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_zerofield_bd.pdf, id=1776, 152.57pt x 191.71625pt>
+File: chpt2/chpt2_zerofield_bd.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_zerofield_bd.pdf> [60 <chpt2/chpt2_absorption.pdf> <chpt2/chpt
+2_zerofield_bd.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_polarized_emission.pdf, id=1798, 229.85875pt x 185.69376pt>
+File: chpt2/chpt2_polarized_emission.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_polarized_emission.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_80K_emission.pdf, id=1799, 228.855pt x 187.70125pt>
+File: chpt2/chpt2_80K_emission.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_80K_emission.pdf>
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 324.
+ [61 <chpt2/chpt2_polarized_emission.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_9p6kacm_emission.pdf, id=1810, 216.81pt x 168.63pt>
+File: chpt2/chpt2_9p6kacm_emission.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_9p6kacm_emission.pdf> [62 <chpt2/chpt2_80K_emission.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_liv.pdf, id=1820, 260.975pt x 227.85126pt>
+File: chpt2/chpt2_liv.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_liv.pdf> [63 <chpt2/chpt2_9p6kacm_emission.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_new2well_bd.pdf, id=1830, 240.9pt x 195.73125pt>
+File: chpt2/chpt2_new2well_bd.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_new2well_bd.pdf> [64 <chpt2/chpt2_liv.pdf>] [65 <chpt2/chpt2_n
+ew2well_bd.pdf>] [66]
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning:  (file chpt2/chpt2_sl_bd.pdf): PDF inclusion: found PDF version
+ <1.5>, but at most version <1.4> allowed
+<chpt2/chpt2_sl_bd.pdf, id=1856, 252.945pt x 209.58301pt>
+File: chpt2/chpt2_sl_bd.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_sl_bd.pdf> [67]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_bd4900.pdf, id=1864, 237.88875pt x 173.64874pt>
+File: chpt2/chpt2_bd4900.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_bd4900.pdf> [68 <chpt2/chpt2_sl_bd.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/chpt2_bd3350.pdf, id=1903, 238.8925pt x 174.6525pt>
+File: chpt2/chpt2_bd3350.pdf Graphic file (type pdf)
+
+<use chpt2/chpt2_bd3350.pdf> [69 <chpt2/chpt2_bd4900.pdf>]
+Underfull \hbox (badness 7613) in paragraph at lines 434--435
+\T1/futs/m/n/12 While in-creas-ing the Mg con-tent from the cur-rent $\FML/futm
+i/m/it/12 x \FMS/futm/m/n/12 Å \T1/futs/m/n/12 61$% mole frac-tion
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 434--435
+\T1/futs/m/n/12 (Zn$[]$Cd$[]$Mg$[]$Se) to the lattice-matched 91% mole frac-tio
+n (that is, us-ing
+ []
+
+[70 <chpt2/chpt2_bd3350.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt2/ge_wg.pdf, id=1928, 234.8775pt x 161.60374pt>
+File: chpt2/ge_wg.pdf Graphic file (type pdf)
+ <use chpt2/ge_wg.pdf>
+[71]) [72 <chpt2/ge_wg.pdf>] (chpt3.tex
+Chapter 4.
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <24.88> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+<chpt3/chpt3_btex.pdf, id=1978, 140.525pt x 95.35625pt>
+File: chpt3/chpt3_btex.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_btex.pdf> [73
+
+
+
+
+
+] [74 <chpt3/chpt3_btex.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_wgloss.pdf, id=2005, 239.89626pt x 159.59625pt>
+File: chpt3/chpt3_wgloss.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_wgloss.pdf> [75]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_lifetimea.pdf, id=2013, 210.7875pt x 221.82875pt>
+File: chpt3/chpt3_lifetimea.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_lifetimea.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_lifetimeb.pdf, id=2014, 76.285pt x 104.39pt>
+File: chpt3/chpt3_lifetimeb.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_lifetimeb.pdf> [76 <chpt3/chpt3_wgloss.pdf>] [77 <chpt3/chpt3_
+lifetimea.pdf> <chpt3/chpt3_lifetimeb.pdf>]
+Underfull \hbox (badness 1043) in paragraph at lines 94--95
+\T1/futs/m/n/12 A chief bat-tle long-wavelength lasers must over-come is sim-pl
+y ``turn-ing on''---\T1/futs/m/it/12 i.e.\T1/futs/m/n/12 ,
+ []
+
+Package epstopdf Info: Output file is already uptodate.
+<chpt3/chpt3_dipolea.pdf, id=2061, 244.915pt x 202.7575pt>
+File: chpt3/chpt3_dipolea.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_dipolea.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_dipoleb.pdf, id=2062, 228.855pt x 212.795pt>
+File: chpt3/chpt3_dipoleb.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_dipoleb.pdf> [78]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_es_pictoriala.pdf, id=2075, 244.915pt x 206.7725pt>
+File: chpt3/chpt3_es_pictoriala.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_es_pictoriala.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_es_pictorialb.pdf, id=2076, 244.915pt x 206.7725pt>
+File: chpt3/chpt3_es_pictorialb.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_es_pictorialb.pdf> [79 <chpt3/chpt3_dipolea.pdf> <chpt3/chpt3_
+dipoleb.pdf>] [80 <chpt3/chpt3_es_pictoriala.pdf> <chpt3/chpt3_es_pictorialb.pd
+f>]
+Package epstopdf Info: Output file is already uptodate.
+ <chpt3/chpt3_band_diagram.pdf, id=2132, 242.9075pt x 175.65625pt>
+File: chpt3/chpt3_band_diagram.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_band_diagram.pdf> [81]
+Underfull \hbox (badness 1642) in paragraph at lines 150--151
+\T1/futs/m/n/12 ($\FML/futmi/m/it/12 n[] \FMS/futm/m/n/12 Ç \T1/futs/m/n/12 2 \
+FMS/futm/m/n/12  \T1/futs/m/n/12 10[]$ cm$[]$) InP:S sub-strate. The ac-tive c
+ore con-sisted of 40 active--
+ []
+
+Package epstopdf Info: Output file is already uptodate.
+<chpt3/chpt3_sem.pdf, id=2141, 307.1475pt x 224.84pt>
+File: chpt3/chpt3_sem.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_sem.pdf> [82 <chpt3/chpt3_band_diagram.pdf>] [83 <chpt3/chpt3_
+sem.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]\T1/futs/b/n/14.4 Electroluminescence and Identification of the Optical
+ []
+
+Package epstopdf Info: Output file is already uptodate.
+<chpt3/chpt3_el_spectra.pdf, id=2165, 229.85875pt x 425.59pt>
+File: chpt3/chpt3_el_spectra.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_el_spectra.pdf>
+
+LaTeX Warning: Float too large for page by 5.22758pt on input line 190.
+
+[84] [85 <chpt3/chpt3_el_spectra.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_transID.pdf, id=2186, 236.885pt x 196.735pt>
+File: chpt3/chpt3_transID.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_transID.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_fullEL.pdf, id=2190, 222.8325pt x 157.58875pt>
+File: chpt3/chpt3_fullEL.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_fullEL.pdf> [86 <chpt3/chpt3_transID.pdf>] [87 <chpt3/chpt3_fu
+llEL.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_lasing_spectra.pdf, id=2210, 239.89626pt x 426.59375pt>
+File: chpt3/chpt3_lasing_spectra.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_lasing_spectra.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_li_54map.pdf, id=2214, 399.4925pt x 300.12125pt>
+File: chpt3/chpt3_li_54map.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_li_54map.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_li_42map.pdf, id=2215, 399.4925pt x 304.13625pt>
+File: chpt3/chpt3_li_42map.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_li_42map.pdf>
+
+LaTeX Warning: Float too large for page by 3.79012pt on input line 244.
+
+[88] [89 <chpt3/chpt3_lasing_spectra.pdf>] [90 <chpt3/chpt3_li_54map.pdf> <chpt
+3/chpt3_li_42map.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_li_crosssection.pdf, id=2266, 239.89626pt x 178.6675pt>
+File: chpt3/chpt3_li_crosssection.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_li_crosssection.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_li_anticorr.pdf, id=2267, 249.93375pt x 164.615pt>
+File: chpt3/chpt3_li_anticorr.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_li_anticorr.pdf> [91 <chpt3/chpt3_li_crosssection.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_crossover_data.pdf, id=2281, 223.83624pt x 172.645pt>
+File: chpt3/chpt3_crossover_data.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_crossover_data.pdf> [92 <chpt3/chpt3_li_anticorr.pdf>]
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 284.
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_electron_path.pdf, id=2292, 239.89626pt x 199.74625pt>
+File: chpt3/chpt3_electron_path.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_electron_path.pdf> [93 <chpt3/chpt3_crossover_data.pdf>]
+[94 <chpt3/chpt3_electron_path.pdf>] [95]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_redshift.pdf, id=2325, 232.87pt x 202.7575pt>
+File: chpt3/chpt3_redshift.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_redshift.pdf> [96] [97 <chpt3/chpt3_redshift.pdf>] [98]
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 359.
+
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 359.
+
+
+[99]
+Overfull \hbox (2.46521pt too wide) in paragraph at lines 418--418
+[]$\FML/futmi/m/it/12 []$ 
+ []
+
+
+Overfull \hbox (4.79419pt too wide) in paragraph at lines 418--418
+\T1/futs/m/n/12 (ps) 
+ []
+
+[100]
+Package epstopdf Info: Output file is already uptodate.
+ <chpt3/chpt3_crossover.pdf, id=2404, 233.87375pt x 178.6675pt>
+File: chpt3/chpt3_crossover.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_crossover.pdf> [101 <chpt3/chpt3_crossover.pdf>] [102]
+Package epstopdf Info: Output file is already uptodate.
+
+<chpt3/chpt3_crossover_model.pdf, id=2424, 234.8775pt x 176.66pt>
+File: chpt3/chpt3_crossover_model.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_crossover_model.pdf> [103] [104 <chpt3/chpt3_crossover_model.p
+df>]
+Package epstopdf Info: Output file is already uptodate.
+ <chpt3/chpt3_model_cross_temp.pdf, id=2446, 229.85875pt x 162.6075pt>
+File: chpt3/chpt3_model_cross_temp.pdf Graphic file (type pdf)
+
+<use chpt3/chpt3_model_cross_temp.pdf>
+Underfull \hbox (badness 2253) in paragraph at lines 508--508
+[]\T1/futs/b/n/10.95 Figure 4.20: |Cavity length de-pen-dence of tran-si-tion t
+hresh-old crossover tem-per-a-ture.
+ []
+
+[105 <chpt3/chpt3_model_cross_temp.pdf>] [106]
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 525.
+ [107] [108]) [109] (chpt4.tex
+Chapter 5.
+[110
+
+
+
+
+
+] [111]
+Package epstopdf Info: Output file is already uptodate.
+ <../thesis/chpt4/Razeghi.pdf, id=2538, 240.9pt x 172.645pt>
+File: ../thesis/chpt4/Razeghi.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/Razeghi.pdf> [112] [113 <C:/thesis/chpt4/Razeghi.pdf>]
+[114]
+Package epstopdf Info: Output file is already uptodate.
+ <../thesis/chpt4/80308B_114kVcm.pdf, id=2671, 242.9075pt x 195.73125pt>
+File: ../thesis/chpt4/80308B_114kVcm.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/80308B_114kVcm.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/80308B_85kVcm.pdf, id=2672, 242.9075pt x 195.73125pt>
+File: ../thesis/chpt4/80308B_85kVcm.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/80308B_85kVcm.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/80308B_95kVcm.pdf, id=2673, 242.9075pt x 195.73125pt>
+File: ../thesis/chpt4/80308B_95kVcm.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/80308B_95kVcm.pdf> [115]
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-EL80K.pdf, id=2685, 243.91125pt x 178.6675pt>
+File: ../thesis/chpt4/3well-EL80K.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-EL80K.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-ELall.pdf, id=2686, 242.9075pt x 178.6675pt>
+File: ../thesis/chpt4/3well-ELall.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-ELall.pdf> [116] [117 <C:/thesis/chpt4/80308B_114kVc
+m.pdf> <C:/thesis/chpt4/80308B_85kVcm.pdf> <C:/thesis/chpt4/80308B_95kVcm.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+<../thesis/chpt4/3well-EL_spectra.pdf, id=2719, 218.8175pt x 158.5925pt>
+File: ../thesis/chpt4/3well-EL_spectra.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-EL_spectra.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-lasing.pdf, id=2720, 248.93pt x 178.6675pt>
+File: ../thesis/chpt4/3well-lasing.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-lasing.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-lasing_zoom.pdf, id=2721, 221.82875pt x 218.8175pt>
+File: ../thesis/chpt4/3well-lasing_zoom.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-lasing_zoom.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-EL_lasing.pdf, id=2722, 221.82875pt x 197.73875pt>
+File: ../thesis/chpt4/3well-EL_lasing.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-EL_lasing.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-LIV_slopes.pdf, id=2725, 250.9375pt x 178.6675pt>
+File: ../thesis/chpt4/3well-LIV_slopes.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-LIV_slopes.pdf>
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <8.3> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 172.
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <6> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 172.
+ [118] [119 <C:/thesis/chpt4/3well-EL80K.pdf> <C:/thesis/chpt4/3well-ELall.pdf>
+] [120 <C:/thesis/chpt4/3well-EL_spectra.pdf>] [121 <C:/thesis/chpt4/3well-lasi
+ng.pdf> <C:/thesis/chpt4/3well-lasing_zoom.pdf> <C:/thesis/chpt4/3well-EL_lasin
+g.pdf>] [122 <C:/thesis/chpt4/3well-LIV_slopes.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-spectra_79K.pdf, id=2798, 382.42876pt x 468.75125pt>
+File: ../thesis/chpt4/3well-spectra_79K.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-spectra_79K.pdf>
+Underfull \hbox (badness 1210) in paragraph at lines 220--220
+[]\T1/futs/b/n/10.95 Figure 5.7: |Spectra for the 3 in-jec-tor well laser at \T
+1/futs/b/it/10.95 T$[]$ \T1/futs/b/n/10.95 = 79 K. \T1/cmss/m/n/10.95 The de-vi
+ce size was
+ []
+
+Package epstopdf Info: Output file is already uptodate.
+<../thesis/chpt4/3well-spectra_146K.pdf, id=2799, 382.42876pt x 468.75125pt>
+File: ../thesis/chpt4/3well-spectra_146K.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-spectra_146K.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-spectra_302K.pdf, id=2800, 382.42876pt x 468.75125pt>
+File: ../thesis/chpt4/3well-spectra_302K.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-spectra_302K.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-laser-spectrum.pdf, id=2801, 211.79124pt x 111.41624pt>
+File: ../thesis/chpt4/3well-laser-spectrum.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-laser-spectrum.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-T0.pdf, id=2802, 178.6675pt x 196.735pt>
+File: ../thesis/chpt4/3well-T0.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-T0.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/3well-WPE_tifeps.pdf, id=2803, 198.7425pt x 239.89626pt>
+File: ../thesis/chpt4/3well-WPE_tifeps.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/3well-WPE_tifeps.pdf> [123] [124 <C:/thesis/chpt4/3well-sp
+ectra_79K.pdf>] [125 <C:/thesis/chpt4/3well-spectra_146K.pdf>] [126 <C:/thesis/
+chpt4/3well-spectra_302K.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/80308A_128kVcm.pdf, id=2856, 241.90375pt x 195.73125pt>
+File: ../thesis/chpt4/80308A_128kVcm.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/80308A_128kVcm.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/80308A_103kVcm.pdf, id=2857, 241.90375pt x 195.73125pt>
+File: ../thesis/chpt4/80308A_103kVcm.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/80308A_103kVcm.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/80308A_138kVcm.pdf, id=2858, 240.9pt x 195.73125pt>
+File: ../thesis/chpt4/80308A_138kVcm.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/80308A_138kVcm.pdf> [127 <C:/thesis/chpt4/3well-laser-spec
+trum.pdf> <C:/thesis/chpt4/3well-T0.pdf> <C:/thesis/chpt4/3well-WPE_tifeps.pdf>
+]
+Package epstopdf Info: Output file is already uptodate.
+ <../thesis/chpt4/2well-EL_LIV.pdf, id=2881, 237.88875pt x 214.8025pt>
+File: ../thesis/chpt4/2well-EL_LIV.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-EL_LIV.pdf> [128] [129 <C:/thesis/chpt4/80308A_128kV
+cm.pdf> <C:/thesis/chpt4/80308A_103kVcm.pdf> <C:/thesis/chpt4/80308A_138kVcm.pd
+f>] [130 <C:/thesis/chpt4/2well-EL_LIV.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/2well-laser_a529ZB.pdf, id=2924, 248.93pt x 178.6675pt>
+File: ../thesis/chpt4/2well-laser_a529ZB.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-laser_a529ZB.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/2well-laser_a529ZF.pdf, id=2925, 254.9525pt x 178.6675pt>
+File: ../thesis/chpt4/2well-laser_a529ZF.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-laser_a529ZF.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/2well-laser_a529ZA.pdf, id=2926, 254.9525pt x 178.6675pt>
+File: ../thesis/chpt4/2well-laser_a529ZA.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-laser_a529ZA.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/2well-laser_a529ADb.pdf, id=2927, 252.945pt x 173.64874pt>
+File: ../thesis/chpt4/2well-laser_a529ADb.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-laser_a529ADb.pdf> [131] [132 <C:/thesis/chpt4/2well
+-laser_a529ZB.pdf> <C:/thesis/chpt4/2well-laser_a529ZF.pdf>] [133 <C:/thesis/ch
+pt4/2well-laser_a529ZA.pdf> <C:/thesis/chpt4/2well-laser_a529ADb.pdf>]
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/2well-spectra_79K.pdf, id=2964, 382.42876pt x 470.75874pt>
+File: ../thesis/chpt4/2well-spectra_79K.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-spectra_79K.pdf>
+
+LaTeX Warning: Float too large for page by 5.58351pt on input line 347.
+
+Package epstopdf Info: Output file is already uptodate.
+<../thesis/chpt4/2well-spectra_301K.pdf, id=2967, 380.42125pt x 468.75125pt>
+File: ../thesis/chpt4/2well-spectra_301K.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-spectra_301K.pdf>
+
+LaTeX Warning: Float too large for page by 6.10384pt on input line 354.
+
+Package epstopdf Info: Output file is already uptodate.
+<../thesis/chpt4/2well-laser-spectrum.pdf, id=2973, 206.7725pt x 111.41624pt>
+File: ../thesis/chpt4/2well-laser-spectrum.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-laser-spectrum.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/2well-T0.pdf, id=2974, 181.67876pt x 195.73125pt>
+File: ../thesis/chpt4/2well-T0.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-T0.pdf>
+Package epstopdf Info: Output file is already uptodate.
+
+<../thesis/chpt4/2well-WPE_tifeps.pdf, id=2975, 198.7425pt x 240.9pt>
+File: ../thesis/chpt4/2well-WPE_tifeps.pdf Graphic file (type pdf)
+
+<use ../thesis/chpt4/2well-WPE_tifeps.pdf> [134] [135 <C:/thesis/chpt4/2well-sp
+ectra_79K.pdf>] [136 <C:/thesis/chpt4/2well-spectra_301K.pdf>] [137 <C:/thesis/
+chpt4/2well-laser-spectrum.pdf> <C:/thesis/chpt4/2well-T0.pdf> <C:/thesis/chpt4
+/2well-WPE_tifeps.pdf>]
+Underfull \hbox (badness 1297) in paragraph at lines 400--401
+\T1/futs/m/n/12 The two short in-jec-tor de-signs herein pre-sented, along with
+ other short in-jec-tor
+ []
+
+[138]) [139] (conclusions.tex
+Chapter 6.
+[140
+
+
+
+
+
+] [141] [142] [143] [144] [145] [146]
+Underfull \hbox (badness 6859) in paragraph at lines 138--138
+[]\T1/futs/b/n/17.28 The Feasibility of a Sustainable QC Laser-based
+ []
+
+[147]) [148] (publications.tex
+Underfull \hbox (badness 3713) in paragraph at lines 23--24
+[]\T1/futs/m/n/12 H. Lu, A. Shen, W. Charles, I. Yokomizo, M. C. Tarmargo, \T1/
+futs/b/n/12 K. J. Franz\T1/futs/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 25--26
+\T1/futs/m/n/12 S. K. Zhang, X. Zhou, R. R. Alfano, and H. C. Liu, ``Intersubba
+nd ab-sorp-
+ []
+
+[149
+
+
+
+
+
+]
+Underfull \hbox (badness 4156) in paragraph at lines 29--30
+[]\T1/futs/m/n/12 A. J. Hoffman, L. Alekseyev, S. S. Howard, \T1/futs/b/n/12 K.
+ J. Franz\T1/futs/m/n/12 , D. Wasserman,
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 31--32
+[]\T1/futs/b/n/12 K. J. Franz\T1/futs/m/n/12 , W. O. Charles, A. Shen, A. J. Ho
+ffman, M. C. Tamargo, and
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 32--33
+[]\T1/futs/m/n/12 W. O. Charles, A. Shen, \T1/futs/b/n/12 K. J. Franz\T1/futs/m
+/n/12 , C. Gmachl, Q. Zhang, Y. Gong,
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 32--33
+\T1/futs/m/n/12 / Zn$[]$Cd$[]$Mg$[]$Se Asymmetric Coupled Quantum Well Structur
+es for
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 33--34
+[]\T1/futs/m/n/12 A. Shen, W. O. Charles, B. S. Li, \T1/futs/b/n/12 K. J. Franz
+\T1/futs/m/n/12 , C. Gmachl, Q. Zhang, and
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 33--34
+\T1/futs/m/n/12 M. C. Tamargo, ``Wide Band Gap II--VI Selenides for Short Wavel
+ength
+ []
+
+LaTeX Font Info:    Font shape `T1/futs/bx/sl' in size <12> not available
+(Font)              Font shape `T1/futs/b/sl' tried instead on input line 36.
+[150] [151]) [152] (presentations.tex
+Underfull \hbox (badness 1014) in paragraph at lines 22--23
+\T1/futs/m/n/12 wavelength quan-tum cas-cade lasers,'' \T1/futs/m/it/12 CLEO Se
+miconductor Laser Workshop
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 23--24
+[]\T1/futs/m/n/12 A. Shen, H. Lu, M. C. Tamargo, W. Charles, I. Yokomizo, C. Y.
+ Song,
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 25--26
+[]\T1/futs/b/n/12 K. J. Franz\T1/futs/m/n/12 , K.-T. Shiu, S. R. Forrest, and C
+. Gmachl, ``Monolithic Mid-
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 26--27
+[]\T1/futs/b/n/12 K. J. Franz\T1/futs/m/n/12 , D. Wasserman, A. J. Hoffman, K.-
+T. Shiu, S. R. Forrest, and
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 27--28
+[]\T1/futs/b/n/12 K. J. Franz\T1/futs/m/n/12 , D. Wasserman, A. J. Hoffman, K.-
+T. Shiu, S. R. Forrest, and
+ []
+
+[153
+
+
+
+
+
+]
+Underfull \hbox (badness 1694) in paragraph at lines 31--32
+\T1/futs/m/n/12 ``Low-Voltage Defect Quantum Cascade Laser with Heterogeneous I
+njector
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 33--34
+\T1/futs/m/n/12 D. Wasserman, and C. Gmachl, ``Mid-Infrared Quantum Cascade Las
+ers,''
+ []
+
+[154]
+Underfull \hbox (badness 2150) in paragraph at lines 41--42
+[]\T1/futs/b/n/12 K. J. Franz\T1/futs/m/n/12 , W. O. Charles, A. Shen, A. J. Ho
+ffman, M. C. Tamargo, and
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 41--42
+\T1/futs/m/n/12 C. Gmachl, ``Intersubband Electroluminescence from a ZnCdSe/ZnC
+dMgSe
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 42--43
+[]\T1/futs/m/n/12 Y. Dikmelik, J. B. Khurgin, A. J. Hoffman, S. S. Howard, \T1/
+futs/b/n/12 K. J. Franz\T1/futs/m/n/12 , and
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 45--46
+[]\T1/futs/m/n/12 A. Shen, W. O. Charles, B. S. Li, \T1/futs/b/n/12 K. J. Franz
+\T1/futs/m/n/12 , C. Gmachl, Q. Zhang, and
+ []
+
+[155]
+Underfull \hbox (badness 1577) in paragraph at lines 49--50
+[]\T1/futs/m/n/12 Y. Dikmelik, J. B. Khurgin, A. J. Hoffman, S. S. Howard, \T1/
+futs/b/n/12 K. J. Franz\T1/futs/m/n/12 , and
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 52--53
+\T1/futs/m/n/12 J. B. Khurgin, X. Wang, [], and C. Gmachl, ``Short Injector Reg
+ions
+ []
+
+[156]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\T1/futs/m/n/12 and C. Gmachl, ``Ultra-Low Voltage Defect Quantum Cascade Laser
+s,''
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 58--59
+\T1/futs/m/n/12 Y. Dikmelik, J. B. Khurgin, X. Wang, [], and C. Gmachl, ``Negat
+ive
+ []
+
+) [157] (patents.tex
+Underfull \hbox (badness 1033) in paragraph at lines 19--21
+[]\T1/futs/m/n/12 Claire Gmachl and Kale J. Franz, ``Excited State Quantum Casc
+ade Photon
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 22--23
+[]\T1/futs/m/n/12 Kale J. Franz, Claire Gmachl, Anthony J. Hoffman, and Scott S
+. Howard,
+ []
+
+) [158
+
+
+
+
+
+] (thesis_main.bbl
+Underfull \hbox (badness 1173) in paragraph at lines 35--39
+[]\T1/futs/m/n/12 L. Esaki and R. Tsu, ``Superlattice and Negative Differential
+ Conductivity in
+ []
+
+[159
+
+
+
+
+]
+Underfull \hbox (badness 1454) in paragraph at lines 64--70
+\T1/futs/m/n/12 M. C. Wanke, A. M. Sergent, and A. Y. Cho, ``Far-infrared surfa
+ce--plasmon
+ []
+
+[160]
+Underfull \hbox (badness 3009) in paragraph at lines 144--148
+[]\T1/futs/m/n/12 K. J. Franz, W. O. Charles, A. Shen, A. J. Hoffman, M. C. Tam
+argo, and
+ []
+
+[161]
+Underfull \hbox (badness 1460) in paragraph at lines 157--162
+[]\T1/futs/m/n/12 K. J. Franz, S. Menzel, A. J. Hoffman, D. Wasserman, J. W. Co
+ckburn, and
+ []
+
+[162]
+Underfull \hbox (badness 1052) in paragraph at lines 231--236
+[]\T1/futs/m/n/12 M. Sugawara, N. Okazaki, T. Fujii, and S. Yamazaki, ``Conduct
+ion-band and
+ []
+
+[163] [164] [165]
+Underfull \hbox (badness 1215) in paragraph at lines 393--398
+[]\T1/futs/m/n/12 Q. Yang, C. Mann, F. Fuchs, K. Kˆhler, and W. Bronner, ``High
+-temperature
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 413--419
+\T1/futs/m/n/12 and M. Helm, ``Above room tem-per-a-ture op-er-a-tion of short 
+wave-length
+ []
+
+[166]
+Underfull \hbox (badness 5175) in paragraph at lines 450--455
+[]\T1/futs/m/n/12 A. Vardi, G. Bahir, F. Guillot, C. Bougerol, E. Monroy, S. E.
+ Schacham,
+ []
+
+[167]
+Underfull \hbox (badness 1622) in paragraph at lines 493--497
+[]\T1/futs/m/n/12 DARPA MTO,  ``Broad Agency Announcment for the DARPA Visible 
+InGaN
+ []
+
+[168]
+Underfull \hbox (badness 1558) in paragraph at lines 532--537
+\T1/futs/m/n/12 Hwang, and C. Y. Chen, ``Molecular beam epi-tax-ial growth of h
+igh qual-ity
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 539--544
+[]\T1/futs/m/n/12 M. T. Litz, K. Watanabe, M. Korn, H. Ress, U. Lunz, W. Ossau,
+ A. Waag,
+ []
+
+[169]
+Underfull \hbox (badness 5985) in paragraph at lines 574--581
+[]\T1/futs/m/n/12 H. Lu, A. Shen, W. Charles, I. Yokomizo, M. C. Tamargo, K. J.
+ Franz,
+ []
+
+[170]
+Underfull \hbox (badness 1270) in paragraph at lines 639--644
+[]\T1/futs/m/n/12 Y. Okada, S. Tanimura, H. Okamura, A. Suda, H. Tashiro, and K
+. Takeuchi,
+ []
+
+[171] [172]
+Underfull \hbox (badness 2065) in paragraph at lines 763--768
+[]\T1/futs/m/n/12 Z. Liu, C. Gmachl, L. Cheng, F.-S. Choa, F. Towner, X. Wang, 
+and J. Fan,
+ []
+
+[173] [174]
+Underfull \hbox (badness 2065) in paragraph at lines 869--874
+[]\T1/futs/m/n/12 C. Gmachl, A. Tredicucci, F. Capasso, A. L. Hutchinson, D. L.
+ Sivco, J. N.
+ []
+
+[175] [176] [177]
+Underfull \hbox (badness 3168) in paragraph at lines 1005--1011
+[]\T1/futs/m/n/12 S. Blaser, A. Bachle, S. Jochum, L. Hvozdara, G. Vandeputte, 
+S. Brunner,
+ []
+
+) [178] (thesis_main.aux (frontmatter.aux) (introduction.aux) (chpt1.aux)
+(chpt2.aux) (chpt3.aux) (chpt4.aux) (conclusions.aux) (publications.aux)
+(presentations.aux) (patents.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 153 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 9902 strings out of 95340
+ 146517 string characters out of 1184444
+ 213754 words of memory out of 1500000
+ 11880 multiletter control sequences out of 110000
+ 269115 words of font info for 243 fonts, out of 1200000 for 2000
+ 14 hyphenation exceptions out of 8191
+ 43i,19n,47p,2397b,546s stack positions out of 5000i,500n,10000p,200000b,5000s
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced bu
+t does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Programs/MiKTeX/fonts/enc/dvips/fontname/8r.enc} <C:\Documents and Settings
+\All Users\Application Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecsi0
+800.pk> <C:\Documents and Settings\All Users\Application Data\MiKTeX\2.7\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecsi1095.pk> <C:\Documents and Settings\All Users\
+Application Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0800.pk> <C:
+\Documents and Settings\All Users\Application Data\MiKTeX\2.7\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecsx1095.pk> <C:\Documents and Settings\All Users\Application
+ Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1095.pk> <C:\Documents 
+and Settings\All Users\Application Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\
+dpi600\ecss1095.pk><C:/Programs/MiKTeX/fonts/type1/bluesky/cm/cmbxsl10.pfb><C:/
+Programs/MiKTeX/fonts/type1/bluesky/cm/cmsy10.pfb><C:/Programs/MiKTeX/fonts/typ
+e1/bluesky/cm/cmsy7.pfb><C:/Programs/MiKTeX/fonts/type1/bluesky/cm/cmsy9.pfb><C
+:/Programs/MiKTeX/fonts/type1/public/fourier/fourier-alt.pfb><C:/Programs/MiKTe
+X/fonts/type1/public/fourier/fourier-mex.pfb><C:/Programs/MiKTeX/fonts/type1/pu
+blic/fourier/fourier-ml.pfb><C:/Programs/MiKTeX/fonts/type1/public/fourier/four
+ier-mlit.pfb><C:/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/
+Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Programs/MiKTeX/fonts/t
+ype1/adobe/utopia/putb8a.pfb><C:/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi
+8a.pfb><C:/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Programs/MiK
+TeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Programs/MiKTeX/fonts/type1/adobe/u
+topia/putri8a.pfb><C:/Programs/MiKTeX/fonts/type1/hoekwater/rsfs/rsfs10.pfb>
+Output written on thesis_main.pdf (191 pages, 12739502 bytes).
+PDF statistics:
+ 3734 PDF objects out of 4296 (max. 8388607)
+ 755 named destinations out of 1000 (max. 131072)
+ 1283 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,168 @@
+\usepackage[cmex10]{amsmath}
+\usepackage{amssymb}
+
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+\usepackage{textcomp}  %for \textmu
+
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+  \usepackage{epstopdf}
+  \epstopdfsetup{update}
+  \usepackage{color}
+  \usepackage[linktocpage=true]{hyperref}
+  \hypersetup{colorlinks=true,pagebackref=true,breaklinks=true,linkcolor=blue,citecolor=red}%linkcolor={0 0 1}
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+    \providecommand{\doi}[1]{\\doi:\href{http://dx.doi.org/#1}{#1}}
+    \providecommand{\isbn}[1]{ISBN~\href{http://en.wikipedia.org/w/index.php?title=Special\%3ABookSources&isbn=#1}{#1}}
+    \providecommand{\kurl}[1]{\\url:~\href{#1}{#1}}
+\else
+%  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+%  % will default to the driver specified in the system graphics.cfg if no
+%  % driver is specified.
+  \usepackage[dvips]{graphicx}
+  \providecommand{\doi}[1]{\\doi:#1}
+  \providecommand{\isbn}[1]{ISBN~#1}
+  \providecommand{\kurl}[1]{url:~#1}
+  %\providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}
+\fi
+%\graphicspath{{../short_inj/images/}{/chpt2/}}
+\graphicspath{{../thesis/chpt4/}{../thesis/chpt1/}}
+\DeclareGraphicsExtensions{.eps}
+
+\usepackage{cite}
+
+
+\usepackage[font=small,format=plain,labelfont=bf,up,textfont=sf,up]{caption}
+\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage{fixltx2e}
+\usepackage{dblfloatfix}
+
+\usepackage{PUTHEDS}
+
+
+\newfont{\boldslant}{cmbxsl10 scaled \magstep 1}
+
+%\usepackage[T1]{fontenc} %Palatino font
+%\usepackage[sc]{mathpazo} %Palatino font
+%\linespread{1.05} %Palatino font
+%\usepackage{pxfonts}
+%\usepackage[adobe-utopia]{mathdesign} $utopia with mathdesign font
+%\usepackage{fouriernc} %new century schoolbook with fourier math font
+%\usepackage[garamond]{mathdesign}
+
+\usepackage{fourier} %utopia with fourier math font
+\renewcommand*\oldstylenums[1]{{\fontfamily{esfod}\selectfont#1}}
+
+%% Times font package
+%\renewcommand{\sfdefault}{phv}
+%\renewcommand{\rmdefault}{ptm}
+%\renewcommand{\ttdefault}{pcr}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy} 
+\fancyhead{} % clear all header fields
+%\fancyhead[LE,RO]{\nouppercase{\boldslant{\leftmark}}}
+\fancyhead[RO]{\nouppercase{\boldslant{\leftmark}}}
+\fancyhead[LE]{\nouppercase{\boldslant{\rightmark}}}
+%\fancyhead[LO,RE]{\slshape \leftmark}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+
+
+\renewcommand{\chaptermark}[1]{%
+\markboth{\normalfont \textbf{\chaptername \ \thechapter} \\ \textsl{#1}}{}}
+
+\renewcommand{\sectionmark}[1]{%
+\markright{\normalfont \textbf{Section \ \thesection} \\ #1}}
+
+
+\usepackage[nottoc,notlof,notlot]{tocbibind}
+
+\renewcommand{\bibname}{References}
+\renewcommand{\contentsname}{Table of Contents}
+
+
+
+
+\usepackage{glossary}
+\makeglossary
+%\usepackage{losymbol}
+
+\widowpenalty10000
+\clubpenalty10000
+
+\relpenalty=10000 %http://www.guyrutenberg.com/2006/12/10/prevent-line-breaking-inline-formula-in-texlatex/
+\binoppenalty=10000
+
+%\addtolength{\textwidth}{0.5in}
+%\addtolength{\topmargin}{-.5in}
+%\addtolength{\textheight}{1in}
+
+\fancyhfoffset[E,O]{0in}
+
+
+%\usepackage{mathbbol}
+
+\usepackage{mathrsfs}
+\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n} %put \mathcal back to normal
+%%%%%%%%%%%%%%%%%%
+%
+% Macros
+%
+%%%%%%%%%%%%%%%%%%
+\newcommand{\EE}{\leavevmode\ifmmode \mathcal{E} \else $\mathcal{E}$ \fi}
+%\newcommand{\um}{\leavevmode\ifmmode \textmu m\else $\textmu$m\fi}
+\newcommand{\um}{\textmu m}
+\newcommand{\hw}{\leavevmode\ifmmode \hslash \omega_{ph} \else $\hslash\omega_{ph}$ \fi}
+\newcommand{\sub}[1]{$_{#1}$}
+\newcommand{\ket}[1]{$|#1\rangle$}
+\newcommand{\braket}[2]{$\langle#1|#2\rangle$}
+\newcommand{\trans}[2]{\ket{#1}$\rightarrow$\ket{#2}}
+\renewcommand{\sup}[1]{\ensuremath{^{#1}}}
+\def\slantfrac#1#2{\hbox{$\,^#1\!/_#2$}}
+\newcommand{\InGaAs}{In\sub{0.53}Ga\sub{0.47}As }
+\newcommand{\AlInAs}{Al\sub{0.48}In\sub{0.52}As }
+\newcommand{\tn}[1]{\textnormal{#1}}
+\newcommand{\tb}[1]{\textbf{#1}}
+\newcommand{\tnit}[1]{\textnormal{\textit{#1}}}
+\DeclareMathAlphabet{\mathitbf}{OML}{cmm}{b}{it}
+\newcommand{\dlunit}[2]{[$\frac{\tn{#1}}{\tn{#2}}$]}
+\newcommand{\slunit}[1]{[$\tn{\footnotesize{#1}}$]}
+
+
+% http://www-solar.mcs.st-andrews.ac.uk/~robertc/latex/Latex.html
+\usepackage{ifthen}
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+\hbox{}%
+\thispagestyle{empty}
+\newpage%
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+%fix figures having their own pages
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.85}
+
+%in-text fractions
+\def\myfrac#1#2{
+\hspace{3pt}\!\!\!$^{#1}\!\!\hspace{1pt}/\hspace{2pt}\!\!_{#2}$\!\!\!\hspace{3pt}
+}
+
+\usepackage[perpage,para,symbol*]{footmisc}
+
+\nonfrenchspacing
+
+\uchyph=0 %prevent hyphenation of all cap words (acronyms)
+%\hyphenation{II--VI}
+\hyphenpenalty=1000
+\tolerance=1000
+\newcommand{\twosix}{\mbox{II--VI}}
+\newcommand{\threefive}{\mbox{III--V}} 

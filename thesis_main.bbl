@@ -1,0 +1,1019 @@
+\begin{thebibliography}{100}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{Chapin:JAP:1954}
+\begin{samepage}D.~M. Chapin, C.~S. Fuller, and G.~L. Pearson, \enquote{A New
+  Silicon p-n Junction Photocell for Converting Solar Radiation into Electrical
+  Power,} \emph{J. Appl. Phys.}~ \textbf{25}, 676 (1954).
+\newblock \doi{10.1063/1.1721711}\end{samepage}
+
+\bibitem{Hall:PRL:1962}
+\begin{samepage}R.~N. Hall, G.~E. Fenner, J.~D. Kingsley, T.~J. Soltys, and
+  R.~O. Carlson, \enquote{Coherent Light Emission From GaAs Junctions,}
+  \emph{Phys. Rev. Lett.}~ \textbf{9}, 366 (1962).
+\newblock \doi{10.1103/PhysRevLett.9.366}\end{samepage}
+
+\bibitem{Holonyak:APL:1962}
+\begin{samepage}J.~Nick~Holonyak and S.~F. Bevacqua, \enquote{Coherent
+  (Visible) Light Emission from Ga(As\sub{1-x}P\sub{x}) Junctions,} \emph{Appl.
+  Phys. Lett.}~ \textbf{1}, 82 (1962).
+\newblock \doi{10.1063/1.1753706}\end{samepage}
+
+\bibitem{Alferov:NobelLecture}
+\begin{samepage}Z.~I. Alferov, \enquote{The double heterostructure concept and
+  its applications in physics, electronics, and technology,} \emph{Rev. Mod.
+  Phys.}~ \textbf{73}, 767 (2001).
+\newblock \doi{10.1103/RevModPhys.73.767}\end{samepage}
+
+\bibitem{Kroemer:NobelLecture}
+\begin{samepage}H.~Kroemer, \enquote{Quasielectric fields and band offsets:
+  teaching electrons new tricks,} \emph{Rev. Mod. Phys.}~ \textbf{73}, 783
+  (2001).
+\newblock \doi{10.1103/RevModPhys.73.783}\end{samepage}
+
+\bibitem{EsakiTsu:IBM:1970}
+\begin{samepage}L.~Esaki and R.~Tsu, \enquote{Superlattice and Negative
+  Differential Conductivity in Semiconductors,} \emph{IBM J. Res. Dev.}~
+  \textbf{14}, 61 (1970).\end{samepage}
+\newblock \kurl{http://www.research.ibm.com/journal/rd/141/ibmrd1401H.pdf}
+
+\bibitem{KazarinovSuris}
+\begin{samepage}R.~F. Kazarinov and R.~A. Suris, \enquote{Possibility of
+  Amplification of Electromagnetic Waves in a Semiconductor with a
+  Superlattice,} \emph{Sov. Phys. Semicond.}~ \textbf{5}, 207
+  (1971).\end{samepage}
+
+\bibitem{Faist:Science:1994}
+\begin{samepage}J.~Faist, F.~Capasso, D.~L. Sivco, C.~Sirtori, A.~L.
+  Hutchinson, and A.~Y. Cho, \enquote{{Quantum Cascade Laser},} \emph{Science}~
+  \textbf{264}, 553 (1994).
+\newblock \doi{10.1126/science.264.5158.553}\end{samepage}
+
+\bibitem{Williams:NatPhot:2007:THzReview}
+\begin{samepage}B.~S. Williams, \enquote{Terahertz quantum-cascade lasers,}
+  \emph{Nature Photonics}~ \textbf{1}, 517 (2007).
+\newblock \doi{10.1038/nphoton.2007.166}\end{samepage}
+
+\bibitem{Devenson:APL:2007}
+\begin{samepage}J.~Devenson, O.~Cathabard, R.~Teissier, and A.~N. Baranov,
+  \enquote{InAs/AlSb quantum cascade lasers emitting at 2.75--2.97~\um,}
+  \emph{Appl. Phys. Lett.}~ \textbf{91}, 251102 (2007).
+\newblock \doi{10.1063/1.2825284}\end{samepage}
+
+\bibitem{Colombelli:APL:2001:24um}
+\begin{samepage}R.~Colombelli, F.~Capasso, C.~Gmachl, A.~L. Hutchinson, D.~L.
+  Sivco, A.~Tredicucci, M.~C. Wanke, A.~M. Sergent, and A.~Y. Cho,
+  \enquote{{Far-infrared surface--plasmon quantum--cascade lasers at 21.5~\um\
+  and 24~\um\ wavelengths},} \emph{Appl. Phys. Lett.}~ \textbf{78}, 2620
+  (2001).
+\newblock \doi{10.1063/1.1367304}\end{samepage}
+
+\bibitem{USAF:AC130}
+\begin{samepage}{Senior Airman Julianne Showalter}, \emph{{United States Air
+  Force}}~ \end{samepage}
+
+\bibitem{BAE:ATIRCM}
+\begin{samepage}{BAE Systems}, \enquote{BAE SYSTEMS' ATIRCM/CMWS Successfully
+  Completes Army Live-fire Tests; Key Testing Milestone Accomplished,}
+  \emph{Press Release}~  (May 15, 2001).\end{samepage}
+
+\bibitem{Manor:AO:2003}
+\begin{samepage}H.~Manor and S.~Arnon, \enquote{Performance of an Optical
+  Wireless Communication System as a Function of Wavelength,} \emph{Appl.
+  Opt.}~ \textbf{42}, 4285 (2003).
+\newblock \doi{10.1364/AO.42.004285}\end{samepage}
+
+\bibitem{Kosterev:APB:2002:15um}
+\begin{samepage}A.~A. Kosterev, R.~F. Curl, F.~K. Tittel, M.~Rochat,
+  D.~Hofstetter, and J.~Faist, \enquote{{Chemical sensing with pulsed QC--DFB
+  lasers operating at 15.6~\um},} \emph{Appl. Phys. B}~ \textbf{75}, 351
+  (2002).
+\newblock \doi{10.1007/s00340-002-0963-z}\end{samepage}
+
+\bibitem{Beck:Science:2002}
+\begin{samepage}M.~Beck, D.~Hofstetter, T.~Aellen, J.~Faist, U.~Oesterle,
+  M.~Ilegems, E.~Gini, and H.~Melchior, \enquote{{Continuous Wave Operation of
+  a Mid-Infrared Semiconductor Laser at Room Temperature},} \emph{Science}~
+  \textbf{295}, 301 (2002).
+\newblock \doi{10.1126/science.1066408}\end{samepage}
+
+\bibitem{Scamarcio:Science:1997:superlattice}
+\begin{samepage}G.~Scamarcio, F.~Capasso, C.~Sirtori, J.~Faist, A.~L.
+  Hutchinson, D.~L. Sivco, and A.~Y. Cho, \enquote{{High-Power Infrared
+  (8-Micrometer Wavelength) Superlattice Lasers},} \emph{Science}~
+  \textbf{276}, 773 (1997).
+\newblock \doi{10.1126/science.276.5313.773}\end{samepage}
+
+\bibitem{Troccoli:Nature:2005}
+\begin{samepage}M.~Troccoli, A.~Belyanin, F.~Capasso, E.~Cubukcu, D.~L. Sivco,
+  and A.~Y. Cho, \enquote{Raman injection laser,} \emph{Nature}~ \textbf{433},
+  845 (2005).
+\newblock \doi{10.1038/nature03330}\end{samepage}
+
+\bibitem{Terazzi:NPhys:2007}
+\begin{samepage}R.~Terazzi, T.~Gresch, M.~Giovannini, N.~Hoyler, N.~Sekine, and
+  J.~Faist, \enquote{Bloch gain in quantum cascade lasers,} \emph{Nature
+  Physics}~ \textbf{3}, 329 (2007).
+\newblock \doi{10.1038/nphys577}\end{samepage}
+
+\bibitem{Cheng:ProcIEEE:1997}
+\begin{samepage}K.-Y. Cheng, \enquote{{Molecular beam epitaxy technology of
+  III--V compound semiconductors for optoelectronic applications},} \emph{Proc.
+  IEEE}~ \textbf{85}, 1694 (1997).
+\newblock \doi{10.1109/5.649646}\end{samepage}
+
+\bibitem{Coleman:ProcIEEE:1997:MOCVD}
+\begin{samepage}J.~Coleman, \enquote{Metalorganic chemical vapor deposition for
+  optoelectronic devices,} \emph{Proc. IEEE}~ \textbf{85}, 1715 (1997).
+\newblock \doi{10.1109/5.649647}\end{samepage}
+
+\bibitem{Liu:PTL:2006}
+\begin{samepage}Z.~Liu, D.~Wasserman, S.~Howard, A.~Hoffman, C.~Gmachl,
+  X.~Wang, T.~Tanbun-Ek, L.~Cheng, and F.-S. Choa, \enquote{{Room-temperature
+  continuous-wave quantum cascade lasers grown by MOCVD without lateral
+  regrowth},}~ \textbf{18}, 1347 (2006).
+\newblock \doi{10.1109/LPT.2006.877006}\end{samepage}
+
+\bibitem{Razeghi:SPIE:2009}
+\begin{samepage}M.~Razeghi, \enquote{{High-power high-wall plug efficiency
+  mid-infrared quantum cascade lasers based on InP/GaInAs/InAlAs material
+  system},} \emph{Proc. SPIE}~ \textbf{7230}, 723011 (2009).
+\newblock \doi{10.1117/12.813923}\end{samepage}
+
+\bibitem{Franz:APL:2008}
+\begin{samepage}K.~J. Franz, W.~O. Charles, A.~Shen, A.~J. Hoffman, M.~C.
+  Tamargo, and C.~Gmachl, \enquote{ZnCdSe/ZnCdMgSe quantum cascade
+  electroluminescence,} \emph{Appl. Phys. Lett.}~ \textbf{92}, 121105 (2008).
+\newblock \doi{10.1063/1.2903135}\end{samepage}
+
+\bibitem{Franz:APL:2007}
+\begin{samepage}K.~J. Franz, D.~Wasserman, A.~J. Hoffman, D.~C. Jangraw, K.-T.
+  Shiu, S.~R. Forrest, and C.~Gmachl, \enquote{{Evidence of cascaded emission
+  in a dual-wavelength quantum cascade laser},} \emph{Appl. Phys. Lett.}~
+  \textbf{90}, 091104 (2007).
+\newblock \doi{10.1063/1.2709970}\end{samepage}
+
+\bibitem{Franz:NPhoton:2009}
+\begin{samepage}K.~J. Franz, S.~Menzel, A.~J. Hoffman, D.~Wasserman, J.~W.
+  Cockburn, and C.~Gmachl, \enquote{High \emph{k}-space lasing in a
+  dual-wavelength quantum cascade laser,} \emph{Nature Photonics}~ \textbf{3},
+  50 (2008).
+\newblock \doi{10.1038/nphoton.2008.250}\end{samepage}
+
+\bibitem{Sirtori:PRB:1994}
+\begin{samepage}C.~Sirtori, F.~Capasso, J.~Faist, and S.~Scandolo,
+  \enquote{Nonparabolicity and a sum rule associated with bound-to-bound and
+  bound-to-continuum intersubband transitions in quantum wells,} \emph{Phys.
+  Rev. B}~ \textbf{50}, 8663 (1994).
+\newblock \doi{10.1103/PhysRevB.50.8663}\end{samepage}
+
+\bibitem{Harrison}
+P.~Harrison, \emph{{Quantum Wells, Wires and Dots: Theoretical and
+  Computational Physics of Semiconductor Nanostructures}}
+\newblock Wiley 2nd edn. (2005).
+\newblock \\ \isbn{0-470-01080-0}
+
+\bibitem{Vurgaftman}
+\begin{samepage}I.~Vurgaftman, J.~R. Meyer, and L.~R. Ram-Mohan, \enquote{{Band
+  parameters for III--V compound semiconductors and their alloys},} \emph{J.
+  Appl. Phys.}~ \textbf{89}, 5815 (2001).
+\newblock \doi{10.1063/1.1368156}\end{samepage}
+
+\bibitem{Dehlinger:Science:2000:Sige}
+\begin{samepage}G.~Dehlinger, L.~Diehl, U.~Gennser, H.~Sigg, J.~Faist,
+  K.~Ensslin, D.~Grutzmacher, and E.~Muller, \enquote{{Intersubband
+  Electroluminescence from Silicon-Based Quantum Cascade Structures},}
+  \emph{Science}~ \textbf{290}, 2277 (2000).
+\newblock \doi{10.1126/science.290.5500.2277}\end{samepage}
+
+\bibitem{Malis:APL:2006}
+\begin{samepage}O.~Malis, L.~N. Pfeiffer, K.~W. West, A.~M. Sergent, and
+  C.~Gmachl, \enquote{{Mid-infrared hole-intersubband electroluminescence in
+  carbon-doped GaAs/AlGaAs quantum cascade structures},} \emph{Appl. Phys.
+  Lett.}~ \textbf{88}, 081117 (2006).
+\newblock \doi{10.1063/1.2179117}\end{samepage}
+
+\bibitem{Adachi:book:2005}
+S.~Adachi, \emph{{Properties of Group-IV, III-V and II-VI Semiconductors}}
+\newblock Wiley (2005).
+\newblock \\ \isbn{0-470-09032-4}
+
+\bibitem{Varshni:Physica:1967}
+\begin{samepage}Y.~P. Varshni, \enquote{Temperature dependence of the energy
+  gap in semiconductors,} \emph{Physica}~ \textbf{34}, 149 (1967).
+\newblock \doi{10.1016/0031-8914(67)90062-6}\end{samepage}
+
+\bibitem{Faist:APL:1998:short}
+\begin{samepage}J.~Faist, F.~Capasso, D.~L. Sivco, A.~L. Hutchinson, S.-N.~G.
+  Chu, and A.~Y. Cho, \enquote{Short wavelength ($\lambda\sim3.4$~\um) quantum
+  cascade laser based on strained compensated InGaAs/AlInAs,} \emph{Appl. Phys.
+  Lett.}~ \textbf{72}, 680 (1998).
+\newblock \doi{10.1063/1.120843}\end{samepage}
+
+\bibitem{Chuang}
+S.~L. Chuang, \emph{Physics of Optoelectronic Devices}
+\newblock Wiley, New York (1995).
+\newblock \\ \isbn{0-471-10939-8}
+
+\bibitem{Pikus-Bir}
+G.~L. Bir and G.~Pikus, \emph{Symmetry and Strain-Induced Effects in
+  Semiconductors}
+\newblock Wiley, New York (1974).
+\newblock \\ \isbn{0-470-07321-7}
+
+\bibitem{VandeWalle:PRB:1989}
+\begin{samepage}C.~G. Van~de Walle, \enquote{Band lineups and deformation
+  potentials in the model-solid theory,} \emph{Phys. Rev. B}~ \textbf{39}, 1871
+  (1989).
+\newblock \doi{10.1103/PhysRevB.39.1871}\end{samepage}
+
+\bibitem{Sugawara:PRB:1993}
+\begin{samepage}M.~Sugawara, N.~Okazaki, T.~Fujii, and S.~Yamazaki,
+  \enquote{{Conduction-band and valence-band structures in strained
+  In\sub{1-x}Ga\sub{x}As/InP quantum wells on (001) InP substrates},}
+  \emph{Phys. Rev. B}~ \textbf{48}, 8102 (1993).
+\newblock \doi{10.1103/PhysRevB.48.8102}\end{samepage}
+
+\bibitem{Nelson:PRB:1987}
+\begin{samepage}D.~F. Nelson, R.~C. Miller, and D.~A. Kleinman, \enquote{Band
+  nonparabolicity effects in semiconductor quantum wells,} \emph{Phys. Rev. B}~
+  \textbf{35}, 7770 (1987).
+\newblock \doi{10.1103/PhysRevB.35.7770}\end{samepage}
+
+\bibitem{Davies:book:1998}
+J.~H. Davies, \emph{The Physics of Low-Dimensional Semiconductors}
+\newblock Cambridge Univ. Press (1998).
+\newblock \\ \isbn{0-521-48491-X}
+
+\bibitem{CohenTannoudji}
+C.~Cohen-Tannoudji, B.~Diu, and F.~{Lalo\"{e}}, \emph{Quantum Mechanics}
+\newblock Wiley (1977).
+\newblock \\ \isbn{0-471-16433-X}
+
+\bibitem{Yariv:book:1989}
+A.~Yariv, \emph{Quantum Electronics}
+\newblock Wiley, New York 2nd edn. (1989).
+\newblock \\ \isbn{0-471-60997-8}
+
+\bibitem{Parker:book:2005}
+M.~A. Parker, \emph{Physics of Optoelectronics}
+\newblock Taylor \& Francis (2005).
+\newblock \\ \isbn{0-8247-5385-2}
+
+\bibitem{Smet:JAP:1996}
+\begin{samepage}J.~H. Smet, C.~G. Fonstad, and Q.~Hu, \enquote{Intrawell and
+  interwell intersubband transitions in multiple quantum wells for far-infrared
+  sources,} \emph{J. Appl. Phys.}~ \textbf{79}, 9305 (1996).
+\newblock \doi{10.1063/1.362607}\end{samepage}
+
+\bibitem{SalehTeich:book:1991}
+B.~E.~A. Saleh and M.~C. Teich, \emph{Fundamentals of Photonics}
+\newblock Wiley (1991).
+\newblock \\ \isbn{0-471-83965-5}
+
+\bibitem{Rosencher:book:2002}
+E.~Rosencher and B.~Vinter, \emph{Optoelectronics}
+\newblock Cambridge Univ. Press (2002).
+\newblock \\ \isbn{0-521-77129-3}
+
+\bibitem{Bastard:book:1991}
+G.~Bastard, \emph{Wave Mechanics Applied to Semiconductor Heterostructures}
+\newblock Wiley (1991).
+\newblock \\ \isbn{0-470-21708-1}
+
+\bibitem{Leavitt:PRB:1991}
+\begin{samepage}R.~P. Leavitt, \enquote{Empirical two-band model for quantum
+  wells and superlattices in an electric field,} \emph{Phys. Rev. B}~
+  \textbf{44}, 11270 (1991).
+\newblock \doi{10.1103/PhysRevB.44.11270}\end{samepage}
+
+\bibitem{Siegman:book:1986}
+A.~E. Siegman, \emph{Lasers}
+\newblock Univ. Science Books (1986).
+\newblock \\ \isbn{0935702113}
+
+\bibitem{Ferreira:PRB:1989}
+\begin{samepage}R.~Ferreira and G.~Bastard, \enquote{Evaluation of some
+  scattering times for electrons in unbiased and biased single- and
+  multiple-quantum-well structures,} \emph{Phys. Rev. B}~ \textbf{40}, 1074
+  (1989).
+\newblock \doi{10.1103/PhysRevB.40.1074}\end{samepage}
+
+\bibitem{Gmachl:2002:Nature:broadband}
+\begin{samepage}C.~Gmachl, D.~L. Sivco, R.~Colombelli, F.~Capasso, and A.~Y.
+  Cho, \enquote{Ultra-broadband semiconductor laser,} \emph{Nature}~
+  \textbf{415}, 883 (2002).
+\newblock \doi{10.1038/415883a}\end{samepage}
+
+\bibitem{Hoffman:OptExp:2007}
+\begin{samepage}A.~J. Hoffman, S.~Schartner, S.~S. Howard, K.~J. Franz,
+  F.~Towner, and C.~Gmachl, \enquote{Low voltage-defect quantum cascade laser
+  with heterogeneous injector regions,} \emph{Opt. Express}~ \textbf{15}, 15818
+  (2007).
+\newblock \doi{10.1364/OE.15.015818}\end{samepage}
+
+\bibitem{ColdrenCorzine}
+L.~A. Coldren and S.~W. Corzine, \emph{{Diode Lasers and Photonic Integrated
+  Circuits}}
+\newblock Wiley, New York (1995).
+\newblock \\ \isbn{0-471-11875-3}
+
+\bibitem{Gresch:PTL:2006}
+\begin{samepage}T.~Gresch, M.~Giovannini, N.~Hoyer, and J.~Faist,
+  \enquote{Quantum cascade lasers with large optical waveguides,}~ \textbf{18},
+  544 (2006).
+\newblock \doi{10.1109/LPT.2005.863633}\end{samepage}
+
+\bibitem{Sze}
+S.~M. Sze, \emph{{Physics of Semiconductor Devices}}
+\newblock Wiley 2nd edn. (1981).
+\newblock \\ \isbn{0-471-05661-8}
+
+\bibitem{Aellen:JAP:2006}
+\begin{samepage}T.~Aellen, M.~Beck, N.~Hoyler, M.~Giovannini, J.~Faist, and
+  E.~Gini, \enquote{{Doping in quantum cascade lasers. I. InAlAs--InGaAs/InP
+  midinfrared devices},} \emph{J. Appl. Phys.}~ \textbf{100}, 043101 (2006).
+\newblock \doi{10.1063/1.2234804}\end{samepage}
+
+\bibitem{Howard:APL:2008}
+\begin{samepage}S.~S. Howard, D.~P. Howard, K.~Franz, A.~Hoffman, D.~L. Sivco,
+  and C.~F. Gmachl, \enquote{The effect of injector barrier thickness and
+  doping level on current transport and optical transition width in a
+  $\lambda\sim8.0$~\um\ quantum cascade structure,} \emph{Appl. Phys. Lett.}~
+  \textbf{93}, 191107 (2008).
+\newblock \doi{10.1063/1.3028013}\end{samepage}
+
+\bibitem{Shterengas:APL:2008}
+\begin{samepage}L.~Shterengas, G.~Belenky, T.~Hosoda, G.~Kipshidze, and
+  S.~Suchalkin, \enquote{{Continuous wave operation of diode lasers at
+  3.36~\um\ at 12~$^{\circ}$C},} \emph{Appl. Phys. Lett.}~ \textbf{93}, 011103
+  (2008).
+\newblock \doi{10.1063/1.2953210}\end{samepage}
+
+\bibitem{Yu:APL:2006}
+\begin{samepage}J.~S. Yu, A.~Evans, S.~Slivken, S.~R. Darvish, and M.~Razeghi,
+  \enquote{Temperature dependent characteristics of $\lambda\sim3.8$~\um\
+  room-temperature continuous-wave quantum-cascade lasers,} \emph{Appl. Phys.
+  Lett.}~ \textbf{88}, 251118 (2006).
+\newblock \doi{10.1063/1.2216024}\end{samepage}
+
+\bibitem{Yang:APL:1997}
+\begin{samepage}R.~Q. Yang, B.~H. Yang, D.~Zhang, C.-H. Lin, S.~J. Murry,
+  H.~Wu, and S.~S. Pei, \enquote{High power mid-infrared interband cascade
+  lasers based on type--II quantum wells,} \emph{Appl. Phys. Lett.}~
+  \textbf{71}, 2409 (1997).
+\newblock \doi{10.1063/1.120076}\end{samepage}
+
+\bibitem{Kim:APL:2008}
+\begin{samepage}M.~Kim, C.~L. Canedy, W.~W. Bewley, C.~S. Kim, J.~R. Lindle,
+  J.~Abell, I.~Vurgaftman, and J.~R. Meyer, \enquote{Interband cascade laser
+  emitting at $\lambda=3.75$~\um\ in continuous wave above room temperature,}
+  \emph{Appl. Phys. Lett.}~ \textbf{92}, 191110 (2008).
+\newblock \doi{10.1063/1.2930685}\end{samepage}
+
+\bibitem{JPL:private:2008}
+\begin{samepage}S.~Forouhar and K.~Mansour, \emph{private communication}~
+  (2008).\end{samepage}
+
+\bibitem{Bai:APL:2008:12pc}
+\begin{samepage}Y.~Bai, S.~Slivken, S.~R. Darvish, and M.~Razeghi,
+  \enquote{{Room temperature continuous wave operation of quantum cascade
+  lasers with 12.5\% wall plug efficiency},} \emph{Appl. Phys. Lett.}~
+  \textbf{{93}} ({2008}).
+\newblock \doi{{10.1063/1.2957673}}\end{samepage}
+
+\bibitem{Wilison:ElecLett:2001}
+\begin{samepage}L.~Wilson, J.~Cockburn, D.~Carder, M.~Steer, M.~Hopkinson,
+  C.~Chia, R.~Airey, and G.~Hill, \enquote{$\lambda=8.3$~\um\ GaAs/AlAs quantum
+  cascade lasers incorporating InAs monolayers,} \emph{Electron. Lett.}~
+  \textbf{37}, 1292 (2001).
+\newblock \doi{10.1049/el:20010865}\end{samepage}
+
+\bibitem{Yang:JCQ:2005}
+\begin{samepage}Q.~Yang, C.~Mann, F.~Fuchs, K.~Köhler, and W.~Bronner,
+  \enquote{High-temperature ($T\geq400$~K) operation of strain-compensated
+  quantum cascade lasers with thin InAs insertion layers and AlAs blocking
+  barriers,} \emph{J. Cryst. Growth}~ \textbf{278}, 714  (2005).
+\newblock \doi{10.1016/j.jcrysgro.2005.01.001}\end{samepage}
+
+\bibitem{Friedrch:SST:2007}
+\begin{samepage}A.~Friedrich, G.~Boehm, and M.~C. Amann,
+  \enquote{{Short-wavelength intersubband staircase lasers, with and without
+  AlAs-blocking barriers},} \emph{Semicond. Sci. Technol.}~ \textbf{22}, 218
+  (2007).
+\newblock \doi{10.1088/0268-1242/22/3/008}\end{samepage}
+
+\bibitem{Revin:APL:2008}
+\begin{samepage}D.~G. Revin, M.~R. Soulby, J.~W. Cockburn, Q.~Yang, C.~Manz,
+  and J.~Wagner, \enquote{Dispersive gain and loss in midinfrared quantum
+  cascade laser,} \emph{Appl. Phys. Lett.}~ \textbf{92}, 081110 (2008).
+\newblock \doi{10.1063/1.2884699}\end{samepage}
+
+\bibitem{Semtsiv:APL:2004}
+\begin{samepage}M.~P. Semtsiv, M.~Ziegler, S.~Dressler, W.~T. Masselink,
+  N.~Georgiev, T.~Dekorsy, and M.~Helm, \enquote{Above room temperature
+  operation of short wavelength ($\lambda=3.8$~\um) strain-compensated
+  In\sub{0.73}Ga\sub{0.27}As--AlAs quantum-cascade lasers,} \emph{Applied
+  Physics Letters}~ \textbf{85}, 1478 (2004).
+\newblock \doi{10.1063/1.1789246}\end{samepage}
+
+\bibitem{Teissier:PRB:1996}
+\begin{samepage}R.~Teissier, J.~J. Finley, M.~S. Skolnick, J.~W. Cockburn,
+  J.~L. Pelouard, R.~Grey, G.~Hill, M.~A. Pate, and R.~Planel,
+  \enquote{{Experimental determination of $\Gamma$--$X$ intervalley transfer
+  mechanisms in GaAs/AlAs heterostructures},} \emph{Phys. Rev. B}~ \textbf{54},
+  R8329 (1996).
+\newblock \doi{10.1103/PhysRevB.54.R8329}\end{samepage}
+
+\bibitem{Semtsiv:APL:2008:intervalley}
+\begin{samepage}M.~P. Semtsiv, M.~Wienold, S.~Dressler, W.~T. Masselink,
+  G.~Fedorov, and D.~Smirnov, \enquote{{Intervalley carrier transfer in
+  short-wavelength InP-based quantum-cascade laser},} \emph{Appl. Phys. Lett.}~
+  \textbf{93}, 071109 (2008).
+\newblock \doi{10.1063/1.2973212}\end{samepage}
+
+\bibitem{Gmachl:APL:2000:AlGaN}
+\begin{samepage}C.~Gmachl, H.~M. Ng, and A.~Y. Cho, \enquote{{Intersubband
+  absorption in GaN/AlGaN multiple quantum wells in the wavelength range of
+  $\lambda \sim$~1.75-4.2~\um},} \emph{Appl. Phys. Lett.}~ \textbf{77}, 334
+  (2000).
+\newblock \doi{10.1063/1.126968}\end{samepage}
+
+\bibitem{Nevou:APL:2007:AlGaN_EL}
+\begin{samepage}L.~Nevou, M.~Tchernycheva, F.~H. Julien, F.~Guillot, and
+  E.~Monroy, \enquote{{Short wavelength ($\lambda$~=~2.13~\um) intersubband
+  luminescence from GaN/AlN quantum wells at room temperature},} \emph{Appl.
+  Phys. Lett.}~ \textbf{90}, 121106 (2007).
+\newblock \doi{10.1063/1.2715001}\end{samepage}
+
+\bibitem{Vardi:APL:2008:AlGaN_detector}
+\begin{samepage}A.~Vardi, G.~Bahir, F.~Guillot, C.~Bougerol, E.~Monroy, S.~E.
+  Schacham, M.~Tchernycheva, and F.~H. Julien, \enquote{{Near infrared quantum
+  cascade detector in GaN/AlGaN/AlN heterostructures},} \emph{Appl. Phys.
+  Lett.}~ \textbf{92}, 011112 (2008).
+\newblock \doi{10.1063/1.2830704}\end{samepage}
+
+\bibitem{Jinen:JJAP:2006}
+\begin{samepage}K.~Jinen, T.~Kikuchi, M.~Watanabe, and M.~Asada,
+  \enquote{{Room-temperature electroluminescence from single-period
+  (CdF\sub{2}/CaF\sub{2}) inter-subband quantum cascade structure on Si
+  substrate},} \emph{Jap. J. Appl. Phys.}~ \textbf{45}, 3656 (2006).
+\newblock \doi{10.1143/JJAP.45.3656}\end{samepage}
+
+\bibitem{Nakamura:JJAP:1996}
+\begin{samepage}S.~Nakamura, M.~Senoh, S.~ichi Nagahama, N.~Iwasa, T.~Yamada,
+  T.~Matsushita, H.~Kiyoku, and Y.~Sugimoto, \enquote{{InGaN-Based
+  Multi-Quantum-Well-Structure Laser Diodes},} \emph{Jap. J. Appl. Phys.}~
+  \textbf{35}, L74 (1996).
+\newblock \doi{10.1143/JJAP.35.L74}\end{samepage}
+
+\bibitem{Tamargo:Book:2002}
+S.~Guo and M.~C. Tamargo, \enquote{{II--VI Materials for Visible Light
+  Emitters},}
+\newblock in \enquote{{II--VI Semiconductor Materials and their Applications},}
+   (edited by M.~C. Tamargo) vol.~12 of \emph{Optoelectronic Properties of
+  Semiconductors and Superlattices} Taylor \& Francis (2002).
+\newblock \\ \isbn{1560329149}
+
+\bibitem{Tamargo:JEM:1996}
+\begin{samepage}M.~Tamargo, A.~Cavus, L.~Zeng, N.~Dai, N.~Bambha, A.~Gray,
+  F.~Semendy, W.~Krystek, and F.~Pollak, \enquote{{MBE growth of
+  lattice--matched ZnCdMgSe quaternaries and ZnCdMgSe/ZnCdSe quantum wells on
+  InP substrates},} \emph{J. Electron. Mater.}~ \textbf{25}, 259 (1996).
+\newblock \doi{10.1007/BF02666254}\end{samepage}
+
+\bibitem{Guo:APL:1997}
+\begin{samepage}Y.~Guo, G.~Aizin, Y.~C. Chen, L.~Zeng, A.~Cavus, and M.~C.
+  Tamargo, \enquote{{Photo-pumped ZnCdSe/ZnCdMgSe blue-green quantum well
+  lasers grown on InP substrates},} \emph{Appl. Phys. Lett.}~ \textbf{70}, 1351
+  (1997).
+\newblock \doi{10.1063/1.118576}\end{samepage}
+
+\bibitem{DARPA:VIGIL}
+\begin{samepage}{DARPA MTO},~ \end{samepage}{``Broad Agency Announcment for the
+  DARPA Visible InGaN Injection Lasers (VIGIL)
+  program.''\kurl{http://www.darpa.mil/mto/solicitations/baa07-28/pdf/VIGIL.pd%
+f}}
+
+\bibitem{Chelikowsky:PRB:1976:bulkInAs}
+\begin{samepage}J.~R. Chelikowsky and M.~L. Cohen, \enquote{Nonlocal
+  pseudopotential calculations for the electronic structure of eleven diamond
+  and zinc-blende semiconductors,} \emph{Phys. Rev. B}~ \textbf{14}, 556
+  (1976).
+\newblock \doi{10.1103/PhysRevB.14.556}\end{samepage}
+
+\bibitem{Zakharov:PRB:1994:bulkZnSe}
+\begin{samepage}O.~Zakharov, A.~Rubio, X.~Blase, M.~L. Cohen, and S.~G. Louie,
+  \enquote{{Quasiparticle band structures of six II--VI compounds: ZnS, ZnSe,
+  ZnTe, CdS, CdSe, and CdTe},} \emph{Phys. Rev. B}~ \textbf{50}, 10780 (1994).
+\newblock \doi{10.1103/PhysRevB.50.10780}\end{samepage}
+
+\bibitem{Sohel:APL:2004}
+\begin{samepage}M.~Sohel, M.~{Mu\~{n}oz}, and M.~C. Tamargo,
+  \enquote{{Molecular beam epitaxial growth and characterization of
+  zinc--blende ZnMgSe on InP (001)},} \emph{Appl. Phys. Lett.}~ \textbf{85},
+  2794 (2004).
+\newblock \doi{10.1063/1.1804611}\end{samepage}
+
+\bibitem{Kastner:JCG:1996:iiviMOVPE}
+\begin{samepage}M.~J. Kastner, B.~Hahn, C.~Auchter, M.~Deufel, A.~Rosenauer,
+  and W.~Gebhardt, \enquote{{Structural characterization and MOVPE growth of
+  ZnCdSe and ZnSSe layers, quantum wells and superlattices},} \emph{J. Cryst.
+  Growth}~ \textbf{159}, 134 (1996).
+\newblock \doi{10.1016/0022-0248(95)00761-X}\end{samepage}
+
+\bibitem{Haase:APL:1991:ZnSeOnGaAs}
+\begin{samepage}M.~A. Haase, J.~Qiu, J.~M. DePuydt, and H.~Cheng,
+  \enquote{Blue--green laser diodes,} \emph{Appl. Phys. Lett.}~ \textbf{59},
+  1272 (1991).
+\newblock \doi{10.1063/1.105472}\end{samepage}
+
+\bibitem{Dai:APL:1995:iiviInP}
+\begin{samepage}N.~Dai, A.~Cavus, R.~Dzakpasu, M.~C. Tamargo, F.~Semendy,
+  N.~Bambha, D.~M. Hwang, and C.~Y. Chen, \enquote{{Molecular beam epitaxial
+  growth of high quality Zn\sub{1-x}Cd\sub{x}Se on InP substrates},}
+  \emph{Appl. Phys. Lett.}~ \textbf{66}, 2742 (1995).
+\newblock \doi{10.1063/1.113694}\end{samepage}
+
+\bibitem{Litz:JCG:1996:iiviInAs}
+\begin{samepage}M.~T. Litz, K.~Watanabe, M.~Korn, H.~Ress, U.~Lunz, W.~Ossau,
+  A.~Waag, G.~Landwehr, T.~Walter, B.~Neubauer, D.~Gerthsen, and U.~Schüssler,
+  \enquote{{Epitaxy of Zn\sub{1-x}Mg\sub{x}Se\sub{y}Te\sub{1-y} on (100)InAs},}
+  \emph{J. Cryst. Growth}~ \textbf{159}, 54 (1996).
+\newblock \doi{10.1016/0022-0248(95)00881-0}\end{samepage}
+
+\bibitem{Zeng:APL:1998}
+\begin{samepage}L.~Zeng, B.~X. Yang, M.~C. Tamargo, E.~Snoeks, and L.~Zhao,
+  \enquote{{Quality improvements of Zn\sub{x}Cd\sub{y}Mg\sub{1-x-y}Se layers
+  grown on InP substrates by a thin ZnCdSe interfacial layer},} \emph{Appl.
+  Phys. Lett.}~ \textbf{72}, 1317 (1998).
+\newblock \doi{10.1063/1.120980}\end{samepage}
+
+\bibitem{Li:JVSTB:1994}
+\begin{samepage}D.~Li and M.~D. Pashley, \enquote{{ZnSe nucleation on the
+  GaAs(001):Se-(2$\times$1) surface observed by scanning tunneling
+  microscopy},} \emph{J. Vac. Sci. Tech. B}~ \textbf{12}, 2547 (1994).
+\newblock \doi{10.1116/1.587799}\end{samepage}
+
+\bibitem{Zeng:JVSTB:1999:iivi_growth}
+\begin{samepage}L.~Zeng, S.~P. Guo, Y.~Y. Luo, W.~Lin, M.~C. Tamargo, H.~Xing,
+  and G.~S. Cargill, \enquote{{Defect reduction of
+  Zn\sub{x}Cd\sub{y}Mg\sub{1-x-y}Se based structures grown on InP by using Zn
+  irradiation of the III--V surface},} \emph{J. Vac. Sci. Tech. B}~
+  \textbf{17}, 1255 (1999).
+\newblock \doi{10.1116/1.590734}\end{samepage}
+
+\bibitem{Li:APL:2008:MgSe}
+\begin{samepage}B.~S. Li, A.~Shen, W.~O. Charles, Q.~Zhang, and M.~C. Tamargo,
+  \enquote{{Midinfrared intersubband absorption in wide band gap II--VI
+  Zn\sub{x}Cd\sub{1-x}Se multiple quantum wells with metastable zincblende MgSe
+  barriers},} \emph{Appl. Phys. Lett.}~ \textbf{92}, 261104 (2008).
+\newblock \doi{10.1063/1.2943660}\end{samepage}
+
+\bibitem{Lu:APL:2006:ISBabs}
+\begin{samepage}H.~Lu, A.~Shen, W.~Charles, I.~Yokomizo, M.~C. Tamargo, K.~J.
+  Franz, C.~Gmachl, and M.~{Mu\~{n}oz}, \enquote{{Optical characterization of
+  intersubband transitions in
+  Zn\sub{x}Cd\sub{1-x}Se/Zn\sub{x'}Cd\sub{y'}Mg\sub{1-x'-y'}Se multiple quantum
+  well structures by contactless electroreflectance},} \emph{Appl. Phys.
+  Lett.}~ \textbf{89}, 241921 (2006).
+\newblock \doi{10.1063/1.2405385}\end{samepage}
+
+\bibitem{Walsh:PRB:1987}
+\begin{samepage}D.~Walsh, K.~Mazuruk, and M.~Benzaquen, \enquote{Raman spectrum
+  of a ZnSe/GaAs heterostructure,} \emph{Phys. Rev. B}~ \textbf{36}, 2883
+  (1987).
+\newblock \doi{10.1103/PhysRevB.36.2883}\end{samepage}
+
+\bibitem{Yu:SSC:1976}
+\begin{samepage}P.~Y. Yu, \enquote{Resonant Raman study of the LO + acoustic
+  phonon modes in CdSe,} \emph{Solid State Comm.}~ \textbf{19}, 1087 (1976).
+\newblock \doi{10.1016/0038-1098(76)90104-6}\end{samepage}
+
+\bibitem{Munoz:APL:2003}
+\begin{samepage}M.~{Mu\~{n}oz}, H.~Lu, X.~Zhou, M.~C. Tamargo, and F.~H.
+  Pollak, \enquote{Band offset determination of
+  Zn\sub{0.53}Cd\sub{0.47}Se/Zn\sub{0.29}Cd\sub{0.24}Mg\sub{0.47}Se,}
+  \emph{Appl. Phys. Lett.}~ \textbf{83}, 1995 (2003).
+\newblock \doi{10.1063/1.1606875}\end{samepage}
+
+\bibitem{Miyajima:JJAP:1992:TiAu_contacts}
+\begin{samepage}T.~Miyajima, H.~Okuyama, and K.~Akimoto, \enquote{{Ti/Pt/Au
+  Ohmic Contacts to n-Type ZnSe},} \emph{Jap. J. Appl. Phys.}~ \textbf{31},
+  L1743 (1992).
+\newblock \doi{10.1143/JJAP.31.L1743}\end{samepage}
+
+\bibitem{Faist:APL:1995:Bragg}
+\begin{samepage}J.~Faist, F.~Capasso, C.~Sirtori, D.~L. Sivco, A.~L.
+  Hutchinson, and A.~Y. Cho, \enquote{{Vertical transition quantum cascade
+  laser with Bragg confined excited state},} \emph{Appl. Phys. Lett.}~
+  \textbf{66}, 538 (1995).
+\newblock \doi{10.1063/1.114005}\end{samepage}
+
+\bibitem{Moreau:OptExp:2007:air_guide}
+\begin{samepage}V.~Moreau, M.~Bahriz, R.~Colombelli, R.~Perahia, O.~Painter,
+  L.~R. Wilson, and A.~B. Krysa, \enquote{Demonstration of air-guided quantum
+  cascade lasers without top claddings,} \emph{Opt. Express}~ \textbf{15},
+  14861 (2007).
+\newblock \doi{10.1364/OE.15.014861}\end{samepage}
+
+\bibitem{Almeida:OL:2004}
+\begin{samepage}V.~R. Almeida, Q.~Xu, C.~A. Barrios, and M.~Lipson,
+  \enquote{Guiding and confining light in void nanostructure,} \emph{Opt.
+  Lett.}~ \textbf{29}, 1209 (2004).
+\newblock \doi{10.1364/OL.29.001209}\end{samepage}
+
+\bibitem{USNRC:website:U_enrichment}
+\begin{samepage}{United States Nuclear Regulatory Comission},~
+  \end{samepage}{``Uranium
+  Enrichment.''\kurl{http://www.nrc.gov/materials/fuel-cycle-fac/ur-enrichment%
+.html}}
+
+\bibitem{Rabinowitz:OptLett:1982:UF6}
+\begin{samepage}P.~Rabinowitz, A.~Kaldor, A.~Gnauck, R.~L. Woodin, and J.~S.
+  Gethner, \enquote{{Two-color infrared isotopically selective decomposition of
+  UF\sub{6}},} \emph{Opt. Lett.}~ \textbf{7}, 212 (1982).
+\newblock \doi{10.1364/OL.7.000212}\end{samepage}
+
+\bibitem{Okada:JMS:1997:UF6}
+\begin{samepage}Y.~Okada, S.~Tanimura, H.~Okamura, A.~Suda, H.~Tashiro, and
+  K.~Takeuchi, \enquote{{Vibrational spectroscopy and predissociation of
+  UF\sub{6} clusters in a supersonic Laval nozzle},} \emph{J. Molec. Struct.}~
+  \textbf{410-411}, 299  (1997).
+\newblock \doi{10.1016/S0022-2860(96)09567-1}\end{samepage}
+
+\bibitem{Gmachl:EL:1998:13um}
+\begin{samepage}C.~Gmachl, F.~Capasso, A.~Tredicucci, D.~Sivco, A.~Hutchinson,
+  and A.~Cho, \enquote{{Long wavelength $\lambda~\simeq13$~\um\ quantum cascade
+  lasers},} \emph{Electron. Lett.}~ \textbf{34}, 1103 (1998).\end{samepage}
+\newblock \kurl{http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=684577}
+
+\bibitem{Tredicucci:APL:1999:17um}
+\begin{samepage}A.~Tredicucci, C.~Gmachl, F.~Capasso, D.~L. Sivco, A.~L.
+  Hutchinson, and A.~Y. Cho, \enquote{{Long wavelength superlattice quantum
+  cascade lasers at $\lambda~\simeq$~17~\um},} \emph{Appl. Phys. Lett.}~
+  \textbf{74}, 638 (1999).
+\newblock \doi{10.1063/1.123026}\end{samepage}
+
+\bibitem{Tredicucci:APL:2000:19um}
+\begin{samepage}A.~Tredicucci, C.~Gmachl, M.~C. Wanke, F.~Capasso, A.~L.
+  Hutchinson, D.~L. Sivco, S.~G. Chu, and A.~Y. Cho, \enquote{{Surface plasmon
+  quantum cascade lasers at $\lambda~\sim$~19~\um},} \emph{Appl. Phys. Lett.}~
+  \textbf{77}, 2286 (2000).
+\newblock \doi{10.1063/1.1316768}\end{samepage}
+
+\bibitem{Rochat:APL:2001}
+\begin{samepage}M.~Rochat, D.~Hofstetter, M.~Beck, and J.~Faist,
+  \enquote{{Long--wavelength ($\lambda~\approx$~16~\um), room--temperature,
+  single--frequency quantum--cascade lasers based on a bound--to--continuum
+  transition},} \emph{Appl. Phys. Lett.}~ \textbf{79}, 4271 (2001).
+\newblock \doi{10.1063/1.1425468}\end{samepage}
+
+\bibitem{Tsujino:APL:2005:roughness}
+\begin{samepage}S.~Tsujino, A.~Borak, E.~{M\"{u}ller}, M.~Scheinert, C.~V.
+  Falub, H.~Sigg, D.~{Gr\"{u}tzmacher}, M.~Giovannini, and J.~Faist,
+  \enquote{{Interface--roughness--induced broadening of intersubband
+  electroluminescence in p-SiGe and n-GaInAs/AlInAs quantum-cascade
+  structures},} \emph{Appl. Phys. Lett.}~ \textbf{86}, 062113 (2005).
+\newblock \doi{10.1063/1.1862344}\end{samepage}
+
+\bibitem{Scully}
+M.~O. Scully and M.~S. Zubairy, \emph{{Quantum Optics}}
+\newblock Cambridge Univ. Press, New York (1997).
+\newblock \\ \isbn{0-521-43595-1}
+
+\bibitem{Scalari:APL:2006}
+\begin{samepage}G.~Scalari, C.~Walther, J.~Faist, H.~Beere, and D.~Ritchie,
+  \enquote{Electrically switchable, two-color quantum cascade laser emitting at
+  1.39 and 2.3~THz,} \emph{Appl. Phys. Lett.}~ \textbf{88}, 141102 (2006).
+\newblock \doi{10.1063/1.2191407}\end{samepage}
+
+\bibitem{Sirtori:OptLett:1998}
+\begin{samepage}C.~Sirtori, A.~Tredicucci, F.~Capasso, J.~Faist, D.~L. Sivco,
+  A.~L. Hutchinson, and A.~Y. Cho, \enquote{{Dual--wavelength emission from
+  optically cascaded intersubband transitions},} \emph{Opt. Lett.}~
+  \textbf{23}, 463 (1998).
+\newblock \doi{10.1364/OL.23.000463}\end{samepage}
+
+\bibitem{Howard:JQE:2008}
+\begin{samepage}S.~S. Howard, Z.~Liu, and C.~F. Gmachl, \enquote{{Thermal and
+  stark-effect roll-over of quantum-cascade lasers},} \emph{IEEE J. Quantum
+  Electron.}~ \textbf{44}, 319 (2008).
+\newblock \doi{10.1109/JQE.2007.912477}\end{samepage}
+
+\bibitem{Faist:PRL:1996:local}
+\begin{samepage}J.~Faist, F.~Capasso, C.~Sirtori, D.~L. Sivco, A.~L.
+  Hutchinson, M.~S. Hybertsen, and A.~Y. Cho, \enquote{Quantum Cascade Lasers
+  without Intersubband Population Inversion,} \emph{Phys. Rev. Lett.}~
+  \textbf{76}, 411 (1996).
+\newblock \doi{10.1103/PhysRevLett.76.411}\end{samepage}
+
+\bibitem{Serapiglia:APL:2000:kspace}
+\begin{samepage}G.~B. Serapiglia, K.~L. Vodopyanov, and C.~C. Phillips,
+  \enquote{{Nonequilibrium electron distributions in a three-subband
+  InGaAs/InAlAs quantum well studied via double resonance spectroscopy},}
+  \emph{Appl. Phys. Lett.}~ \textbf{77}, 857 (2000).
+\newblock \doi{10.1063/1.1306651}\end{samepage}
+
+\bibitem{Alcalde:PRB:1997}
+\begin{samepage}A.~M. Alcalde and G.~Weber, \enquote{Nonparabolicity effects on
+  electron--optical-phonon scattering rates in quantum wells,} \emph{Phys. Rev.
+  B}~ \textbf{56}, 9619 (1997).
+\newblock \doi{10.1103/PhysRevB.56.9619}\end{samepage}
+
+\bibitem{Ridley}
+B.~K. Ridley, \emph{{Quantum Processes in Semiconductors}}
+\newblock Oxford Univ. Press 4th edn. (1999).
+\newblock \\ \isbn{0-19-850-580-9}
+
+\bibitem{Sinning:APL:2005}
+\begin{samepage}S.~Sinning, T.~Dekorsy, M.~Helm, G.~Mussler, L.~{D\"{a}weritz},
+  and K.~H. Ploog, \enquote{{Reduced subpicosecond electron relaxation in
+  GaN\sub{x}As\sub{1-x}},} \emph{Appl. Phys. Lett.}~ \textbf{86}, 161912
+  (2005).
+\newblock \doi{10.1063/1.1904709}\end{samepage}
+
+\bibitem{Bockelmann:PRB:1990}
+\begin{samepage}U.~Bockelmann and G.~Bastard, \enquote{Phonon scattering and
+  energy relaxation in two-, one-, and zero-dimensional electron gases,}
+  \emph{Phys. Rev. B}~ \textbf{42}, 8947 (1990).
+\newblock \doi{10.1103/PhysRevB.42.8947}\end{samepage}
+
+\bibitem{Gorfinkel:JQE:1996}
+\begin{samepage}V.~Gorfinkel, S.~Luryi, and B.~Gelmont, \enquote{Theory of gain
+  spectra for quantum cascade lasers and temperature dependence of their
+  characteristics at low and moderate carrier concentrations,} \emph{IEEE J.
+  Quantum Electron.}~ \textbf{32}, 1995 (1996).
+\newblock \doi{10.1109/3.541687}\end{samepage}
+
+\bibitem{Gmachl:review}
+\begin{samepage}C.~Gmachl, F.~Capasso, D.~L. Sivco, and A.~Y. Cho,
+  \enquote{Recent progress in quantum cascade lasers and applications,}
+  \emph{Rep. Prog. Phys.}~ \textbf{64}, 1533 (2001).
+\newblock \doi{10.1088/0034-4885/64/11/204}\end{samepage}
+
+\bibitem{Faist:SMM:book}
+J.~Faist, \enquote{{Quantum Cascade Lasers},}
+\newblock in \enquote{{Intersubband Transitions in Quantum Wells: Physics and
+  Device Applications II},}  (edited by H.~C. Liu and F.~Capasso) vol.~66 of
+  \emph{Semiconductors and Semimetals} Academic Press (2000).
+\newblock \\ \isbn{0127521755}
+
+\bibitem{Liu:JQE:2008}
+\begin{samepage}Z.~Liu, C.~Gmachl, L.~Cheng, F.-S. Choa, F.~Towner, X.~Wang,
+  and J.~Fan, \enquote{{Temperature Dependence of Optical Gain and Loss in
+  $\lambda\approx8.2$--10.2~\um\ Quantum-Cascade Lasers},} \emph{IEEE J.
+  Quantum Electron.}~ \textbf{44}, 485 (2008).
+\newblock \doi{10.1109/JQE.2008.917273}\end{samepage}
+
+\bibitem{Rudin:PRB:1990}
+\begin{samepage}S.~Rudin and T.~L. Reinecke, \enquote{{Electron--LO-phonon
+  scattering rates in semiconductor quantum wells},} \emph{Phys. Rev. B}~
+  \textbf{41}, 7713 (1990).
+\newblock \doi{10.1103/PhysRevB.41.7713}\end{samepage}
+
+\bibitem{Olafsen:book}
+L.~J. Olafsen, I.~Vurgaftman, and J.~R. Meyer, \enquote{Antimonide Mid-IR
+  Lasers,}
+\newblock in \enquote{{Long-wavelength Infared Semiconductor Lasers},}  (edited
+  by H.~K. Choi) Wiley (2004).
+\newblock \\ \isbn{0471392006}
+
+\bibitem{Shastin:OQE:1991:p-Ge}
+\begin{samepage}V.~Shastin, \enquote{{Hot hole inter-sub-band transition p-Ge
+  FIR laser},} \emph{Opt. Quantum Electron.}~ \textbf{23}, S111 (1991).
+\newblock \doi{10.1007/BF00619761}\end{samepage}
+
+\bibitem{Brunderman:book}
+E.~{Br\"{u}ndermann}, \enquote{{Widely Tunable Far-Infared Hot-Hole
+  Semiconductor Lasers},}
+\newblock in \enquote{Long-wavelength Infared Semiconductor Lasers,}  (edited
+  by H.~K. Choi) Wiley (2004).
+\newblock \\ \isbn{0471392006}
+
+\bibitem{Pinson:PR:1964}
+\begin{samepage}W.~E. Pinson and R.~Bray, \enquote{{Experimental Determination
+  of the Energy Distribution Functions and Analysis of the Energy-Loss
+  Mechanisms of Hot Carriers in $p$-Type Germanium},} \emph{Phys. Rev.}~
+  \textbf{136}, A1449 (1964).
+\newblock \doi{10.1103/PhysRev.136.A1449}\end{samepage}
+
+\bibitem{Wittman:JQE:2008:btc}
+\begin{samepage}A.~Wittmann, T.~Gresch, E.~Gini, L.~Hvozdara, N.~Hoyler,
+  M.~Giovannini, and J.~Faist, \enquote{{High-Performance Bound-to-Continuum
+  Quantum-Cascade Lasers for Broad-Gain Applications},} \emph{Quantum
+  Electronics, IEEE Journal of}~ \textbf{44}, 36 (2008).
+\newblock \doi{10.1109/JQE.2007.909516}\end{samepage}
+
+\bibitem{Yao:JQE:2009}
+\begin{samepage}Y.~Yao, Z.~Liu, A.~J. Hoffman, K.~J. Franz, and C.~F. Gmachl,
+  \enquote{Voltage Tunability of Quantum Cascade Lasers,} \emph{IEEE J. Quantum
+  Electron.}~ \textbf{45} (2009).\end{samepage}
+
+\bibitem{Wysocki:APB:2008}
+\begin{samepage}G.~Wysocki, R.~Lewicki, R.~F. Curl, F.~K. Tittel, L.~Diehl,
+  F.~Capasso, M.~Troccoli, G.~Hofler, D.~Bour, S.~Corzine, R.~Maulini,
+  M.~Giovannini, and J.~Faist, \enquote{{Widely tunable mode-hop free external
+  cavity quantum cascade lasers for high resolution spectroscopy and chemical
+  sensing},} \emph{Appl. Phys. B}~ \textbf{92}, 305 (2008).
+\newblock \doi{10.1007/s00340-008-3047-x}\end{samepage}
+
+\bibitem{Lee:APL:2007:array}
+\begin{samepage}B.~G. Lee, M.~A. Belkin, R.~Audet, J.~MacArthur, L.~Diehl,
+  C.~{Pfl\"{u}gl}, F.~Capasso, D.~C. Oakley, D.~Chapman, A.~Napoleone, D.~Bour,
+  S.~Corzine, G.~{H\"{o}fler}, and J.~Faist, \enquote{Widely tunable
+  single-mode quantum cascade laser source for mid-infrared spectroscopy,}
+  \emph{Appl. Phys. Lett.}~ \textbf{91}, 231101 (2007).
+\newblock \doi{10.1063/1.2816909}\end{samepage}
+
+\bibitem{Yamanishi:OptExp:2008}
+\begin{samepage}M.~Yamanishi, K.~Fujita, T.~Edamura, and H.~Kan,
+  \enquote{{Indirect pump scheme for quantum cascade lasers: dynamics of
+  electron-transport and very high $T_0$-values},} \emph{Opt. Express}~
+  \textbf{16}, 20748 (2008).
+\newblock \doi{10.1364/OE.16.020748}\end{samepage}
+
+\bibitem{Faist:Nature:1997:oscillator}
+\begin{samepage}J.~Faist, F.~Capasso, C.~Sirtori, D.~Sivco, A.~Hutchinson, and
+  A.~Cho, \enquote{{Laser action by tuning the oscillator strength},}
+  \emph{Nature}~ \textbf{387}, 777 (1997).\end{samepage}
+
+\bibitem{Faist:APL:1995:vertical}
+\begin{samepage}J.~Faist, F.~Capasso, C.~Sirtori, D.~L. Sivco, A.~L.
+  Hutchinson, and A.~Y. Cho, \enquote{{Vertical transition quantum cascade
+  laser with Bragg confined excited state},} \emph{Appl. Phys. Lett.}~
+  \textbf{66}, 538 (1995).
+\newblock \doi{10.1063/1.114005}\end{samepage}
+
+\bibitem{Sirtori:APL:1996:vertical}
+\begin{samepage}C.~Sirtori, J.~Faist, F.~Capasso, D.~L. Sivco, A.~L.
+  Hutchinson, S.~N.~G. Chu, and A.~Y. Cho, \enquote{Continuous wave operation
+  of midinfrared (7.4--8.6 \um) quantum cascade lasers up to 110~K
+  temperature,} \emph{Appl. Phys. Lett.}~ \textbf{68}, 1745 (1996).
+\newblock \doi{10.1063/1.116654}\end{samepage}
+
+\bibitem{Sirtori:JQE:1998}
+\begin{samepage}C.~Sirtori, F.~Capasso, J.~Faist, A.~Hutchinson, D.~Sivco, and
+  A.~Cho, \enquote{Resonant tunneling in quantum cascade lasers,} \emph{IEEE J.
+  Quantum Electron.}~ \textbf{34}, 1722 (1998).
+\newblock \doi{10.1109/3.709589}\end{samepage}
+
+\bibitem{Faist:APL:1996:coupling}
+\begin{samepage}J.~Faist, F.~Capasso, C.~Sirtori, D.~L. Sivco, J.~N.
+  Baillargeon, A.~L. Hutchinson, S.~G. Chu, and A.~Y. Cho, \enquote{High power
+  mid-infrared ($\lambda\sim5$~\um) quantum cascade lasers operating above room
+  temperature,} \emph{Appl. Phys. Lett.}~ \textbf{68}, 3680 (1996).
+\newblock \doi{10.1063/1.115741}\end{samepage}
+
+\bibitem{Gmachl:APL:1998:magic}
+\begin{samepage}C.~Gmachl, A.~Tredicucci, F.~Capasso, A.~L. Hutchinson, D.~L.
+  Sivco, J.~N. Baillargeon, and A.~Y. Cho, \enquote{High-power $\lambda\sim8$
+  \um\ quantum cascade lasers with near optimum performance,} \emph{Appl. Phys.
+  Lett.}~ \textbf{72}, 3130 (1998).
+\newblock \doi{10.1063/1.121569}\end{samepage}
+
+\bibitem{Hofstetter:APL:2001:2phonon}
+\begin{samepage}D.~Hofstetter, M.~Beck, T.~Aellen, and J.~Faist,
+  \enquote{High-temperature operation of distributed feedback quantum-cascade
+  lasers at 5.3~\um,} \emph{Appl. Phys. Lett.}~ \textbf{78}, 396 (2001).
+\newblock \doi{10.1063/1.1340865}\end{samepage}
+
+\bibitem{Lyakh:CLEO:2008}
+\begin{samepage}A.~Lyakh, C.~{Pfl\"{u}gl}, L.~Diehl, Q.~Wang, F.~Capasso,
+  X.~Wang, J.-Y. Fan, T.~Tanbun-Ek, A.~Tsekoun, R.~Maulini, R.~Go, and C.~K.~N.
+  Patel, \enquote{{1.3 W quantum cascade lasers with optimized design for
+  continuous-wave operation at room temperature},} \emph{Proc. Conference on
+  Lasers and Electro-Optics}~  CTuF3 (2008).\end{samepage}
+\newblock \kurl{http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=4571883}
+
+\bibitem{Wanke:APL:2001}
+\begin{samepage}M.~C. Wanke, F.~Capasso, C.~Gmachl, A.~Tredicucci, D.~L. Sivco,
+  A.~L. Hutchinson, S.-N.~G. Chu, and A.~Y. Cho, \enquote{{Injectorless
+  quantum-cascade lasers},} \emph{Appl. Phys. Lett.}~ \textbf{78}, 3950 (2001).
+\newblock \doi{10.1063/1.1378805}\end{samepage}
+
+\bibitem{Katz:APL:2008}
+\begin{samepage}S.~Katz, A.~Friedrich, G.~Boehm, and M.-C. Amann,
+  \enquote{{Continuous wave operation of injectorless quantum cascade lasers at
+  low temperatures},} \emph{Appl. Phys. Lett.}~ \textbf{92}, 181103 (2008).
+\newblock \doi{10.1063/1.2841704}\end{samepage}
+
+\bibitem{Luo:APL:2007}
+\begin{samepage}H.~Luo, S.~R. Laframboise, Z.~R. Wasilewski, G.~C. Aers, H.~C.
+  Liu, and J.~C. Cao, \enquote{{Terahertz quantum-cascade lasers based on a
+  three-well active module},} \emph{Appl. Phys. Lett.}~ \textbf{90}, 041112
+  (2007).
+\newblock \doi{10.1063/1.2437071}\end{samepage}
+
+\bibitem{Belkin:OptExp:2008}
+\begin{samepage}M.~A. Belkin, J.~A. Fan, S.~Hormoz, F.~Capasso, S.~P. Khanna,
+  M.~Lachab, A.~G. Davies, and E.~H. Linfield, \enquote{{Terahertz quantum
+  cascade lasers with copper metal-metal waveguides operating up to 178~K},}
+  \emph{Opt. Express}~ \textbf{16}, 3242 (2008).
+\newblock \doi{10.1364/OE.16.003242}\end{samepage}
+
+\bibitem{Kohler:Nature:2002}
+\begin{samepage}R.~{K\"{o}hler}, A.~Tredicucci, F.~Beltram, H.~E. Beere, E.~H.
+  Linfield, A.~G. Davies, D.~A. Ritchie, R.~C. Iotti, and F.~Rossi,
+  \enquote{{Terahertz semiconductor-heterostructure laser},} \emph{Nature}~
+  \textbf{417}, 156 (2002).\end{samepage}
+
+\bibitem{Evans:APL:2004}
+\begin{samepage}A.~Evans, J.~S. Yu, S.~Slivken, and M.~Razeghi,
+  \enquote{Continuous-wave operation of $\lambda\sim4.8$~\um\ quantum--cascade
+  lasers at room temperature,} \emph{Appl. Phys. Lett.}~ \textbf{85}, 2166
+  (2004).
+\newblock \doi{10.1063/1.1793340}\end{samepage}
+
+\bibitem{Lyakh:APL:2008}
+\begin{samepage}A.~Lyakh, C.~{Pfl\"{u}gl}, L.~Diehl, Q.~J. Wang, F.~Capasso,
+  X.~J. Wang, J.~Y. Fan, T.~Tanbun-Ek, R.~Maulini, A.~Tsekoun, R.~Go, and
+  C.~K.~N. Patel, \enquote{{1.6 W high wall plug efficiency, continuous-wave
+  room temperature quantum cascade laser emitting at 4.6~\um},} \emph{Appl.
+  Phys. Lett.}~ \textbf{92}, 111110 (2008).
+\newblock \doi{10.1063/1.2899630}\end{samepage}
+
+\bibitem{Leo:book:2006}
+K.~Leo, \emph{High-Field Transport in Semiconductor Superlattices}
+\newblock Springer, Berlin (2003).
+\newblock \\ \isbn{3-540-00569-2}
+
+\bibitem{Gmachl:JSTQE:1999}
+\begin{samepage}C.~Gmachl, F.~Capasso, A.~Tredicucci, D.~L. Sivco,
+  R.~{K\"{o}hler}, A.~L. Hutchinson, and A.~Y. Cho, \enquote{{Dependence of the
+  device performance on the number of stages in quantum-cascade lasers},}
+  \emph{IEEE J. Sel. Top. Quantum Electron.}~ \textbf{5}, 808 (1999).
+\newblock \doi{10.1109/2944.788453}\end{samepage}
+
+\bibitem{Savvidis:PRL:2004}
+\begin{samepage}P.~G. Savvidis, B.~Kolasa, G.~Lee, and S.~J. Allen,
+  \enquote{{Resonant Crossover of Terahertz Loss to the Gain of a Bloch
+  Oscillating InAs/AlSb Superlattice},} \emph{Phys. Rev. Lett.}~ \textbf{92},
+  196802 (2004).
+\newblock \doi{10.1103/PhysRevLett.92.196802}\end{samepage}
+
+\bibitem{Khurgin:APL:2009}
+\begin{samepage}J.~B. Khurgin, Y.~Dikmelik, P.~Q. Liu, A.~J. Hoffman, M.~D.
+  Escarra, K.~J. Franz, and C.~F. Gmachl, \enquote{Role of interface roughness
+  in the transport and lasing characteristics of quantum-cascade lasers,}
+  \emph{Appl. Phys. Lett.}~ \textbf{94}, 091101 (2009).
+\newblock \doi{10.1063/1.3093819}\end{samepage}
+
+\bibitem{Yablonovitch:JLT:1988}
+\begin{samepage}E.~Yablonovitch and E.~Kane, \enquote{Band structure
+  engineering of semiconductor lasers for optical communications,} \emph{J.
+  Lightwave Technol.}~ \textbf{6}, 1292 (1988).
+\newblock \doi{10.1109/50.4133}\end{samepage}
+
+\bibitem{Dingle:PRL:1974}
+\begin{samepage}R.~Dingle, W.~Wiegmann, and C.~H. Henry, \enquote{Quantum
+  States of Confined Carriers in Very Thin
+  Al\sub{x}Ga\sub{1-x}As--GaAs--Al\sub{x}Ga\sub{1-x}As Heterostructures,}
+  \emph{Phys. Rev. Lett.}~ \textbf{33}, 827 (1974).
+\newblock \doi{10.1103/PhysRevLett.33.827}\end{samepage}
+
+\bibitem{vanderZiel:APL:1975}
+\begin{samepage}J.~P. van~der Ziel, R.~Dingle, R.~C. Miller, W.~Wiegmann, and
+  J.~W.~A.~Nordland, \enquote{Laser oscillation from quantum states in very
+  thin GaAs--Al\sub{0.2}Ga\sub{0.8}As multilayer structures,} \emph{Appl. Phys.
+  Lett.}~ \textbf{26}, 463 (1975).
+\newblock \doi{10.1063/1.88211}\end{samepage}
+
+\bibitem{Choquette:JSTQE:1997}
+\begin{samepage}K.~Choquette, K.~Geib, C.~Ashby, R.~Twesten, O.~Blum, H.~Hou,
+  D.~Follstaedt, B.~Hammons, D.~Mathes, and R.~Hull, \enquote{Advances in
+  selective wet oxidation of AlGaAs alloys,} \emph{IEEE J. Sel. Top. Quantum
+  Electron.}~ \textbf{3}, 916 (1997).
+\newblock \doi{10.1109/2944.640645}\end{samepage}
+
+\bibitem{Gmachl:APL:1998:DFB}
+\begin{samepage}C.~Gmachl, F.~Capasso, J.~Faist, A.~L. Hutchinson,
+  A.~Tredicucci, D.~L. Sivco, J.~N. Baillargeon, S.~N.~G. Chu, and A.~Y. Cho,
+  \enquote{Continuous-wave and high-power pulsed operation of index-coupled
+  distributed feedback quantum cascade laser at $\lambda\approx8.5$~\um,}
+  \emph{Appl. Phys. Lett.}~ \textbf{72}, 1430 (1998).
+\newblock \doi{10.1063/1.120585}\end{samepage}
+
+\bibitem{Hvozdara:APL:2000:DBR}
+\begin{samepage}L.~Hvozdara, A.~Lugstein, N.~Finger, S.~Gianordoli, W.~Schrenk,
+  K.~Unterrainer, E.~Bertagnolli, G.~Strasser, and E.~Gornik, \enquote{Quantum
+  cascade lasers with monolithic air--semiconductor Bragg reflectors,}
+  \emph{Appl. Phys. Lett.}~ \textbf{77}, 1241 (2000).
+\newblock \doi{10.1063/1.1289910}\end{samepage}
+
+\bibitem{Blaser:ElecLett:2007}
+\begin{samepage}S.~Blaser, A.~Bachle, S.~Jochum, L.~Hvozdara, G.~Vandeputte,
+  S.~Brunner, S.~Hansmann, A.~Muller, and J.~Faist, \enquote{Low-consumption
+  (below 2W) continuous-wave singlemode quantum-cascade lasers grown by
+  metal-organic vapour-phase epitaxy,} \emph{Electron. Lett.}~ \textbf{43},
+  1201 (2007).
+\newblock \doi{10.1049/el:20072576}\end{samepage}
+
+\bibitem{Liu:CLEO:2008}
+\begin{samepage}Z.~Liu, C.~F. Gmachl, C.~G. Caneau, and C.~Zah, \enquote{Very
+  Small ($\leq$ 1.2--1.7~W) Heat Dissipation, Room Temperature, Continuous-Wave
+  Quantum Cascade Lasers at $\lambda\sim5.3$~\um,} \emph{Proc. Conference on
+  Lasers and Electro-Optics}~  CTuF2 (2008).\end{samepage}
+\newblock \kurl{http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=4571882}
+
+\end{thebibliography}

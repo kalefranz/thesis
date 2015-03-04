@@ -1,0 +1,119 @@
+\documentclass[12pt]{report}
+%\documentclass[12pt,twoside]{report}
+\usepackage{kjfsty}
+
+\begin{document}
+
+\pagenumbering{roman}
+
+\renewcommand{\baselinestretch}{1.2}
+
+\include{frontmatter}
+
+\addcontentsline{toc}{section}{Table of Contents}
+\tableofcontents
+\clearpage
+\cleardoublepage
+
+\addcontentsline{toc}{section}{List of Tables}
+%\chaptermark{List of Figures}
+%\markboth{List of Figures}{List of Figures}
+\listoftables
+\clearpage
+\cleardoublepage
+
+\addcontentsline{toc}{section}{List of Figures}
+%\chaptermark{List of Figures}
+%\markboth{List of Figures}{List of Figures}
+\listoffigures
+\clearpage
+\cleardoublepage
+
+
+\pagenumbering{arabic}
+\onehalfspacing
+%\doublespacing
+\sloppy %prevent lines from going into right margin
+
+
+\include{introduction}
+\clearpage
+\cleardoublepage
+
+\include{chpt1}
+\clearpage
+\cleardoublepage
+
+\include{chpt2}
+\clearpage
+\cleardoublepage
+
+\include{chpt3}
+\clearpage
+\cleardoublepage
+
+\include{chpt4}
+\clearpage
+\cleardoublepage
+
+\include{conclusions}
+\clearpage
+\cleardoublepage
+
+%\include{appendixa}
+%\clearpage
+%\cleardoublepage
+
+
+%\fussy %stop \sloppy
+\frenchspacing
+\onehalfspacing
+
+\sloppy
+\include{publications}
+\clearpage
+\cleardoublepage
+
+\include{presentations}
+\clearpage
+\cleardoublepage
+
+\include{patents}
+\clearpage
+\cleardoublepage
+
+%\addtolength{\topskip}{0pt plus 10pt}
+
+\raggedbottom
+\addtolength{\topskip}{0pt plus 10pt}
+
+\sloppy
+\bibliographystyle{kale3}
+\bibliography{biblio}
+\clearpage
+\cleardoublepage
+
+
+%\chapter{List of Symbols}
+%\addcontentsline{toc}{chapter}{List of Symbols}
+%\@starttoc{los}
+%\listofsymbols
+%\clearpage
+
+
+%\setglossarystyle{style=long,cols=2,number=none}
+%\renewcommand{\glossaryname}{List of Symbols \& Acronyms}
+%\renewcommand{\shortglossaryname}{List of Symbols \& Acronyms}
+%\renewcommand{\gloskip}{}
+%%\renewcommand{\glodelim}{}
+%
+%%makeindex thesis_main.glo -s thesis_main.ist -t thesis_main.glg -o thesis_main.gls
+%
+%\addcontentsline{toc}{chapter}{List of Symbols \& Acronyms}
+%\printglossary
+
+
+
+
+
+\end{document}

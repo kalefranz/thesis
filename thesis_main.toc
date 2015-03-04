@@ -1,0 +1,106 @@
+\contentsline {section}{Abstract}{iii}{section*.1}
+\contentsline {section}{Acknowledgements}{iv}{section*.1}
+\contentsline {section}{Table of Contents}{vi}{section*.1}
+\contentsline {section}{List of Tables}{x}{chapter*.2}
+\contentsline {section}{List of Figures}{xi}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Engineered Mid-infrared Light Sources: Present and Future}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Defense countermeasures}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Open atmosphere data transmission}{5}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Molecular species detection}{6}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Quantum Cascade Lasers}{6}{section.1.2}
+\contentsline {section}{\numberline {1.3}The QC Development Process}{9}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Design}{10}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Growth}{10}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Fabrication}{10}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Thesis Overview}{11}{section.1.4}
+\contentsline {chapter}{\numberline {2}Quantum Cascade Laser Design and Operation Theory}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Schr\"{o}dinger Equation}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}Interface Energy Offsets and Bandgaps}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Materials parameters for ternary alloys}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Temperature effects on bandgap}{20}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Strain effects on bandgap and band offset}{20}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Effective Mass}{23}{section.2.3}
+\contentsline {section}{\numberline {2.4}Self-consistent Solutions of the Schr\"{o}dinger and Poisson Equations}{25}{section.2.4}
+\contentsline {section}{\numberline {2.5}Spontaneous Emission Rate and the Optical Dipole Matrix Element}{28}{section.2.5}
+\contentsline {subsubsection}{Normalization of the wavefunctions $\mathbf {\psi }_\textnormal {\relax \fontsize {6}{7}\selectfont {\textbf {C}}}$}{31}{section*.18}
+\contentsline {section}{\numberline {2.6}Stimulated Emission Probability and the Transition Cross Section}{32}{section.2.6}
+\contentsline {section}{\numberline {2.7}LO-phonon Scattering Time}{33}{section.2.7}
+\contentsline {section}{\numberline {2.8}Rate Equations for QC Lasers}{35}{section.2.8}
+\contentsline {section}{\numberline {2.9}Threshold Current \& Modal Gain}{39}{section.2.9}
+\contentsline {section}{\numberline {2.10}Slope Efficiency}{41}{section.2.10}
+\contentsline {section}{\numberline {2.11}Output Power and Wall-plug Efficiency}{42}{section.2.11}
+\contentsline {section}{\numberline {2.12}Maximum Current \& Differential Resistance}{43}{section.2.12}
+\contentsline {section}{\numberline {2.13}Summary}{45}{section.2.13}
+\contentsline {chapter}{\numberline {3}ZnCdSe/ZnCdMgSe Quantum Cascade Emitters}{46}{chapter.3}
+\contentsline {section}{\numberline {3.1}Short Wavelength Quantum Cascade Emitters}{48}{section.3.1}
+\contentsline {section}{\numberline {3.2}The ZnCdSe/ZnMgSe Materials System}{51}{section.3.2}
+\contentsline {section}{\numberline {3.3}Epitaxial Growth of ZnCdSe/ZnMgSe Materials}{53}{section.3.3}
+\contentsline {section}{\numberline {3.4}Intersubband Absorption in ZnCdSe/ZnCdMgSe Quantum Wells}{55}{section.3.4}
+\contentsline {section}{\numberline {3.5}A ZnCdSe/ZnCdMgSe Quantum Cascade Structure}{56}{section.3.5}
+\contentsline {section}{\numberline {3.6}Device Fabrication \& Processing}{58}{section.3.6}
+\contentsline {section}{\numberline {3.7}Measurements and Data}{60}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Quantum Cascade Intersubband Absorption}{60}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Electroluminescence Spectra}{61}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Light--Current--Voltage Data}{63}{subsection.3.7.3}
+\contentsline {section}{\numberline {3.8}Second-Generation Design}{64}{section.3.8}
+\contentsline {section}{\numberline {3.9}Conclusions \& Future Directions}{66}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Summary}{66}{subsection.3.9.1}
+\contentsline {subsection}{\numberline {3.9.2}Future Direction: New II--VI design strategies}{67}{subsection.3.9.2}
+\contentsline {subsubsection}{ZnCdSe/ZnCdMgSe superlattice QC structures}{67}{section*.32}
+\contentsline {subsubsection}{Fewer layers per QC period}{68}{section*.34}
+\contentsline {subsubsection}{QC structure with larger photon energy}{69}{section*.36}
+\contentsline {subsection}{\numberline {3.9.3}Future Direction: Strain-compensated growth}{71}{subsection.3.9.3}
+\contentsline {subsection}{\numberline {3.9.4}Future Direction: Fabrication of II--VI QC laser waveguides}{71}{subsection.3.9.4}
+\contentsline {chapter}{\numberline {4}Excited State Quantum Cascade Lasers and High \textit {k}-Space Lasing}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Long-wavelength Challenge}{75}{section.4.1}
+\contentsline {section}{\numberline {4.2}Excited State Transitions}{78}{section.4.2}
+\contentsline {section}{\numberline {4.3}Excited State QC Laser Design}{81}{section.4.3}
+\contentsline {section}{\numberline {4.4}Device Emission Characteristics}{84}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Electroluminescence and Identification of the Optical Transitions}{84}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Laser Emission}{87}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Stacked Transitions}{88}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Anti-correlated Light Output Behavior}{88}{section.4.5}
+\contentsline {section}{\numberline {4.6}Lasing High in \textit {k}-Space}{93}{section.4.6}
+\contentsline {section}{\numberline {4.7}Effects of Non-parabolicity}{96}{section.4.7}
+\contentsline {section}{\numberline {4.8}Rate Equation Modeling}{99}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}A System of Two Coupled Optical Transitions}{99}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Comparing Threshold Data with Simulation}{102}{subsection.4.8.2}
+\contentsline {subsection}{\numberline {4.8.3}Cavity-length--dependence of Threshold Crossover}{104}{subsection.4.8.3}
+\contentsline {section}{\numberline {4.9}Conclusions \& Future Directions}{105}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Summary}{105}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Future Direction: \emph {Intentionally} created \emph {k}-space lasers}{107}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Future Direction: Further develop the excited state concept}{108}{subsection.4.9.3}
+\contentsline {subsection}{\numberline {4.9.4}Future Direction: Correlated photons}{108}{subsection.4.9.4}
+\contentsline {chapter}{\numberline {5}Short Injector Quantum Cascade Lasers}{110}{chapter.5}
+\contentsline {section}{\numberline {5.1}The Role of the QC Injector}{112}{section.5.1}
+\contentsline {section}{\numberline {5.2}Theoretical Framework}{113}{section.5.2}
+\contentsline {section}{\numberline {5.3}QC Laser with Three Injector Wells}{116}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Design and Fabrication}{116}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Results and Discussion}{118}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Device Performance}{123}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}QC Laser with Two Injector Wells}{128}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Design and Fabrication}{128}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Results and Discussion}{128}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Device Performance}{134}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Conclusions and Future Directions}{134}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Summary}{134}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Future Direction: Higher performance QC lasers}{138}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Future Direction: Improving temperature performance}{138}{subsection.5.5.3}
+\contentsline {chapter}{\numberline {6}Conclusions}{140}{chapter.6}
+\contentsline {section}{\numberline {6.1}Thesis Summary}{141}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}II--VI QC Structures}{141}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Excited State Quantum Cascade Lasers and High \textit {k}-Space Lasing}{142}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Short Injector Quantum Cascade Lasers}{143}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Challenges for the Next Decade of Research}{144}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Tunability}{145}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Single Mode Emission}{145}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Wall-plug Efficiency}{146}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Low Input Power Devices}{146}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Short Wavelength QC Lasers}{147}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Long Wavelength QC Lasers}{147}{subsection.6.2.6}
+\contentsline {section}{\numberline {6.3}The Feasibility of a Sustainable QC Laser-based Industry}{147}{section.6.3}
+\contentsline {chapter}{Publications}{149}{chapter*.79}
+\contentsline {chapter}{Conference Presentations}{153}{chapter*.80}
+\contentsline {chapter}{Intellectual Property}{158}{chapter*.81}
+\contentsline {chapter}{References}{159}{section*.83}

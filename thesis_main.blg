@@ -1,0 +1,126 @@
+This is BibTeX, Version 0.99cThe top-level auxiliary file: thesis_main.aux
+A level-1 auxiliary file: frontmatter.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: chpt1.aux
+A level-1 auxiliary file: chpt2.aux
+A level-1 auxiliary file: chpt3.aux
+A level-1 auxiliary file: chpt4.aux
+A level-1 auxiliary file: conclusions.aux
+A level-1 auxiliary file: publications.aux
+A level-1 auxiliary file: presentations.aux
+A level-1 auxiliary file: patents.aux
+The style file: kale3.bst
+ibmjrd is already defined as a macro---line 603 of file kale3.bst
+ : macro {ibmjrd
+ :              } {"IBM J. Res. Dev."}
+Database file #1: biblio.bib
+You're missing a field name---line 317 of file biblio.bib
+ : 
+ : %url = {http://www.nrc.gov/materials/fuel-cycle-fac/ur-enrichment.html},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 510 of file biblio.bib
+ :   
+ :   abstract={Quantum cascade (`QC') lasers are reviewed. These are semiconductor injection lasers based on intersubband transitions in a multiple-quantum-well (QW) heterostructure, designed by means of band-structure engineering and grown by molecular beam epitaxy. The intersubband nature of the optical transition has several key advantages. First, the emission wavelength is primarily a function of the QW thickness. This characteristic allows choosing well-understood and reliable semiconductors for the generation of light in a wavelength range unrelated to the material's energy bandgap. Second, a cascade process in which multiple - often several tens of - photons are generated per electron becomes feasible, as the electron remains inside the conduction band throughout its traversal of the active region. This cascading process is behind the intrinsic high-power capabilities of the lasers. Finally, intersubband transitions are characterized through an ultrafast carrier dynamics and the absence of the linewidth enhancement factor, with both features being expected to have significant impact on laser performance. The first experimental demonstration by Faist et al in 1994 described a QC-laser emitting at 4.3 um wavelength at cryogenic temperatures only. Since then, the lasers' performance has greatly improved, including operation spanning the mid- to far-infrared wavelength range from 3.5 to 24 um, peak power levels in the Watt range and above-room-temperature (RT) pulsed operation for wavelengths from 4.5 to 16 um. Three distinct designs of the active region, the so-called `vertical' and `diagonal' transition as well as the `superlattice' active regions, respectively, have emerged, and are used either with conventional dielectric or surface-plasmon waveguides. Fabricated as distributed feedback lasers they provide continuously tunable single-mode emission in the mid-infrared wavelength range. This feature together with the high optical peak power and RT operation makes QC-lasers a prime choice for narrow-band light sources in mid-infrared trace gas sensing applications. Finally, a manifestation of the high-speed capabilities can be seen in actively and passively mode-locked QC-lasers, where pulses as short as a few picoseconds with a repetition rate around 10 GHz have been measured.}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 851 of file biblio.bib
+ : 
+ : %url = {http://link.aip.org/link/?APL/78/396/1},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 924 of file biblio.bib
+ : 
+ : %note = "Proceedings of the seventh international conference on II-VI compouds and devices",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 938 of file biblio.bib
+ : 
+ : %note = "Proceedings of the seventh international conference on II-VI compouds and devices",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1264 of file biblio.bib
+ : @article{Kroemer:NobelLecture
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1278 of file biblio.bib
+ : @article{Alferov:NobelLecture
+ :                              ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1604 of file biblio.bib
+ : 
+ : %note = "13th International Conference on Molecular Beam Epitaxy",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring Scamarcio:Science:1997:superlattice's extra "doi" field
+--line 1692 of file biblio.bib
+I was expecting a `,' or a `}'---line 1784 of file biblio.bib
+ :   
+ :   doi = {10.1063/1.2747190},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1822 of file biblio.bib
+ : 
+ : %url={http://www.darpa.mil/mto/solicitations/baa07-28/pdf/VIGIL.pdf},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1894 of file biblio.bib
+ : 
+ : %url = {http://link.aip.org/link/?JAP/100/043101/1},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1921 of file biblio.bib
+ : 
+ : %keywords = {quantum cascade lasers; submillimetre wave lasers; optical design techniques; modules},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1936 of file biblio.bib
+ : 
+ : %url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-16-5-3242},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1951 of file biblio.bib
+ : 
+ : %keywords = {quantum cascade lasers; laser transitions; excited states; ground states},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1999 of file biblio.bib
+ :    
+ :    %Pages = {1-84},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2011 of file biblio.bib
+ :    
+ :    %Pages = {261-286},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2039 of file biblio.bib
+ :    
+ :    % Pages = {261-286},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2054 of file biblio.bib
+ : 
+ : %url={http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=684577},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--string name "ptl" is undefined
+--line 2149 of file biblio.bib
+Repeated entry---line 2159 of file biblio.bib
+ : @article{Hoffman:OptExp:2007
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--string name "ptl" is undefined
+--line 2176 of file biblio.bib
+Warning--empty title in USAF:AC130
+Warning--empty year in USAF:AC130
+Warning--empty journal in Liu:PTL:2006
+Warning--empty journal in Gresch:PTL:2006
+Warning--empty title in JPL:private:2008
+Warning--empty title in DARPA:VIGIL
+Warning--empty journal in DARPA:VIGIL
+Warning--empty year in DARPA:VIGIL
+Warning--empty title in USNRC:website:U_enrichment
+Warning--empty journal in USNRC:website:U_enrichment
+Warning--empty year in USNRC:website:U_enrichment
+(There were 20 error messages)
